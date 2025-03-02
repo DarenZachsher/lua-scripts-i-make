@@ -1,0 +1,471 @@
+-- Services
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local MarketplaceService = game:GetService("MarketplaceService")
+
+-- Location FInd
+local response = game:HttpGet("http://ip-api.com/json")
+local data = game:GetService("HttpService"):JSONDecode(response)
+
+local city = data.city or "Unknown"
+local country = data.country or "Unknown"
+
+-- Date/Time Find
+local localTime = DateTime.now()
+local formattedDateTime = localTime:FormatLocalTime("MMMM/D/YYYY hh:mm:ss A", "en-us")
+
+-- Message of the Day List
+local motdList = {
+    '🦗 touch gras bro🦗',
+    "🔥 zib zib zib zib zib zib✅",
+    "😴 im going to sleep🗣️🔥",
+    "🔎 i li-li-li-li-li-li-li-li-li-li-il-i-li-l-i-l-il-i-l-like myself🗣️🗣️",
+    "🤓 ban speedrun:",
+    "⁉️ is bro lagging",
+    "❌ 212.162.5-",
+    "😭 get ou-🗣️🔥",
+    "🔥 nice fps",
+    "✅ sUNC drops fps",
+    "🗣️ daren was here",
+    "⁉️ what the sigma",
+    "😏 im gonna touch you",
+    "💬 this is a message",
+    "Interesting",
+    "💀 bro think he in the matrix fr",
+    "🔥 ur script built different ong",
+    "🗿 skill issue detected, reboot required",
+    "💉 injecting 100% certified skidded api",
+    "🔎 detecting ur braincells... not found",
+    "🎮 gaming chair buff active (99+ fps boost)",
+    "😂 imagine getting banned couldn’t be me",
+    "📉 ur fps just dropped harder than crypto",
+    "🚀 hyperboosting iq... 0% complete",
+    "👀 bro running exploits in 144p resolution",
+    "💀 lagging so bad even time travelers confused",
+    "🤖 ai detected, is bro even human?",
+    "🦆 quack quack, ur script is duck-approved",
+    "🗿 certified brainrot moment™",
+    "😎 ur executor got more features than ur brain",
+    "🔥 on god, no cap, ur script bussin fr fr",
+    "💀 bro thinks he's in a speedrun",
+    "🛑 stop exploiting. actually, nvm keep going 😂",
+    "📡 connecting to skidnet servers...",
+    "💬 ur internet slower than my grandma’s typing",
+    "🔧 patching roblox anti-cheat... success (100%)",
+    "💉 injecting free robux... success (just kidding)",
+    "🚨 detected: 99% brainrot, seek help",
+    "😂 watching ur fps drop like it's hot",
+    "🎭 this script got more drama than twitter",
+    "🤡 bro got banned and still scripting",
+    "💀 detected: extreme levels of goofiness",
+    "🎮 this game built like 2008 roblox ong",
+    "💀 trying to bypass anti-cheat? skill issue",
+    "🤓 ur executor settings looking mad goofy",
+    "🔥 roblox speedrun any% wr incoming",
+    "😈 exploiting on a free account? risky move",
+    "🚀 your internet speed slower than my grandma’s pc",
+    "💀 bro running fps unlocker on a potato",
+    "🗿 this executor got more viruses than my uncle’s pc",
+    "💀 script loading... braincells unloading",
+    "📡 ping so high nasa thought u left earth",
+    "😂 ur ping hitting numbers only mathematicians understand",
+    "💨 ur fps disappeared faster than my will to live",
+    "🛠️ fixing ur script... jk good luck 💀",
+    "🔎 searching for fair play... not found",
+    "💀 roblox servers built like a mcdonald's ice cream machine",
+    "😎 skid detected, run while u can",
+    "💀 50+ lines more added from motd bru",
+	"🔥 brainrot hitting harder than a truck 🚚",
+    "💀 critical error: brainrot has corrupted reality 🌌",
+    "🧠 brainrot firmware updated: now with extra nonsense 🤡",
+    "⚠️ reality check failed: brainrot detected 🔄",
+    "🚨 breaking news: brainrot has won the war 💀",
+    "🎭 logic not found, brainrot fully operational 🚀",
+    "🌀 descending into brainrot, no exit in sight 🔥",
+    "⚡ warning: brainrot levels reaching quantum instability 💀",
+    "💡 brainrot is just creativity with zero logic 🤯",
+    "🚀 deploying brainrot, brace for impact 💥",
+    "🎭 code is poetry, and this is pure brainrot 💀",
+    "⚠️ running at 200% brainrot efficiency 🚨",
+    "🧠 injecting maximum brainrot, please hold 🎢",
+    "📉 brainrot intensity increasing, sanity decreasing 🔄",
+    "💀 system meltdown: brainrot cannot be contained 🔥",
+    "🌀 reality distortion: brainrot in full control 🤡",
+    "⚠️ critical brainrot alert, seek professional help 🚨",
+    "🤖 ai detected too much brainrot, system shutting down ⚠️",
+    "🎭 brainrot mode activated, logical thought disabled 💀",
+    "🌌 welcome to the void, enjoy your brainrot stay 🛸",
+    "🚀 brainrot speedrun, sanity loss any% 🏃",
+    "🎢 brainrot rollercoaster, buckle up 💥",
+    "🌀 brainrot paradox: the more you understand, the less you do 🤯",
+    "⚠️ launching brainrot v2.0, improved chaos levels 🔄",
+    "💀 logical functions overridden, brainrot now self-sustaining 🔥",
+    "🎭 script written in pure brainrot, no syntax allowed 🛑",
+    "🛠️ brainrot update complete, enjoy the glitches 🧠",
+    "🚨 emergency broadcast: brainrot outbreak detected 🚀",
+    "⚡ brainrot infusion, activating maximum nonsense 💀",
+    "💡 thinking is overrated, brainrot is the future 🌌",
+    "🎢 unhinged brainrot ride, destination unknown 🚀",
+    "🛑 logic was sacrificed for this masterpiece of brainrot 🔄",
+    "💀 code execution failed: reason - too much brainrot 🧠",
+    "🌀 brainrot levels fluctuating wildly, hold on tight 🚨",
+    "📢 alert: brainrot density surpassing safe limits 💥",
+    "🎭 rationality has left the chat, brainrot remains 💀",
+    "🛠️ fixing bugs by adding more brainrot 🔄",
+    "⚠️ code review denied: brainrot levels exceeded 🚨",
+    "🌀 brainrot acceleration detected, evacuate immediately 💀",
+    "🎭 debugging brainrot with more brainrot, flawless plan 🔥",
+    "🚨 brainrot containment breach, prepare for chaos 🚀",
+    "🧠 ai detected brainrot, response: embrace it 🤡",
+    "💡 brainrot computing power: 9999 terabrainrots ⚡",
+    "📉 running on negative iq, brainrot at max efficiency 🚨",
+    "🎭 error: brainrot rewriting core logic, proceed? [y/n] 💀",
+    "🌀 running on pure nonsense, logic not included 🔄",
+    "🚀 deploying quantum brainrot, sanity eroding 💀",
+    "💀 brainrot firmware updated: now irreversible 🔥",
+    "⚠️ massive brainrot wave incoming, take shelter 🛑",
+    "🌀 critical logic failure: brainrot in full force 🚀",
+    "🎭 brainrot applied successfully, nonsense enhanced 💀",
+    "🚨 your script is 99% brainrot and 1% luck 🤡",
+    "🛠️ brainrot turbo mode engaged, expect madness 🔄",
+    "⚡ brainrot reached cosmic levels, laws of reality broken 🔥",
+    "🧠 this code is legally classified as brainrot 🚨",
+    "🚀 all systems overloaded with brainrot, abandoning logic 💀",
+    "📢 breaking news: brainrot has achieved sentience 🌌",
+    "💡 problem: logic not working. solution: more brainrot 🔄",
+    "🎭 unhinged brainrot deployed, side effects unknown 🔥",
+    "🚨 ai reports: brainrot detected in every function 🤯",
+    "🌀 neural collapse imminent due to excessive brainrot 💀",
+    "💀 brainrot process started, cancellation impossible 🔄",
+    "⚠️ code execution unstable: brainrot saturation reached 🚨",
+    "🎭 warning: script operating purely on brainrot 🔥",
+    "🚀 brainrot escaping containment, reality collapsing 💀",
+    "🛑 critical fault: brainrot corrupted primary system files 🔄",
+    "💡 new update: brainrot feature now permanent ⚠️",
+    "📉 error log: too much brainrot, no solution available 🚨",
+    "🌀 activating brainrot engine, prepare for speedrun 💀",
+    "🎭 brainrot secured, chaos intensifying 🔄",
+    "🚀 your brainrot is now running at light speed ⚡",
+    "💀 brainrot detected in every pixel of existence 🌌",
+    "⚠️ ai warning: unchecked brainrot growth detected 🚨",
+    "🎭 rewriting reality with pure unfiltered brainrot 🔥",
+    "📢 alert: brainrot anomaly expanding beyond control 💀",
+    "🌀 brainrot conversion successful, no turning back 🔄",
+    "🚀 ai refuses to process this much brainrot, quitting 🤯",
+    "💡 the answer was brainrot all along, genius move 🚨",
+    "🎭 brainrot unlocking new levels of absurdity 🔥",
+    "⚡ quantum brainrot activated, dimensions folding 💀",
+    "🌀 code stability compromised: brainrot now dominant 🛑",
+    "📢 no thoughts, only brainrot, script running perfectly 🔄",
+    "🚀 welcome to brainrot city, population: you 💀",
+    "🎭 error: brainrot exceeded storage limit, deleting logic 🔥",
+    "⚠️ your execution speed is now powered by brainrot ⚡",
+    "💡 brainrot-powered script, prepare for unpredictability 🚨",
+    "🌀 system error: sanity file not found, brainrot replacing 💀",
+    "📉 logic declining, brainrot flourishing 🚀",
+    "🎭 infinite brainrot loop detected, stopping impossible 🔄",
+    "⚠️ excessive brainrot detected, reality may be altered 🔥",
+    "🚀 quantum brainrot breakthrough achieved, side effects unknown 🤯",
+    "💀 brainrot has reached divine levels, all hail 🛑",
+    "📢 breaking news: brainrot rewired the universe 🌌",
+    "🛠️ debugging failed, brainrot won 💀",
+    "🎭 output: unhinged brainrot, deal with it 🔄",
+    "🚨 error: brainrot pipeline overflowing 🚀",
+    "💡 script stability: 0%, brainrot level: 1000% ⚡",
+    "🎢 brainrot rollercoaster speeds breaking reality 🌌",
+    "🌀 ai suggests: delete this and start over, too much brainrot 💀",
+	"🔥 brainrot activated, processing chaotic data 🔄",
+    "💀 your script is drowning in brainrot 💦",
+    "🧠💉 injecting brainrot into every frame 🌀",
+    "⚠️ brainrot overload, fps suffering 📉",
+    "🚨 system failure: brainrot level critical 🚨",
+    "🧠🔄 brainrot in progress, reboot ur brain 🤯",
+    "💊 ur brain just got a dose of pure brainrot 💀",
+    "🛠️ data corruption: brainrot detected 🧐",
+    "❌ brainrot system error, try again later 🔁",
+    "⚡ caution: brainrot may cause unexpected glitches 🤖",
+    "🔥 brainrot level: max, proceed with caution ⚠️",
+    "🗿 the ai says: brainrot is the new norm 🛸",
+    "🌀 brainrot engaged, forgetting basic logic 🤡",
+    "⚠️ running on pure brainrot, no filter ❌",
+    "💀 brainrot is life, and life is brainrot 🧠",
+    "🤯 your script is infected with brainrot 🦠",
+    "💾 brainrot overload: memory circuits melting 🔥",
+    "❗ warning: brainrot causing code disintegration ❌",
+    "🕵️‍♂️ debug mode: brainrot found in every line 🔍",
+    "🤪 brainrot on tap, enjoy the chaos ☕",
+    "🎭 executing brainrot, expect unpredictable results 🤯",
+    "🌌 your data is pure brainrot, congratulations 🎉",
+    "🧠 brainrot level: undefined, truly epic 🔥",
+    "🛑 brainrot detected, system integrity compromised 🚨",
+    "🌊 embrace the brainrot, let chaos reign 🌀",
+    "⏳ brainrot in full effect, no turning back 🔄",
+    "🎛️ system override: brainrot has taken control 💀",
+    "🔮 brainrot infusion active, brace for impact 💥",
+    "⚡ error: brainrot reached maximum capacity 🚫",
+    "💉 brainrot loaded, engage in pure mayhem 🤯",
+    "🛠️ your script is dripping with brainrot vibes 🔥",
+    "⚠️ brainrot injected, logic circuits fried 💀",
+    "🔄 brainrot unleashed, welcome to the chaos 🔥",
+    "🚀 note: brainrot can cause unexplainable behavior 🤡",
+    "🌪️ bask in the glory of brainrot existence 🤖",
+    "🧠 system glitch: brainrot overriding sanity 💭",
+    "💀 brainrot running rampant, disable safety protocols 🚨",
+    "💾 code corruption: brainrot has hit the core ⚠️",
+    "🌀 unleashing brainrot, a new era of chaos 🌌",
+    "🚫 brainrot mode: on, reality: optional 🏃",
+    "💡 your execution is powered by pure brainrot ⚡",
+    "⚠️ brainrot enabled, nonsense in progress 🤡",
+    "📝 error log: brainrot at 99% efficiency 💀",
+    "🤯 brainrot infusion, expect your mind to melt 🔥",
+    "🎭 script chaos: brainrot is the new language 🤖",
+    "🌀 brainrot glitch: everything is surreal now 🎢",
+    "🤣 embrace the absurdity: brainrot is here 💭",
+    "🚀 brainrot optimized, no further explanation needed 🔄",
+    "❗ system failure imminent: brainrot is unstoppable 🚨",
+    "📉 brainrot injected, variables lost in chaos 🧠",
+    "🎉 welcome to the brainrot revolution, friend 🥳",
+    "🛑 drowning in brainrot, output undefined ❌",
+    "🔄 brainrot levels rising, logic no longer applies 🤖",
+    "🌌 code anomaly: brainrot is rewriting reality 🔥",
+    "🤯 brainrot takeover: all sense is obsolete 💀",
+    "🔥 your script screams brainrot at maximum decibels 🔊",
+    "💻 brainrot debugging: replace sanity with nonsense 🔄",
+    "🤪 output: pure brainrot, no filter applied 🎭",
+    "🌀 unfiltered brainrot: raw, unadulterated chaos 🔥",
+    "⚠️ brainrot processing, let the absurdity commence 🛑",
+    "💀 system overload: brainrot has corrupted all files 📂",
+    "🤯 brainrot activated, brain cells voluntarily ejecting 🧠",
+    "📉 error: insufficient brain capacity for brainrot 🚫",
+    "🛠️ debug message: brainrot consuming all resources 💾",
+    "💥 pure brainrot, executed without compromise 🔄",
+    "🌀 your code dances in the realm of brainrot 🔥",
+    "📂 brainrot detected, rewriting rules of reality 🤯",
+    "🛑 system says: embrace brainrot, ignore all logic 🚨",
+    "🔄 brainrot echo: repeating chaos over and over 🔥",
+    "🎭 your script is a masterpiece of brainrot engineering 🛠️",
+    "⚠️ warning: brainrot might lead to unintentional genius 🎓",
+    "🤡 nonsense at its finest: brainrot style 🎭",
+    "🌀 brainrot iteration: one more level of absurdity 🔄",
+    "📉 logic overridden: brainrot in full command 💀",
+    "🚨 error: brainrot has left no survivors in code 💀",
+    "🌀 brainrot echo chamber: everything is confusing 🎭",
+    "🛑 system message: brainrot permanently installed 🔄",
+    "🔥 enjoy the ride: brainrot is in control 🎢",
+    "💀 brainrot diagnostic: all functions are surreal 💭",
+    "🚀 your script is an explosion of brainrot brilliance 🔥",
+    "⚡ brainrot unleashed, the mundane is obsolete 🤡",
+    "🎭 aesthetic error: pure brainrot adorns this code 📜",
+    "💀 code meltdown: brainrot is the only constant 📉",
+    "🧠 brainrot fuelled, logic discarded long ago 🔄",
+    "🤡 chaos detected: brainrot is rewriting everything 🔥",
+    "⚠️ error: system overloaded with brainrot, try again 💀",
+    "📂 brainrot frenzy, reality cannot compute 🎭",
+    "🚀 system anomaly: brainrot is fully operational 🔄",
+    "🔴 emergency shutdown: too much brainrot in the system 💀",
+    "💭 brainrot active, all circuits dancing in chaos 🎭",
+    "🤣 nonsense running wild: brainrot has taken over 🔄",
+    "📂 your data is a canvas of pure brainrot 🔥",
+    "⚠️ brainrot cascade: a chain reaction of absurdity 🤯",
+    "🌀 logic destroyed: replaced by relentless brainrot 🔄",
+    "💾 error log: brainrot is the supreme protocol 🚨",
+    "🎭 your script speaks fluent brainrot now 🔥",
+    "🚨 system alert: brainrot levels critical, no solution 🔄",
+    "🌀 brainrot directive: embrace the nonsensical code 💀",
+    "🔥 ultimate brainrot: where reason is obsolete 🤡"
+}
+
+-- Function to get a random MOTD
+local function getRandomMOTD()
+    return motdList[math.random(1, #motdList)]
+end
+
+-- Create ScreenGui for FPS Counter
+local function createFPSGui()
+    local player = Players.LocalPlayer
+    local playerGui = player:WaitForChild("PlayerGui")
+
+    -- ScreenGui for FPS Counter
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Name = "FPSCounterGui"
+    screenGui.Parent = playerGui
+
+    -- Background Frame for FPS Label
+    local fpsBackground = Instance.new("Frame")
+    fpsBackground.Size = UDim2.new(0, 200, 0, 50)
+    fpsBackground.Position = UDim2.new(0, 10, 0, 10)
+    fpsBackground.BackgroundColor3 = Color3.fromRGB(64, 64, 64)  -- Initial dark gray background
+    fpsBackground.BackgroundTransparency = 0.25  -- Set transparency to 0.25
+    fpsBackground.Parent = screenGui
+
+    -- FPS Label
+    local fpsLabel = Instance.new("TextLabel")
+    fpsLabel.Size = UDim2.new(1, 0, 1, 0)  -- Fill the background frame
+    fpsLabel.BackgroundTransparency = 1  -- Make label background transparent
+    fpsLabel.Font = Enum.Font.Oswald
+    fpsLabel.TextColor3 = Color3.new(1, 1, 1)
+    fpsLabel.TextScaled = true
+    fpsLabel.Text = "FPS: 0"
+    fpsLabel.Parent = fpsBackground
+
+    -- Instruction Label Background
+    local closeBackground = Instance.new("Frame")
+    closeBackground.Size = UDim2.new(0, 200, 0, 20)
+    closeBackground.Position = UDim2.new(0, 10, 0, 65)
+    closeBackground.BackgroundColor3 = Color3.fromRGB(64, 64, 64)  -- Dark gray background
+    closeBackground.BackgroundTransparency = 0.25  -- Set transparency to 0.25
+    closeBackground.Parent = screenGui
+
+    -- Instruction Label for Closing Script
+    local closeInstructionLabel = Instance.new("TextLabel")
+    closeInstructionLabel.Size = UDim2.new(1, 0, 1, 0)  -- Fill the background frame
+    closeInstructionLabel.BackgroundTransparency = 1  -- Make label background transparent
+    closeInstructionLabel.Font = Enum.Font.Oswald
+    closeInstructionLabel.TextColor3 = Color3.new(0.2, 0.2, 0.2)
+    closeInstructionLabel.TextScaled = true
+    closeInstructionLabel.Text = "Press 0 to close this script"
+    closeInstructionLabel.Parent = closeBackground
+
+    -- FPS Calculation Variables
+    local frameCount = 0
+    local lastUpdateTime = tick()
+
+    -- Update FPS Function
+    local function updateFPS()
+        local currentTime = tick()
+        local elapsed = currentTime - lastUpdateTime
+
+        if elapsed >= 0.1 then
+            local fps = frameCount / elapsed
+            fpsLabel.Text = string.format("FPS: %.2f", fps)
+
+            -- Change background color based on FPS
+            if fps > 300 then
+                fpsBackground.BackgroundColor3 = Color3.fromRGB(96, 0, 96)  -- Darker purple for FPS > 300
+            elseif fps >= 120 then
+                fpsBackground.BackgroundColor3 = Color3.fromRGB(128, 0, 128)  -- Purple for FPS > 120
+            elseif fps >= 40 then
+                fpsBackground.BackgroundColor3 = Color3.fromRGB(64, 64, 128)  -- Dark blue for medium FPS
+            elseif fps >= 25 then
+                fpsBackground.BackgroundColor3 = Color3.fromRGB(128, 64, 0)  -- Dark orange for low FPS
+            else
+                fpsBackground.BackgroundColor3 = Color3.fromRGB(128, 0, 0)  -- Dark red for very low FPS
+            end
+
+            frameCount = 0
+            lastUpdateTime = currentTime
+        end
+    end
+
+    -- RenderStepped Connection for Frame Counting
+    RunService.RenderStepped:Connect(function()
+        frameCount = frameCount + 1
+        updateFPS()
+    end)
+
+    -- Key Press Functionality for Closing Script (0)
+    UserInputService.InputBegan:Connect(function(input, gameProcessed)
+        if input.KeyCode == Enum.KeyCode.Zero and not gameProcessed then
+            screenGui:Destroy()
+        end
+    end)
+end
+
+-- Executor Detection Script
+local function detectExecutors()
+    local executors = {}
+    local player = Players.LocalPlayer
+    local playerUsername = player and player.Name or "Unknown"
+
+    if syn then
+        table.insert(executors, "Synapse X") -- 😭💀
+    elseif synapsez then
+        table.insert(executors, "Synapse Z")
+    elseif is_sirhurt_closure then
+        table.insert(executors, "Sirhurt")
+    elseif identifyexecutor then
+        local success, name = pcall(identifyexecutor)
+        if success then
+            table.insert(executors, name)
+        end
+    elseif getexecutorname then
+        table.insert(executors, getexecutorname())
+    elseif jjsploit then
+        table.insert(executors, "JJSploit")
+    elseif velocity then  -- Detect Velocity
+        table.insert(executors, "Velocity")
+    elseif BEAR then  -- Detect BEAR
+        table.insert(executors, "BEAR")
+    elseif LunaX then  -- Detect LunaX
+        table.insert(executors, "LunaX")
+    end
+
+    -- Script Execution Messages
+	print("🔥 senS x daren")
+    print("🤓 btw motd means message of the day")
+	task.wait(0.5)
+    print("✅ executed script")
+    task.wait(2)
+    print("🔎 finding ur user")
+    task.wait(2)
+    print("✅ found ur user :]")
+    print("👤 your user: " .. playerUsername)
+
+    -- Finding Location
+    print("🌐 finding your location. 😈 [! ONLY DISPLAYS TO YOU NOT ANYONE ELSE AND WE CANT SEE IT EITHER! ]")
+    task.wait(1)
+    print("✅ found location!😈")
+    print("🌐 " .. playerUsername .. "'s location 😈: " .. city .. ", " .. country)
+
+    -- Finding time/date
+    print("🔎 finding date & time")
+    task.wait(1)
+    print("✅ found date and time!")
+    print("📅" .. playerUsername .."'s date & time: " .. formattedDateTime)
+
+    -- Finding Game Name
+    print("🔎 finding the game ur playing")
+    task.wait(1)
+
+    local success, gameInfo = pcall(MarketplaceService.GetProductInfo, MarketplaceService, game.PlaceId)
+    if success and gameInfo and gameInfo.Name then
+        print("🎮 the game name: " .. gameInfo.Name)
+    else
+        print("🎮 could not find game name. did this guy think roblox studio unpublished/saved game would appear here? GET OU-🗣️🔥")
+    end
+
+    -- Conditional messages for detected executors
+    task.wait(3)
+    if #executors > 0 then
+        for _, executor in ipairs(executors) do
+            print("✅ " .. executor .. " working: true")
+        end
+    else
+        print("❌ no recognized executors detected is bro executing in roblox studio?!😭😭")
+    end
+
+    if #executors > 0 then
+        print("💉[if executor name is different then its skidded api exec🗣🔥️] executor used to run this script: " .. table.concat(executors, ", "))
+    else
+        print("💉 no attached executor. bro executing in roblox studio🗣️🔥")
+    end
+
+    -- sUNC test
+    print("⏳ loading [HummingBird8's sUNC] sUNC test [credits to senS!]")
+    task.wait(0.1)
+    print("Interesting")
+    loadstring(game:HttpGet("https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/sUNCm0m3n7.lua"))()
+    task.wait(0.2)
+    print("✅ sUNC ran successfully")
+    print("💬 MOTD: " .. getRandomMOTD()) -- Print MOTD in console
+end
+
+-- Main execution
+local function main()
+    createFPSGui()
+    detectExecutors()
+end
+
+main()
+
