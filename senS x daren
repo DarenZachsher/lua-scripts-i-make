@@ -422,7 +422,7 @@ local function detectExecutors()
     print("🔎 finding date & time")
     task.wait(1)
     print("✅ found date and time!")
-    print("📅" .. playerUsername .."'s date & time: " .. formattedDateTime)
+    print("📅 " .. playerUsername .."'s date & time: " .. formattedDateTime)
 
     -- Finding Game Name
     print("🔎 finding the game ur playing")
