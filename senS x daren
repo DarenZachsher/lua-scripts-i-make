@@ -402,7 +402,7 @@ local function detectExecutors()
     end
 
     -- Script Execution Messages
-	print("🔥 senS x daren")
+	print("🔥 daren's script")
     print("🤓 btw motd means message of the day")
 	task.wait(0.5)
     print("✅ executed script")
@@ -456,6 +456,7 @@ local function detectExecutors()
     task.wait(0.1)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua'))()
     task.wait(0.2)
+    task.wait(5)
     print("✅ UNC ran succesfully")
     print("💬 MOTD: " .. getRandomMOTD()) -- Print MOTD in console
 end
