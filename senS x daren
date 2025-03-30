@@ -455,9 +455,13 @@ local function detectExecutors()
     print("⌛ loading UNC/UNCCheckEnv test [Unified Naming Convention]")
     task.wait(0.1)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua'))()
-    task.wait(0.2)
-    task.wait(5)
+    task.wait(5.2)
     print("✅ UNC ran succesfully")
+    task.wait(2)
+    print("⌛finding executor level [The number displayed will be the level of ur exec]")
+    task.wait(0.5)
+    printidentity()    
+    task.wait(0.2)
     print("💬 MOTD: " .. getRandomMOTD()) -- Print MOTD in console
 end
 
