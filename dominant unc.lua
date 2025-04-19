@@ -1,1 +1,748 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _DgTpzIEGzKuu = a; end)); return(function(d,...)local y;local z;local r;local l;local b;local o;local e=24915;local n=0;local a={};while n<177 do n=n+1;while n<0x3b9 and e%0x122e<0x917 do n=n+1 e=(e-433)%39304 local t=n+e if(e%0x37de)<=0x1bef then e=(e-0x64)%0xcf0 while n<0xa0 and e%0x49f8<0x24fc do n=n+1 e=(e*715)%32617 local y=n+e if(e%0x17bc)<0xbde then e=(e*0x10)%0x39db local e=81454 if not a[e]then a[e]=0x1 b=getfenv and getfenv();end elseif e%2~=0 then e=(e-0x1da)%0xbd46 local e=27214 if not a[e]then a[e]=0x1 o=tonumber;end else e=(e*0x35)%0xac n=n+1 local e=70122 if not a[e]then a[e]=0x1 b=(not b)and _ENV or b;end end end elseif e%2~=0 then e=(e-0x3fb)%0x5f7e while n<0x1f1 and e%0x175c<0xbae do n=n+1 e=(e*438)%35750 local b=n+e if(e%0x4714)<=0x238a then e=(e-0x383)%0x2bd1 local e=75451 if not a[e]then a[e]=0x1 r={};end elseif e%2~=0 then e=(e-0xcf)%0x3c39 local e=70843 if not a[e]then a[e]=0x1 end else e=(e+0x2ff)%0x9f3f n=n+1 local e=21288 if not a[e]then a[e]=0x1 z=string;end end end else e=(e+0xbb)%0x3883 n=n+1 while n<0x2d7 and e%0x2f0a<0x1785 do n=n+1 e=(e+398)%34653 local t=n+e if(e%0xc76)>=0x63b then e=(e*0x2de)%0x301b local e=97042 if not a[e]then a[e]=0x1 y=function(a)local e=0x01 local function n(n)e=e+n return a:sub(e-n,e-0x01)end while true do local a=n(0x01)if(a=="\5")then break end local e=z.byte(n(0x01))local e=n(e)if a=="\2"then e=r.kbnGcRoL(e)elseif a=="\3"then e=e~="\0"elseif a=="\6"then b[e]=function(e,n)return d(8,nil,d,n,e)end elseif a=="\4"then e=b[e]elseif a=="\0"then e=b[e][n(z.byte(n(0x01)))];end local n=n(0x08)r[n]=e end end end elseif e%2~=0 then e=(e*0x1af)%0x9443 local e=38201 if not a[e]then a[e]=0x1 end else e=(e*0x274)%0xa98a n=n+1 local e=68349 if not a[e]then a[e]=0x1 l="\4\8\116\111\110\117\109\98\101\114\107\98\110\71\99\82\111\76\0\6\115\116\114\105\110\103\4\99\104\97\114\81\97\120\120\119\99\90\77\0\6\115\116\114\105\110\103\3\115\117\98\66\115\120\104\117\88\106\114\0\6\115\116\114\105\110\103\4\98\121\116\101\89\77\103\115\108\101\99\73\0\5\116\97\98\108\101\6\99\111\110\99\97\116\112\112\82\98\117\86\75\118\0\5\116\97\98\108\101\6\105\110\115\101\114\116\118\115\85\101\80\122\73\70\5";end end end end end e=(e-515)%27075 end y(l);local e={};for n=0x0,0xff do local a=r.QaxxwcZM(n);e[n]=a;e[a]=n;end local function t(n)return e[n];end local z=(function(d,z)local l,a=0x01,0x10 local n={{},{},{}}local b=-0x01 local e=0x01 local y=d while true do n[0x03][r.BsxhuXjr(z,e,(function()e=l+e return e-0x01 end)())]=(function()b=b+0x01 return b end)()if b==(0x0f)then b=""a=0x000 break end end local b=#z while e<b+0x01 do n[0x02][a]=r.BsxhuXjr(z,e,(function()e=l+e return e-0x01 end)())a=a+0x01 if a%0x02==0x00 then a=0x00 r.vsUePzIF(n[0x01],(t((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+y)%0x100)));y=d+y;end end return r.ppRbuVKv(n[0x01])end);y(z(150,"2Px%b0?c!jSqR*6+?+"));y(z(59,"v)A>&I*sl1C4_Or}_I1f_All&4#sO)l}}))*r_C1s)>r}44CIs&>eC41sA}A4lrlC.*>>>}l4113I)Qr4*lr>)}OsC&>s>>C}*_Ll4Ih}>4_lI>*)4r4C*/&_}3)_slC&*)F_r>)Ir)sr}C>*O&>OA1sl>&}))COl}}A44r1CAsC>>1I_)sr&&)_O1srI}Ai_sllsl9}}OICAsI>PCOr1_I1AOO}4s*1A}}r4_*lAr)4OI1A>laNrO&l)7A&}l441)I))11}1A*&>mOC1C*4&1r)IOAAICx1O*C*>4>Irs1rss)Om>44A)rIrArIl_&CA&})ll*>&l1C*>1&I&)Or>C**AA_rC4>I1A4Or1rs)I4)ss^>C*rA{r*4Is>O1,O_41A&l-}O_sssA)&OsC4*A&)w)*AA1IO)4rA1lI}A_Onl}I>&A}}__sr&)4AslCl*}A4}I_<IO>srI4ss8&&AsOC>OP&>*rO41ss>C) 41l4&rA>_r11*A)Cl1IAl3>1))_CA_IA)OrICCsAROO4_>lI&>}J4l*r}A"));local e=(-57+(function()local y,n=0,1;(function(a,e,n)n(a(a,a,e),e(n and e,n and a,e),a(n,n,e))end)(function(a,e,b)if y>140 then return e end y=y+1 n=(n*234)%44428 if(n%1846)<=923 then n=(n*453)%21146 return b else return e(b(e,b,b),b(b and a,b and a,e and a)and e(a,e,e and a),a(e and e,e,a)and b(e and a,a and e,e))end return e(b(e,e,e),e(a,a and e,b),b(a,e and b,a))end,function(e,b,a)if y>250 then return e end y=y+1 n=(n+928)%34366 if(n%728)>=364 then return b else return a(a(e,e,a),e(a,a,e),a(b,a,a))end return e(e(e,a,e),b(a,e,e and b),b(a,e,a and b))end,function(b,e,a)if y>310 then return b end y=y+1 n=(n+690)%263 if(n%536)>268 then n=(n*770)%42949 return e(e(e,b,b and b),e(a,e,e and a),b(e and a,a,e))else return a end return e end)return n;end)())local l=r.JDCmemZX or r.AwTRaSmh;local ae=(getfenv)or(function()return _ENV end);local y=3;local t=4;local b=2;local m=1;local function j(u,...)local h=z(e,"qvb/X-(zM7RaO&iyyRAMMOv>7-b-7Ob;RXMR=&R/v7(iyd7ybMR&byay/Ma&&&(iiX(MiO&X-7&Rzviz/biyzv^XMz6Oz&Z/MyR7Xva8/XaMMbb7ab/vay/Ma7/OzO-XOOX&MO(X&7(ayDbZi&z(ROvvR/vM7ObdtaM&bA7(b7R(vyaXb&az/RaM/-OaXX(vi((MiOz5(/iayiMD*XMMoO7JvX7M-ORv/vRMbOak7(v7Ryb-zRyORa/-Ob/aOaXXO7i7z(y%zXyMi-z/y;(ayMzyJzM&siM-R-/bRO/8aXRvbyR/bzaX/aO/X7ORXv(via(MiOz%-a&&zPyb(7y(Mb7vb-7MvORr7zT&RhvM7&vORKb-ab/Mai/yOX/&Oi-X&&i7zOyBzXyMiY(-i(z&y//iyaz&v;7-vX7id&7Ob77&a&XMOXXMOOz^Xza&/yOy-bOO-yzvhbzMyOME(M&&-R&/X6aMzbi-z(yaz-yyMb&M/&&vXXOMXO/Xa7/R&vXz7bXy&v(X&z(ziRz/yM(7yRMX7-v&7ObkRXMyvvRXva7aa&-uOXXMOOz-yXOa-vO/XzO&-yi/vXiR-&yX(7RM/X7vva7MvOR<Ma=&Rlb/77b(abOvXaOMXO&saM/&OMX(O&-X&vyvzayMzOm^y((&y&M-y7Mav^bva(bMRO/9vM7&via-baz(//a-XMaaXaOi-z&OX&&i(Miay&M->XMM{Oy(M:czMavbb(RMbOaW/XaM/OaBM/O7-X&C-X&MOiX-O-XO&b-7ic-&z&v7MXZMMO-&_/MzKRz/k7Ma<aM/bMRRb-RibaaavXa7/MaOXvOib-&O(oiby-M7yOM_4XiOzvybM7yyXRv/M7vOMyvyRbbaa,bvab/OX&&y-X&M-O-bO7-ai}-yi(-&ibz-yb(audz7f/M(7ibsRXbMRO/QaXvMyaXvOiXMOO-8/-OMXOO--bOO-b&7(g&&y&MR3XMM}Oy7MzeRMvfvMMvz7RvOR&a7-MO XXOM/7zNvvO-vX(iMX/MO&(/iz-&i1b?yMz3yv/KQMz&Hy7XOX7yv-RXvO-Ma&XMOXXMOOzsX/O&-2Mg-/OiZOzvQzzMyOMA(Ryvziy-MXNRMavMM&v-7-bXR&bMRibyav/MOJ&v-y&M-Oi0Oz-h&v-/&y-a&&(Oy_(&yivvRvvM7Ob r/(Ov/MXbXabm-M-KaObvzO-X7-7iO(GiX(MXv&i-yi((ayzzbRM-vTMz7ya7vvX7/vRb&az/XaM/ObzR7/Oa//-ObXi-&yM(XiM(O&bvvMX7O-Xy/zOi&zOaXMO)v7/vM7aOO7(v-RvbMR-bMMbiO-vi--M&O(GXaO&(Yi/-ziR(-y}zMiRM-4Xz7yaManXM7R7/va=/XaM(&iizXy(z&&v(-&M-OiPO&-a&v(M&7-ayvzXy/zRiyzO3/Mavv7bZ7b7a(/1aX/Mb7RvbyR&/bayXLaOXv&bi-zziOzPyX&y(vyXzbyvzMy7Mb}a7CWv7bIa7vb//-OD/OO_XXbaaM/yOb/&OiX-ORi7z7y>zXyMiC(-i(z&y//iyaz&v>M7vbMiva/va&/MaOXN/Bav/yOX/ROvXMO--z(7i&zJyXzMb-Mvv-MMgO7+zRevMie-7MvzRvv/7ObvRR/XR7/RavX/OM&7(vie(XiM&O(b&&((yFrv7vTMMOvhyzMRv-7lvM-(v:7-vzRR/-a./MX7&O-N&X-M/yOvXz&h-v7i-&i(zbivzZyvzYyvMMy&v&RybXRMbOvz77bORibvaa/-avXXa-XOa&Xb&wX&(&yMzXyMzO(Oy/(7yxz(y&MX;vbvaMbMRO/B7(&XXv(2vzaOb&ObXMOvXROzIXOOXvai/zR(bRRiQ-7X3O7HvXC+MaNyMyViRvvi7zbOR-byabO7-&&%-X&MObX7&(X&Oy-O&&-aiz(Xi7zOyvz/>MMz{ibva/bMRO/^vM7&via-baz(//a-XMOMXiOy-M&z-yzvfzzMyOM^(zyRM-DVMMO(M/c-7b>&7ivvRMv&7i/7aMb&ay&v(-&M-Oi3OaX&i*(bi7((iR(7yb(yyyz/4(MvpO7Xvzb7ab/AaX/Mb-a/bRav/Ma-&-(-&O(BiXRO-i&v(aiv(Riz/bOizayiMMIav&avbXRMbOv/R(/vRO/Xzbbyav/ia7XRa&-XO7-/&v(7z-+7zOdtMXzayvMXEMMLJiM-_-MOv-7Xv7R(/0R7/MOvO&-R&X-M&OOO-/O7-Li/(MiR(-ii(aM7va7%vX7MMic-7XvX7-v/7-bORv//R&byaR/vO6&7(ziG(XiM&y--iM(Riv(viMzzyRzOU&v7RMb)RXbMv/7-bMRvbRa//MR7/Ra//7Oa&&zviX(MiO&X-7&Rzviz/biyzvYXM7+M7bIv7sv&7vb//-Ob/OO6XXbia-Xba7XaO-Xz&bX7&Myv7vyMzOrQ((7Xbz/P&aMRy&Mb3(7vvR7z&X7&/XR-bza&X+ayX(zMXROv-vO&vR7ibbz7b/M+TXMM(<yMz&_a/O:(M&vX7v&jRav7Ryi+aX/RaaXXa7/a&xX-OM5Mi/-7iM({7OX&y/zzyR(/y7zaaOz(&zb7a-/TaX/MbLR-/lRi/aaO/Ma&Xi(vy-(MiOzh-a&&zciM(&iOzey-Mb^MMi+y7X;&7ibXR&a7XOOlXXOMa//-OMXaay-bO&-MiG-/i+(ziyz-y((&M&bW7XvM7OM7kMM&vRRXv&7i/-R-/OR&byO-XMOzXi(vii(MiOzm-a&&zgy/(zyRz-?gMMDav&R&bXRMbOv/7-vaRXb-zb/RavXsOc/7ayX-(-y((Oy)zX(wia(yiyz-yvMXy-M-Zv7X?O7zv6/vyO/MaOX)aviMM7/&MOizyO&XXO&v-y7r(M&&(yyXbXyy(&J//XL-z&FXM7OMMib7-XvO7&/bR7/((OyMay-vOy?OMXX7&M-O7X(OiX(-RXzvyRz/P//MFOMvvz7OvvR/i/R&bRR/iXRib&aa/7ORXyM7i-zziOzxyXia(vyXz(i7M/y&z7.Oz&vXM-KR7Mv-/-OM/OOoXXbyavXXaz/7OMXOO(X7Oy-aiR-7iMz-i7;77-v,7XvMv/7bm&7Ovv7(v&RXbvXvOyXMOO-AXK&bv)O/-/&--Oib-7ia(yMvvvMMoO70M2vb-VTXM7Va7av&RXbRRv//azO7-z&K-X&MRU-bO--y&--i&ab(iR(-ya!77Xv!7XvMLbM7vA7OvvRbva7aa&XMOXXMOOa7XzaiXaOOXMO&-izvyyzMyOMmzbi&M/y/zzGXMav/77vR7vav/MaM/OOKavb7Oj/M--iv-Ois(XXO&v-/i/(-iO(7yF(&M&vi7XvM7OM/l-MavX7-ibRvbyR/b-Ra/Xa-/M-7iv(TiX(MZO-bzXvRvOMvvbMM_O7hzay&7=#/7/v(7Rv-7zbOR-byab/aX&&i-X&M-OXXO7XRiv-zRb(aivzXyzzOi&z/yyv7RRbTRXbM!y7Ov777biRX/(R7X/a//-aaXXO-i-z(iOzLyX&O(vibz7iy/Ryzz7dOMOvb7/vO7aavXvaM/OOCRab&O.X/azXRO--?&M-hO&(/&Oy7MbdTMX?My/z-3MM9vvM7R-/MRO/_aX7ObvRb/7RyyRO//7OO-v&{-RO7-Mi--7z7 &M8 XMM(/y-z(iaMa^/My5&RN&i7zbzRRbiR7baOJ&v-y&M-Oi:O&-a&i--ib-Oivzby/(Ry(vb7XvM7ObVRXbMN-zDa-X-aOX)OXRa/MayXba&Xb&--bOa(m&7(/i(y&M&6XMMeOc/z7?OMyo/7(vv7ObX7-vRRMb-X-&-XO&%-X/aOi-7&X-O7R--ib-aiiz7yXzOM&bv7XvM7O7/ 77Ovi7-bb7Obvab/XaR/aO</7OR-0&7i-zbiOzryX&a(iy7zXyO/RyMz-6aMXRvbMRMbOa=Rav7R-/XX-&7XO&+-X/yOv-X&M-c&i--&--Oi-(Xi7z(4wz7)M7v7&/vRXbMRO7zv7RObRRv/vR&byavXpOXX7O--M&o-a&Xy-MMyOM}cXiazay&MXy7MiT-M&v(7ybX7-b(7yb-azO7-R&J-X&MO/X-&MXaiv(/iM(zi7(vyzzayvMX7-bX7Ob*RX7vvyR/vzRRb-aL/MR7biaO/7-7iO(?iX(M-/&-(MiX(aiv(Mi&zty&M/yO7v>OM7vab&a-/XaM/Ob/a%/zRy/a--iM-Oi*(XXy&v(X&z-7iM(Oi&z(y/M/yzMRS-74vMb7a&/9aX/Mb/R-/MaR/vai/Ma&Xi&x-(&z-O&-((iOz-MbtXMMtO76vX7MvOR bX(-b&a_/XaM/iOsXXOMX&&?-X&M(iia(XiM(O,7zXyMzOvbMz MMOv,azvM7Ob>ORbRRO/.aX/iaOXvOXMyOO-X-/-M&O(fiR(Mi&zxyXv/yOMU_XM7}O7UvXRRMyRmbXRM-&a./XaMXiXXXXO7XOv(-X&M-Oi2z&iM(OyAz(yMz&FP7(vvMOvp7XMX7ObYRX/RR&/Sa-/M&/X5OXXMOO-i&X-M&O(biX(7iOMby&zMyOMwXyMMeO7KvR7ivOR1bXaObOav/XaM/OOXO/OMXO&B(M&M-&iWz(-a(OyuzXX/zO#2MX)M&nv{7XvM7&bwR(bMab/&aX/MaO-XOXX7OO-Q&X-O-a(YiX(MD,zGy-zME_yyEXMM:OR-vX77vOab/iRMbOa;-MaM/OOw-(/aXO&v-XV7-Oiu(XyRz&yfz(yMabKGMXGMMOba7Xv77ObbRXb7ROXbOz/Ma&X+/cXMOO-_i((v&O(biX(iiOzCyXzMyiM=_-MMQi7{v-7MbiR-bXR7bOb(/XaM/O&b-XOMXi&kOR&M-Oi{z(eb(Oy/zX(izOF%MXvRyMv37MvMRvb8RXbMOO/MaX/OaOXXOXaaOO-P&y-Mi)(Ai-(Miizty( JyOM-ZXOX2O7%vX7iz&RZbRRM(bar/-aM/yOrXXiaXO&m-X&7-Oix(XiMMyyPzXyMzi9CMXfMMO//7XvM7Ob/RXbMRO/YX-/MO/X2ORXMOO-0i(zX&O(MiXzziOzryXzRMXMUG&MMAi7uvX7MvOvObXRybOa7/Xa7/OO5X&OM-/&d-R&M-OiJz(yv(OyMzXV&zO_rMX.RvXv27&vMRObrRXbMROROaX/yaOX7OXX7OO-nia-Mi/(ViR(MiOzxG(MvyOMM1Xa-9O7svX7RRXR<b&RMXXa1/XaM/O/OXXOyXO&7-X&7-OiZzbiMz/yCzRyMzO1K7(bvMOvM7XzM7Ob!RXbR/X/^a&/MiMXIOXXMOOOO&X-y&O(7iX(7iOzhy7zMd/M06RMMxO7sb(77vORMbXivbOa3/XaROXOJX&OM(R&)-X&M-O-O(Xiy(Oy7zXy7zOUd7MUM7/v87RvM7Ob)a(b&RO/MaX/RaOX0OXXR-X-l&&-McX(tiX(MiOiOyXzyyOM79XM7TO7fb77Mb/R_bRRMbOaEX(Ov/OOMXX&XXO&>-X&RiXiV(&iMRRylzXyMzOzOMXTyMOv77Xv77Ob.RybMa//:aR/MaOXt&(-7OO-M&X7O&O(JiX(RzXzGy&zMbzM%uXMMJO_OvX7yvOR7bXR7bOa<X&aMX/O,XROMXO&=((i(-OiM(X3b(OySzXyR)X+KM&)Mi/v*7XvM7O7ORXbyRO/7aX/7aOX=&MXM&/-o&R-M&O(Zy(MviOzMyX&(yOMWCXMR7X7xv&7M-(RSbXRMbObO/Xay/OO7XXO7XO&d(v&M(/it(RiM(OyHM(#/zO8MMX(aMOvQ7XvRbXb9R&bMyM/{aX/MaOaOOXXyOO-7&X-7&O(9y((My/zGyRzMyOMSv(7R.O7MvXOavOR?bXRRaXaB/&aMXvO<XXOMXOXO-X&y-Oi7(Xi7(OykMyyMM/rdMRWMMOvcR(b&7ObMRXM/RO/5aX/RXXX=O&XMya-I&X-M&O&OiX(yiOz7yXz7yOM.v#MMv/78vR7MvOR_/(aybOaM/XQ-/OOkXXOR&X&h-&&MR&iK(XiM(O(OzXyyzOL7MXu7MOv:R-vMR/bURRbMRO/0O(/aaOXMOXzXOO- &X-R(X(,i&(MyXz=yXzMyOyOKXMyBO77vX77vORr/7RM//aP/RaM/OOl-(&MXO&M-XXz-Oir(XiRyXyDz&yMMa4eMX>MMOMO7Xvy7Ob7RXb7RO/:OI/MO/X8ORXMOO-ki(-y&O(MiXOyiOz;yXzRMXMJI&MM-/7BvX7MvOvObXRybOa7/Xa7/OOS-/OM-/& -R&M-Oi z(ii(OyMzX/bzOGNMXARvXv*7&vMiib2RXbMROROaX/yaOX7OXX7OO-8i7-Mi/(?iR(MiOz+p(MOyOMM>XO(jO7ovX7RRXRPb&RM/ia{/XaM/O/OXXOyXO&7-X&7-OiVMviMz/y>zRyMzOdj7(v&MOvM7Xbb7Ob+RXbR/X/ga&/M2-XVOXXMOOOO&X-y&O(7iX(7iOzPhMzM%/MEhRMMpO7Qb(abvORMbX&RbOa;/XaROXOdX&OM7b&c-X&M-O-O(Xiy(Oy7zXy7zO:=7X,M7/v 7RvM7ObKa(baRO/MaXRvaOXCOXXR-X-u&&-Mv-(3iX(MiOiOyXzyyOM7}XM7gO7</v7Mb/R bRRMbOaBX(O7/OOMXX//XO&h-X&RiXiD(&iMRXyczXyMzOzOMXfyMOv77Xv77ObZa/bMa//taR/MaOXW&((-OO-M&X-y&O(*iX(RzXzBy&zMbyM:#XMMuOxOvX7yvOR7bXR7bOa3XXaMX/ODXROMXO&_((iv-OiM(Xi7(OyLzXyRcXkFM&>Mi-vk7XvM7O7ORXbyRO/7aX/7aOXBO(XM&/-.&R-M&O(Vy(MviOzMyXMMyOMcCXMR7X75v&7MXbR_bXRMbObO/Xay/OO7XXO7XO&E(b&M(/i?(RiM(Oy!M(y&zOLMMXb&MOvF7XvRbXbLR&bM_(/<aX/MaOaOOXXyOO-7&X-7&O(<yb(My/z^yRzMyOM%v(7&#O7MvXPRvORjbXRRaXa*/&aMMaO4XXOMXOXO-X&y-Oi7(Xi7(Oy)7vyMM/tDMRGMMOvpR(bi7ObMRX(/RO/saX/RXXX.O&XMvO-V&X-M&O&OiX(yiOz7yXz7yOMQvMMMv/7%vR7MvOR1/(RRbOaM/X<X/OOEXXOR&X&S-&&M7zih(XiM(O(OzXyyzOL7MXx7MOvw7RvMR/bkRRbMRO/pO(-/aOXMOX-ROO-w&X-R(X(Ci&(M^izKyXzMyOyO+XMy<O77vX77vORDbiRM//aF/RaM/OOY-(ibXO&M-XBy-Oim(XiRyXy;z&yMMM_}MX{MMOMO7Xvy7Ob7RXb7RO/tOX/MO/X3ORXMOO-Ii(-7&O(MiXa(iOzIyXzRMXM8)&MMXy75vX7MvOvObXRybOa7/Xa7/OO8X-OM-/&%-R&M-OiIz(ya(OyMzX>vzOUgMXURvXvj7&vMyXbJRXbMROROaX/yaOX7OXX7OO-ni7-Mi/(1iR(MiOzA<(7XyOMMwXavWO75vX7RRXR)b&RM/&af/XaM/O/OXXOyXO&7-X&7-Oi?zyiMz/yszRyMzOp_7(QRMOvM7Xb27Ob5RXbR/X/Ha&/M&aX!OXXMOOOO&X-y&O(7iX(7iOz8yizMU/M}ARMMeO7Wb(R&vORMbX4HbOa:/XaROXO2X&OMXy&}-X&M-O-O(Xiy(Oy7zXy7zOEfM(9M7/vu7RvM7Obwa(/vRO/MaXzRaOX0OXXR-X-:&&-MiR(oiX(MiOiOyXzyyOM7.XM7!O7^v77Mb/R;bRRMbOaVX(Oz/OOMXXiRXO&u-X&RiXic(&iMzbyYzXyMzOzOMX}yMOv77Xv77ObmabbMa//naR/MaOXT&(XyOO-M&XRa&O(_iX(RzXz<y&zMvyMJnXMM%OBOvX7yvOR7bXR7bOa!/aaMX/O}XROMXO&o((i(-OiM(X/O(Oy}zXyRGXT2M&,MOOv{7XvM7O7ORXbyRO/7aX/7aOXWO7XM&/-p&R-M&O(1y(zziOzMyXaGyOMQ5XMR7X7{v&7M-aRSbXRMbObO/Xay/OO7XXO7XO& (y&M(/ix(RiM(OyPM(vvzOtMMX-bMOvE7XvRbXb+R&bMO(/,aX/MaOaOOXXyOO-7&X-7&O(ui-(My/zryRzMyOMGv(M&GO7MvXROvOR2bXRRaXaP/&aM-MO^XXOMXOXO-X&y-Oi7(Xi7(Oy?MiyMM/QTMRkMMOv8R(v&7ObMRXz7RO/ aX/RXXX5O&XMvR-t&X-M&O&OiX(yiOz7yXz7yOMfviMMv/7.vR7MvOR?/(a-bOaM/Xv-/OOdXXOR&X&,-&&Mzki*(XiM(O(OzXyyzO=7MX;7MOvnRbvMR/b,RRbMRO/fO(-vaOXMOXz(OO-J&X-R(X(2i&(MvOzgyXzMyOyOLXMydO77vX77vOR5/-RM//aj/RaM/OOC-(OiXO&M-XbR-OiQ(XiRyXy}z&yMRRY>MXcMMOMO7Xvy7Ob7RXb7RO/Cai/MO/XUORXMOO-Di(zX&O(MiXayiOzwyXzRMXMr;&MM/-7#vX7MvOvObXRybOa7/Xa7/OOK-XOM-/&=-R&M-Oi2z(i&(OyMzXbbzOHEMX8RvXv_7&vMavbBRXbMROROaX/yaOX7OXX7OO-xib-Mi/(xiR(MiOzDo(MRyOMM5XR-oO7ovX7RRXRNb&RM-/a9/XaM/O/OXXOyXO&7-X&7-Oi.zbiMz/y<zRyMzO1_7(b-MOvM7X-X7ObQRXbR/X/^a&/MEXXUOXXMOOOO&X-y&O(7iX(7iOz_:izMh/M^lRMMVO7=b(aQvORMbXy3bOa^/XaROXO_X&OM7z& -X&M-O-O(Xiy(Oy7zXy7zO_57(oM7/vk7RvM7ObHa(bRRO/MaXXaaOXdOXXR-X-4&&-Mi((jiX(MiOiOyXzyyOM7kXM7=O7evz7Mb/RTbRRMbOa+X(&v/OOMXXy&XO&I-X&RiXiu(&iMayylzXyMzOzOMX:yMOv77Xv77ObtaMbMa//waR/MaOX3&(-(OO-M&XOM&O(FiX(RzXz6y&zMbDMeHXMM.O9OvX7yvOR7bXR7bOaCXOaMX/O+XROMXO&)((y2-OiM(X/v(OyTzXyRIXNmM&*Ma(v_7XvM7O7ORXbyRO/7aX/7aOX^&/XM&/-e&R-M&O(6y(M/iOzMyXM/yOMNtXMR7X7pv&7M-&R0bXRMbObO/Xay/OO7XXO7XO&)(O&M(/i_(RiM(Oy;M(?yzOIMMX/OMOvF7XvRbXbTR&bM&i/{aX/MaOaOOXXyOO-7&X-7&O(SyC(My/zQyRzMyOMSv(7&UO7MvXa(vOR3bXRRaXaB/&aMX-OAXXOMXOXO-X&y-Oi7(Xi7(OyuM&yMM/mUMRTMMOv%R(vR7ObMRX7(RO/NaX/RXXX:O&XMi7-5&X-M&O&OiX(yiOz7yXz7yOM8vXMMv/7xvR7MvORP/(a-bOaM/Xbu/OO1XXOR&X&2-&&M(xiQ(XiM(O(OzXyyzO{7MXF7MOvx7RvMR/b_RRbMRO/,O(-naOXMOXa7OO-t&X-R(X(ui&(MbvzxyXzMyOyOeXMy=O77vX77vOR=/zRM//ag/RaM/OO^-(OiXO&M-Xva-Oic(XiRyXyCz&yMRv5PMX#MMOMO7Xvy7Ob7RXb7RO/da&/MO/XNORXMOO-^i((O&O(MiX7/iOzoyXzRMXM6}&MM/77>vX7MvOvObXRybOa7/Xa7/OOA-7OM-/&w-R&M-Oi5z(ia(OyMzXv7zOk*MXGRvXvd7&vM&/b RXbMROROaX/yaOX7OXX7OO-!iO-Mi/({iR(MiOzN:(MMyOMMBX&M=O7ovX7RRXRhb&RMXza6/XaM/O/OXXOyXO&7-X&7-OiAz-iMz/y#zRyMzOw+7(s&MOvM7XM-7Ob;RXbR/X/*a&/MaOX8OXXMOOOO&X-y&O(7iX(7iOzLeyzM2/MN9RMMmO7kb(RRvORMbXizbOa}/XaROXO2X&OM(-&!-X&M-O-O(Xiy(Oy7zXy7zO28Mz8M7/vf7RvM7Obla(X/RO/MaXR&aOXIOXXR-X-f&&-Mv7(1iX(MiOiOyXzyyOM7IXM7,O79b=7Mb/R5bRRMbOa8X(O&/OOMXX/bXO&W-X&RiXiC(&iMMbyGzXyMzOzOMXoyMOv77Xv77Ob_a/bMa//9aR/MaOXf&((-OO-M&XR&&O(riX(RzXzly&zMX7MesXMMEOgOvX7yvOR7bXR7bOagXMaMX/OSXROMXO&I((yY-OiM(Xb-(Oy8zXyRZX4tM&tMivv 7XvM7O7ORXbyRO/7aX/7aOXs&aXM&/-Z&R-M&O(Zy(M-iOzMyX&zyOMUfXMR7X7Iv&7MX&R#bXRMbObO/Xay/OO7XXO7XO&;(O&M(/iB(RiM(Oy4M(v-zO<MMXXMMOvh7XvRbXbTR&bM=b/2aX/MaOaOOXXyOO-7&X-7&O(wy<(My/zTyRzMyOM{v(R/}O7MvXyOvOR,bXRRaXa:/&aMMvO)XXOMXOXO-X&y-Oi7(Xi7(OyoM-yMM/0QMR MMOvIR(//7ObMRXX1RO/raX/RXXX0O&XM&7-.&X-M&O&OiX(yiOz7yXz7yOMkCiMMv/7lvR7MvORH/(avbOaM/X&y/OO5XXOR&X&A-&&MR(i (XiM(O(OzXyyzOC7MXx7MOvtaAvMR/bcRRbMRO/cO(X(aOXMOXaOOO-0&X-R(X(ti&(MV&zEyXzMyOyO:XMy?O77vX77vORSb(RM//ag/RaM/OOf-(O7XO&M-X/&-Oi3(XiRyXycz&yM&*TUMX>MMOMO7Xvy7Ob7RXb7RO/IaO/MO/XQORXMOO-,i((z&O(MiX7MiOzKyXzRMXM3 &MM2&7+vX7MvOvObXRybOa7/Xa7/OOGXMOM-/&Y-R&M-Oi3z(hv(OyMzX/&zOToMXLRvXv+7&vMa/bsRXbMROROaX/yaOX7OXX7OO-EiX-Mi/(_iR(MiOz0p(M(yOMMfXib3O73vX7RRXREb&RM(iam/XaM/O/OXXOyXO&7-X&7-OiAzaiMz/y.zRyMzOS{7(vvMOvM7X//7Ob_RXbR/X/Aa&/M&OXrOXXMOOOO&X-y&O(7iX(7iOz6r/zM./Mp8RMMfO7nb(7yvORMbX:7bOam/XaROXO8X&OM-y&:-X&M-O-O(Xiy(Oy7zXy7zO<TRvtM7/v67RvM7Ob%a(/hRO/MaXM/aOX1OXXR-X-Q&&-Miz(SiX(MiOiOyXzyyOM7YXM7VO7ub77Mb/RxbRRMbOa#X(&-/OOMXXviXO&8-X&RiXiC(&iMOzyczXyMzOzOMX8yMOv77Xv77ObrRabMa//NaR/MaOX!&(XROO-M&X77&O(WiX(RzXz8y&zMXxM2GXMMJOlOvX7yvOR7bXR7bOa9/zaMX/OTXROMXO&2((&&-OiM(XiO(Oy_zXyRoX6wM&;MOpvJ7XvM7O7ORXbyRO/7aX/7aOXwO-XM&/-x&R-M&O(*y(z/iOzMyX&RyOMd1XMR7X7Bv&7Mb/RWbXRMbO&v/Xay/OO7XXO7XOib(z&M(/i;(7iM(OyF7Xy&zOdzMX0yMOM/7XvMR(bZRabMR&/0a(/MaOXyOX-}OO--&X-M&O(pi-(My-zmyazMpPMx=X7O3O7MvX7RvORbbXaR7yap/&aM7-O_XXOM(O/i-Xiv-Oi7(Xyi(Oy%ziyMM(hrM(EMM&v_aXby7ObRRX/bRO7(aX-M&;XkOiXM&(-^y9-M&O(&iXzviOzbyXzRyO7bvMMMv(7E/O7MvOR=/(OXbOaa/X&z/OO;XXOM&&&=(*&M(-iE(XiMzimOzXQ-zOvvMX.MMOv3b-vMRRb;R(bMRO/lO(/OaOXyOX(MOO-l&X-M(&(UyX(Mi&zTyXzMti7RDX77)OayvX7MvOR{-aRM/zaA/yaMX&OA-(ibXO&O-Xyi-OiQ(XiMyOyIMvyMzy<SMX3MMO-i7XbX7ObORX/-ROXbai/MO7X2v/XMOO-}i(-O&O(iiX(aiOzjyXzMyiMGv/MMvX7 vX7MbiaXbXaMbOa&/XaM/OOsXiOM-R&J(b&M(Oi{z(yR(OyyzXo(zOu#MXQMv&vJRXvMR(b+RXbMaiXXaXX7aO7OOXXMOO-8(X-Mii(.iX(MiOz#yXRyyOMy0X7zlORbvXRRMyRI/XRM-&aH/XaM/O-%XX&7XO&a-X&M-Oi_k/iMzOylz(yMz&tn7(bwMObI7XX77Ob2RXbMaO/dO-/MOMX3OXXMOO-7&X(M&O(biX(7iOMbyMzMuOM)/-MMmO7KvXa/vOavbXa-bOae/XaMXxO3-XOMXi&Z--&M(i-/(XyM(ObvzXyMzOVxvXhM7&vkRbvM7ObgRX-aROXuaX/RaOXvOXXM(z-j&X-M&&(6iX(MXMzLyXzMyyMBPXMMI&7MvX7MvOB(77v(MybX7&bzRROvXMOMXO&wOM-vOOX-(-y7(OyIzX-yivzXyMzlyiz-y-zOe-MX077(bx77bMavaOX&OXXMOO(bXz-M&O(=iz(MiOz:yRMbyOMWnX7/rO7vvX7MvORXR/RMbOa}/yaM/&O_-(/aXO&p-X&R-Oi!(XyR&yymz-yMzyH%MXKMMO(77XvM7ObbRXbRRO-(yO/MaOX,O&XMO&-G&--Mi)&yiX(MiOz7yXz7yOMXM/MMoO7Lvi7Mv&RYbX&vbOa:/XaM/OO2XXOM7y&>-X&M-&ih(XiM(ObizXyMzODbMX%MMOvLbyvM7Ob_R-bMRO/caX/MaOX3OzXMOO-f&--O&O(riX&O(-im-7z7w&M lXMMzby7M(y&7Bky77:a7Xv7RbbORv/bR7/aO8&v-O&M-OinOR-&&R-/iM(via(iMXvXMOvY7XbR;ybLRXbMRi/NaX/MObXROXXMOO-R&X-7&O(:iX(O(az>yXzM:(MJ8-MMvid/vX7MvORvbXRMbOObRzaM/&OhX(OMXO&N-X/v-OiV(XiR(OybzXviv3d>MXVM7-v=7-vM7ybFRMRzRO/ZaXXvaOXvOXXMy--2&X-M&O(YiX(MiOO/yXzMyOMvrXMMEO7l-b7MvORtb(RMbOaZ/X-//OOJXXO7XO&_-X&M-Oi#(XiR(OyJzXy7MzkWMX5My/z-PMza3aMivz7Om&7ibM/7OvXHOXXM/Za-/(O&X/(#iO(MiOzJg(iayOMk?XMR1O7TvX7i-iR_bXRM/5aC/-aM/&OdXMXzXO&0-X&O-Oiv(XiOiayEzXyMMbnYM-xM7iM/7XvM7ObbRXbMRO- &=/MaOX5OXXMO&-U&X7(&O(%iX(RiOzkyXzM7zMW=XMMp&7+vX7MvOR2bXRMbyag/XaM/&OMXXOMXO/(O7X(ay-XO&-z&RyvzyyMzOFJyb(&h/z/yzMXLa7/v77Rvv/vaM/MaOX8/MOv/Oa-&X(X&O(tiXzR-yzNyXzMyiM6?XMMvb7RvX7MvORRbXR7bOao/XaOaaOEXXOM-(&Q--&M(i-/(XiM(Oy/zXyMzOvbyz+MM&vY7(vM7ObHRXMvRO/{aX/RaOXbOX(i(m-{&X-Mi-(9i-(Mi&z}yMyzyOM:?X7vLO7vvX7MX-RlbXRMbOaf/XaM/Ov/XXOMXO&v-X&M-Oi6RbiM(Oy*z(yMzOAwMXR/MOvY7Xv77Ob2RXbMRO/,aX/aaOX OXX7&X-e&X-MXb&--bOa(9&7(/i(y&M&KXMMmO%/z7>OMyj/7(vv7ObX7-vRRMb-X-OOXO&V-XXO&--cO7iMzMySzXyMMiz/MX+MMOvb7XvM7Ob(RibMRO/mai/Ma&XVOXXM&BOy&X-M&O(RiX(7iOMb(zzMyOMsVzMMKO7Wb(savORvbXRRbOaZ/XaM7-OtXXOMXi&d-(&MMbzX(XiM(Oy7zXy7zO}vMX2O3avo7XvMR-b1R-bMRO-7aX/MaOXdOXXMOO-4bz-M&O(,i-(MiOzjyXa(yOMtUXMRWO7SvX7MazRsbXRMb&a2/XaM/OOIXXOM-D&;-X&M-&iX(XiM(O(Xi&(Miv*vMOuMMOvFyRM&8RM/vM7vva7ia-/&aOX?OXRab&a//Oa&&&(RiX(MiO&7(bii-&iO(&iO(&*Xz77MbyRAbXRM/ib//XaM/OO/XXOMXO&(7(&M-Oim(MiM(&yLz-yMM,zyMXFMMOvX7Xv77ObXb/bMRO/2O-/Ma&XB&(aaOO-g&X-a&O()iXMM_MzkyXzMyOMPxMMMvb7RvX7MvOavbXR7bOaF/XaOaaO{XXOM-&&,--&M(i-/(XiM(OyvzXyMzOvbyzDMM&vQ7zvM7ObxOXXXRO/vaX/7aOXXOXXMb--D&X-M&i(>i((MvbaMyXzMyOMykXM75O7bvX7O7aR bXRM/aaZ/-aMX3/yXXOMXOi=-X&7-OicM&iM(Oy)zXyMzO;?MX-aMOv!7Xv77ObgRXbMiR/oaX/MaiXHOXXMOOia&X-M&O(viX(MiOzAyXzMyOM/%XMM9O7vvy7MvORcMzvp7vv/7yva7&bOaUb&ai&v-O&M-OitOR-&&R-/iM(via(iM-DOMOv%7XMOv-75L7bMaR/eaX/MOia/OXXMOO-v&X-M&O((b((MiOz0yMzMy&M6>-MMvFtyvX7MvORXbXR7bOaXa/aM/OO^-wOMX&&.((Xa-Oim(Xia(OydzXKRiygJM-oMM&vd7XvM7Oz7RXbMRO/baX/RaO((IOXMOO-_&i-M&&(6i((MyPiyyXzMyOMRoXM7eO7X7/7MvOR1byRMb&ak/Xiv/OOrXXOMXO&U-X&MRyi3(XiM(&y9zXyMzO/iMX9MMOvb7XvM7Ob?/ybMRO/Aa-/MaOXhOXXMOO->&z-M&O(9i-(OiOz#yXiOz-y)(7M7vb7hvX7MM/>-7MvmRvv7/-OJ/OO XXbiOv/iazXOO-Xy&biMzMyrzXyMMiz/MXjMMOvb7XvM7Ob(RibMRO/tai/Ma&XdOXXM&kOy&X-M&O(RiX(7iOMb(zzMyOM=)-MM0O7eb(VavORvbXRRbOa+/XaM7-OBXXOMXi&G-(&MMbzX(XiM(Oy7zXy7zOf/MX0O av*7XvMR-b?R-bMRO-7aX/MaOX8OXXMOO-9bz-M&O(Ai-(MiOz0yXa(yOMo!XMR2O7AvX7MazRtbXRMb&aZ/XaM/OOmXXOMXy&3-X&M-&iM(XiM(O-/iF(ziR(-y((&ybvv7OvM7ObEJR7&vR7/bMRvbaRiO-XOOO-P&XOO--&3X7(My7z{yXzM*iy/<XMM>O7vvX7MvOR(biRMbOaC/yaM/&OkXXOM-8Xy-X&M-Oia(Xi7(O;bizyMzO3}MzGMMOvdR(Ma7ObvRXb7RO/)aX/Mv-X#OXXMOi-=&(-MEbRMiX(MiOz7yXz7yOMbrXMOMa7hvX7Mb-RWb-RM/cby/XaM/OORXXO7XO&ez&&M-Oi4(XiM(OyWzXXazOhSMXZ7MOve7XvM&RbSRXbMRi/6aX/MaO&aOXXMOO-v&X-M&O(6iX(MiOz/yXzMyOMvsMMMeO75MMvvMOj-b-a9bOae/XviavbiRz/Oa-/yOb&7((i<(XiM&-(/i(-&&&(Xy/z(yMM77Xb-7Ob_RX/Rvy/TaX/MayX{OXXM&b7b&X-M&O(XiX(7iOzvyXzOzaML1XMMve7#v-7MbYvybXRMbOaa/Xa7/O&bazOMXO&f--&M-Oicz(-a(OyvzXyazO^GMXDMi-vW7XvM7ibeR(bM&bOXaX/MaOXROXX7OO-b&X-O-a(9iX(My(zey-zMyOR7>XMM)O7WvX7MvORZzzRMbOah/-aM/OO0XX8(XO&I-X&R-Oi{(XiM,zyLzXyMz&EkMXJMMOv+7XvM7ybVRXbMR&/zaX/MaORXb7aX/ba7XLa&&&(XiX(MiOiX(&iM(vMvdOMM_O7JzR_&MR9/7Mvv7avi/XOX/OO<XX&Ray&L-X&M-&i=(XiMzbyRzXyMzOdRMXg7MOvm7XvOvab2RXbMa(/Ia-/MOia/OXXMOO-b&X-M&Ozb-z(Mi&zCy-zMyOMt1Xiv<O7xvX7RvORbbXOiOfa?/XaMX-OjX-OMXy&J-M-z-OiE(Xyv(OyvzXyMR-+1MXeMMOvu7XvM7Oz/RXbMRO/vaX/MaOXn2bXMOO-4&(-M&O()iX /iOz>yXz7yOM68XMMdO7GvX7avORfbXR7/Xa+/XaMRb/-abbaO#/7O/X(-&iX(XiM(O(Xi&(Miv#v7X_MMOv:y&zO_vMivM7vvbR7v7a_bvR//7aO/aOb&X(-&O(YiXzR-yzmyXzMyyMgsXMMvb7RvX7MvORabXR7bOaQ/XaOaaOdXXOM-z&u--&M(i-/(XiM(OybzXyMzOvbyzYMM&v,7zvM7ObkRXMvRO/^aX/RaOXbOX(ivX-m&X-Mi-(+i-(Mi&z)yMyzyOM;_X7veO7vvX7O7aR+bXRM/(aj/-aM/Oi7XXOMXO&U-X&M-OiQaziM(Oywz-yMzOmHMXX(MOv}7XvR7ObTRXbMXz/SaX/Ma&XGOXXMOO-Q&X-M&y(_iX(Mi&zMyXzMyOi(z7y((yEXz&FzMRRvbMRMbOa_RM/vROb-X-&XXO&3-XXHOaXyOyXiiv-i&z(Oi-(yyb!M7Mv>7XvMRi7/RXbMRO//aX/MaOX(OiXMOO-2&i-M&&(SiX(My?iyyXzMyOMRSXM7LORbMz7MvOR:b(RMbOa*X(ba/OOvXXOaXO&s-X&Ma-i<(XiM(iy%z(yMRb7XMXIMMOv77Xv77ObvRXbOba/)aX/MO-XtO-XMOOz7&X-M&O(?iX(MiOz3XzzMyOMNl-MMfO7dvX&(vOR0bXRRbOa_/XaM&zOUXXOMX&&,-X&M-OiB(XiM(yySzXyMz&3MMX8MMOz()7M(yy7Xt&7zvR/vaO/MaOXC/(R&b&aX/ROvXMO-i-(OiOz_yXiOz-yk(7MMvR7pvX7Mbiv/bXRMbOab/XaM/OO(M(OMXO&=-M&M-&i8(-iMzr(yzXyMzOLXMX}7MOvXv/vM7Ob{atbMR&/JO(RaaOXlOXXaOO-.&X(RXy(Zi-(Miiz9yXzMyO&7+XMMlO7bvX7RvOO((ORMbOa6/iaM/&OmX-OM-#Xy-X&M-OiR(Xi7(OyXy/yMzOU!MykMM&v!7XXv7ObtRXbMRO/HaX/MCyX2OXXMO&- &X-M&O7iiX(MiOzbyXzMyOMU7yMM*O72v-7MvORrbXRMbOak/zaM/OO5X-&kXO&G-X/i&vXiOz-O&--yiby7MzcSMX#Myyz-tMMRnvMvEM7zvR7Ob&/7OeXYOXXMXUO7XXa&&O(&iX(MiOMb(zzMyOMKf(MMGO7_vR&RvOR)bXRObOav/Xa7/OOXO/OMXO&0-M&M-&iW(M(z(OyhzXu/zO;vMXvRyyv07XvM7ybURXbMaiR/aX/7aOXbOXXMOO-Ab&-M&O(Ji((MiizIvRUOyOM}mX7bdO7vvX77vORXR/RMbOaP/iaM/&O5XXyvXO&V-X&M-OiG(XiMayy{zXyMz&u{MXYMMOXi7XvM7ObbRXbMRO/PXy/MaOXNO-XMOO-6&X-M&O(fiz(MiOz6y-MgyOMB1XiiMvyizzcOM-Yy7bR7/Oar/XaM7ybyav/MR&Xba7XvOR-/&MX7&R-/&7(az&CXMX*MMOMXS&MM{vb4abbMRO/8O(RaaOXkOXXROO-8&X-ivi(_iX(My5zQy-zMy&MNLM2z_O7,vX7OvORvbXRORaaQ/XaMXMO}X-OM-iX/-X&M-Oi/(XiM(O?bizyMz&BAM(.MMOvK7Xzv7Ob>RXbRRO/baX-iGXX6OXXM&(-V&--M&&(>iMiziOztyXMbyOMv.XMOMa7LvX7MbzR9b-RMbO&7/XaM/OO0XXOMXO&NRz&M-Oi?(-iM(OyYzX/(zO{oMXDRMOvU7XvM/zbSRXbMR&/6aX/MaOXeOXXMOi-m&X-M&&(OiX(MiO&z-7iO-yiyzbyaM8yvMb0OMyRvb7RMbOaG7Mv&7i/-RaOM-X&j-X&M(i-/(XiM(OybzXyMzOj(O(sMMOvg7MvM7&brR-bMaSRyaX/MaOXXOXX7OO-X-/-M&O(^iR(Mi&zL?(iayOMfNXMRfO7;vXaM/MREbXRMbOas/-aM/OyiXXOMXO&b-X&M-Oi<yyiM(Oy%z-yMzOHhMXBMMOv=7zvM7ObfR-bORO/caXRO/-a4b7X7&&-o&X-MX-&/X7ik-v&/(7iO(ayb(zyXzaj/M74RMvRvbORMbOaJ7Rb&RRb/aM/vaa/i-Xi--Oi+(XyR&yyezXyMzi)HMXLM7bvR7XvM7ObaRXb7RO/QaX/O/aXZOXXM&z-*&--Mii&/iX(MiOzvyXzMyO7bzzMMA&7xv(7MvORIbXlvbOat/XaR/OObXXii7X& -X&M(-ie(-iM(yytzMzzzO#AMXvvMOvv7XvOvab3RXbMa(/ga-/MaO(7OXXMOO-r&X-M&O(x/z(MiOz=y-zMyOM_fXO(^O7:vX7RvOR#bXRMOzaj/XaM/&O5XXOMXO&<-X&M(ciN(XiM(&yMzXyMzO((y7z(iyMXy&Mz:RbvR7bMRO/:vzRR/-ar/MX7&z->&X-MX/O--bO&-i&v(M&&(zi-z&M7v?7YvX7M71v77XB&bOOX/XaM/O&bazOMXO&5-(&M-Oie(RbR(OypzXyOzO+vMXT7MOvXv/vM7ObARMbMR&/faMazaOXoOX-ROO-v&X(RXy(#iX(MiizfyXzMvO7ODXMMpO7+vX7avOR(((RMbOan/&aM/&OWX-OM-sXy-X&M-Oi7(Xi7(OyXy/yMzO;j7(!MM&vER(Ma7Ob^RXbORO/GaXXRbyXHO-XMOi-E&X-MyOzOiX(7iOzvyXzayOMw-&MMKO7ov(7MviR2XRy bOaj/XOM/OOvXXO7XO&X&/&M-OirzXiM(&ytzMzzzO1FMXv7MOvv7XvMO-b6RXbMRO/oaX/MaO7/OXXMOO-v&X-M&O(Dbb(MiOz3y(zMyOM*9Xb/ZO7VvX77vORnbXRMbOa+/Xaa/OOfXXO7-7&e-X&MO/X-&M-aOy(b&&(My<(Mi-zayXvv7MvM7ObFvMRvvO7-a-XKaOX_OXRiXvai/zOOX-Oy-b(My7z.yXzMUiy/NXMMGO7vvX7MvOR(biRMbOa./yaM/&OPXXOM-FXy-X&M-Oia(Xi7(O%bizyMzOZ<M(WMMOvhR(Ma7ObvRXb7RO/paX/Mv-XAOXXMOi-e&(-MWbRMiX(MiOz7yXz7yOM/oXMOMa7tvX7Mb-Rgb-RM/pby/XaM/OORXXO7XO&_z&&M-Oi<(XiM(OyQzXXazOS%MX57MOvu7XvM&Rb+RXbMRi/9aX/MaO&aOXXMOO-v&X-M&O( iX(MiOz/yXzMyOMvSMMMSO7PMMvvMOr-b-asbOaV/XviavbiRz/Oa-/yOb&7(RiU(XiM&/--iM-aia(iyb(&iyMXy&MzER7/RX/-RO/CaXXRbyXFOXXMOy-D&X-MibRbiX(MiOzXyXz7yOMv)XMOMa7mvX7Mb.RNb-RM/nby/XaM/OOaXXO7XOibOz&M-OiY(-iM(Oy!M((azOSvMX#aMOv.7XvMy-b?RXbMRi/fa(/Mib&XOXXMOO-R&X-7&O(biX(O(azfyXzM8(M05-MM5Oa7vX7MvOR%bXRMbOa}MzaM/OOfX-OMXO&)-Xv(-OiV(XiR(OyCzXyMvzg)MX+MM&v37XvM7ObfRXbMRy/YaX/Ma&XXOXXMOOOXX&OMXv(viO(MiOz,-Ri&(Ri/zMyvzayiv-RbvOR^bXv-M&va77viRabORMb&ai&L(v&M-OiBz(-a(OyDzXyazO>LMXYiOiv<7XvMRWbDR-bMR&/TaMazaOXrOXXOOO-v&X-O-a(liX(Myzz3y-zM{iy/fXMMuO7vvX7MvOab7zRMb&a3/zaM/OOdXXbvXO&D-X&R-Oib(XQiZ)yhzXyMM()wM-?MMivA7M7z7Ob#RX/bRO/vaX/Mi-XFOXXMOO-W&X-M&Oa/iX(MiOzvyXzMyOMTXbMMrO7.v(7MvORtbXX/bOap/Xa7/OODXXOMXO&B-X&a-Oiu(Xi7zUyDzXyMyez7yX(&M&vM7XvM7OM(v77(cyRXv&RzbRXv&-XMOO-kXza&-*&bX7&(-Z&-((iM(iiyzXi&ziEXM&7MbRRSbXRM/ib//XaM/OO/XXOMXO&(7(&M-OiW(MiM(&yIz-yMMGzyMX MMOvX7Xv77ObXb/bMRO/;O*/Ma&XJ&(aaOO-9&X-7&O(NiXzR-yzQy-zMyyM)^XMM%Oi7vX7MvORbbXRRbO&(zOaM/OO=XiOMX&&2-(&M(=-y(XiM(OyRzXy7zOuX0/ MMOvg7yvM7&b}RX-vRO/CaX/MaOXNOXXMvy-I&X-M&&(}iX(MiORiyXzMyOMb_XMM0O7kRy7MvORhb-RMbOaJ/XaM/OOEXzOMXO&e--&O-OiB(X-Oi-(9&7y7M(pmMX1Mybz7W(z&YyM7fa7(m&7Oa-X3aOXPOXRiXvai/zOOX-Oy-b(My7zuyXzM#iy/WXMMBO7bvX7MvOR(biRMbOa%/yaM/&O8XXOM-JXy-X&M-Oia(Xi7(O4bizyMzO_ZM-eMMOv!R(Ma7ObvRXbRRO/!aX/Mv-X%OXXMOi-6&(-MwbRMiX(MiOz7yXz7yOM/wXMOMa7*vX7Mb-Rgb-RM/*by/XaM/OORXXO7XO&ez&&M-Oi;(XiM(OyCzXXazO4CMXD7MOvA7XvM&Rb)RXbMRi/^aX/MaO&aOXXMOO-v&X-M&O(JiX(MiOzbyXzMyOMvV7MM>O7=zMy&ziv-MaR7//ae/XaMR/b-aM/vaR/(O/&M(XiP(XiMzi(/zXyMzODvMXEMMOv(&(vM7ObeRMbMR&/pa-/MOwayOXXMOO-X&X-7&O(X(/(MiOz?yRzMy&MIv(yaDO7PvX77vORJbXOMXMac/XaM/OOYX(OMXODi-X&M-Oib(XiM(Oy.hyyMzOdYM-6MMOvo7XvM7ObcRzbMRO/pa-XlaOXxOXRiXvai/zOOX-Oy-b(7y&z1yXzM(yi-zMyOzXtbz7y7MU?7MMg&7RbX7&bOa-OvXMOMXO&gOM-vOOX-(Xy-(Oy:zXkRiy.DMXhMMivU7XvMRbbRRXbMRO/aaX/7aOXNOXXOXa- &X-Miz(Ai-(Myii/yXzMyOM/eXMM8ORbMz7Mv&RCb(RMbOan/Xvv/OOrXXORXO&b-XyiRXiL(XiMz-yfz-yMz&w1MMMzMOv{7Xbv7ObvRXbOba/IaX/MO(XpO-XMOOz7&X-M&O(piX(MiOz)XzzMyOMD%-MMgO7nvX&(vOR5bXRRbOa9/XaM&zO2XXOMX&&C-X&M-Oi (XiM(yyuzXyMz&vfMXKMMOzzy7MOfyM/v(7vvORXvzRXbaa//7aR/v-v&O-M&O(EXR&&-R&/(Miv(aii*-MOsO7TvXGO7-vdM7RM/Ra_/XaMXi//XXOMXO&v-X&M-Oi(R(iM(Oy,zMyMz&8BM-_M74My7XvM7ObXRXb7RO/X///MaOX_&_XMO&-3i(Oa&O(TiX(aiOz}yXMR(yM)4-MM!&7TvX7MvOy7bXRMbOab/XaR/Oi(MOOMXO&d-i&M-&i=((iMz (yzXyMzO8RMXS7MOvXv/vM7Ob{RybMR&/FaX(vaOXIOXXMOO-9&X-Mby(YiX(Mi&z4yXzMyOaiSXMMpO7bvX7MvOR}ayRMbOah/-aM/OOBXXOMXO&W-z&M-Oi>(-yz(Oy#zX(aivzXy((7m/z&y7MOy&7X}-MRvM7-a-/OaOXPOXaOX-O6/7-7iX(TiX(M-bi-(b&azfi7z/y(kO7ivX7MvOab7zRMbOaQ/-aM/OO;XRoRXO&9-X&O-Oiv(Xi7(OyXy/yMzOmkMM%MM&v}7M7z7Ob9RX/XRO/vaXXRbyX2OXXMOi-s&X-Mii&/iX(7iOzvyXzMyOMs-&MM,O7Tv(7MviRlXRyTbOa;/XOb/OOvXXOaXO&X&/&M-Oil(iiM(&y+zMzzzOTSMXv/MOvv7XvMO-b}RXbMRO/^aX/MaO7/OXXMOO-v&X-M&O(^bb(MiOzTy(zMyOM#rXb/xO7GvX77vOR=bXRMbOa?/Xaa/OOKXXO7-X&)-X&MOb--&bXaic-7i/((z&YXMXSMMOMXh&MM vbvRabMRO/5b(7&b&a-b7aaX)-_iv-M&O(xy(&aiOz?yXzayOMkxXMiv(75vX7MbzR:b-RMbOaE/M/z/OOeXX&/XO&v-XiROyiQ(XiM(iyLzXyMMiz/MX*7MOv/7XvM7ObVy&bMRO/}a(/MaiXAiR7KOO-o&X(v&O(viX(7iOzXz/zMyOMTV&MMI&76vMvzvOREbXabbOav/XaM(-OhXXOMXO&f-X&M-O//(XiM(OyvzXyMzOf)ObKMMOvG7(vM7Ob;RXO/RO/SaX/7aOXrOXXMOO- &X-a&O(eiX(7yXz:yXzM(by-zbiaMDy7M/j(v&RXbXRMbObXR&bMRvOv--OMXO&9aa/&&LXiO---&v-/&-(XiM(&i7zOyXzyyMvMR7bQRXbMaiR/aX/MaOX/OXXMOO-(v(-M&O(ciM(Mi&z.y-zM_oyytXMMgO7XvX77vORXR/RMbOa{/yaM/&O}-(/aXO&,-X&R-Oi?(XyR&yy.z-yMzyQ_MXfMMO(77XvM7ObbRXbRRO-(XM/MaOXGOiXMO&-_&--MiQ&yiX(MiOzRyXz7yOM5b&MMEO7.vX7MvORJbXyabOaJ/Xa7/OOnXXOMMR&T-X&M-iiK(XiM(OMazXyMzOlvMXLMMOvN7XvM7ObbRXbMRO/va7/MaOXNbMR&biO-/a-7i-(kiX(M-/&-(MiM(iiyzMyzzy7nva7MvORW/(vabOaV/Xa7/OO3XXOi-(&d-X&M(viH(-iM(OyczMzzzOl6MX0&MOvv7XbRWyb,RXbMR&/FaX/M&O-OOXXMOO-*&X-R&O(3bb(MiOzoy(zMyOMsVXb/HO7kvX77vORobXRMbOat/Xaa/OOVXXO7-G&*-X&M&=-7&XX&(&yMzXyMzO((y7z(iyMXy&MzHRbvRibMRO/jv&RabMR//Caz/yO-X(a&&O(iiX(MiOMb(zzMyOM.^zMMtO7evR&RvORBbXRObOav/Xa7/OOXO/OMXO&c-M&M-&iL(M(z(Oy_zX%XzO vMXvRyyv17XvM7&bxRXbMaiR/aX/7aOX/OXXMOO-tb&-M&O(;i((MiizEvROLyOMF,X7bKO7vvX7RvORXR/RMbOaQ/iaM/&OsXMXzXO&>-Xi/-Oiv(XiM7-y*zXyMzOwYMX2MMO(/7XvM7ObvRXbMRO/uyb/MaOX?O(XMOO-8&Xy/&O(uiX(7iOzPyXzMyOM08XMaGO7rvX77blRkbXRMR)b7RXv&/&OyXXOMXOXba7Xa&#Xy&(X&&b(-ib-ayU(7y/z(M&vM7XvM7OM(v77(KyRXv&RzbRXI&vXMOO-Ki(Oa&O(BiX(RiOzJyXzi/iM#2XMMvu7kv-7Mv&R4bMbzbOaj/XaO/OOvXXOOOa&}-X&M(zi2(-iMzi(/zXyMzO}vMXdMMObb2zvM7&b<R(bMRO/2aX7vaOXBOXXROO-b&XzizZ(tiX(My(z+y-zMyyMSFMIz1O7kvXRbvORvbXRM--aD/XaM/OO=XXOMXOb/-X&M-Oiv(XiM(OyuabyMzOj%M(4MMOv37Xa/7Ob}RXb7RO/_aX/MaOXcOXXaOO-e&X-7iO(FiX(M-/&-(M&a-&iOzHyvzRyzMzyaMi077XvOb&aX/XaM/O/Xa&/Mav&v-O&M-Oi OR-&&R-/iM(via(iMXvXMOvI7XbR2yb.RXbMR&/AaX/MObXROXXMOO-R&X-7&O(;iX(O(azlyXzMk(M9d-MMvio/vX7MvORbbXRMbOObRzaM/&O8X-OMXO&l-X/v-Oif(XiR(OybzXviv!},MXuM7-vL7-vM7ybARMRzRO/WaXXvaOXvOXXMy--n&X-M&O(3iX(MiOO/yXzMyOMv%XMMYO7)-b7MvOR;b(RMbOa /X-//OOUXXO7XO&C-X&M-Oi^(Xia(OyTzXy7M/9ZMXtMy/z-gMMaGvMivRb7aX/CaX/Mbba-/bRaX*a7X/O(&&(XiX(MiOiX(&iM(vM3vbMM0O7xb(BavOR{bXR7bOa4/XaiziOVXXOM-=&?--&M-&i9(M(z(Oy:zXyOzOWvMX,O4av.7XvMRMbGR-bMaiR/aX/MaOX/OXXMOO(bXz-M&&(Si-(MiOzEyX&vyOMlYXMR_O7bvXai(XR bXRM/(ak/-aM/iO^XMXzXO&Y-Xib-Oiv(XiOiayJzXyMMz^ M-FMMO/77XvM7Ob9RXbMRO/Ygz/MaOXhO-XMOO-x&X7(&O(UiX(RiOzSyXzM7zM4VXMMr&7?vX7MvOR%bXRMbya;/XaM/&OaXXOMXO/OOilOayXy&v-M&i--iz(az&{XMXLMMOMXk&MM=vbvRObMRO/nvRR&bRR//Mav/aai&X(-&O(uiXzR-yz4yXzMy&MH*XMMvb&bvX7MvORXbXR7bOav/XaOaaOxXXOM-o&0--&M(3-y(XiM(OyazXy7zOvbyz^MMOvF7(vM7Obla(7aRO/vaX/7aOXsOXXMb--g&X-M&i(Vi((MvbpXyXzMyOMRSXM7ZO7/vX7O7aRVbXRM/(ae/-aM/Oi7XXOMXO&D-X&M-OiFaziM(Oyfz-yMzOP.MXX(MOvj7XvR7ObPRXbMXz/VaX/Ma&X}OXXMOO-!&X-M&y(niX(Mi&ziyXzMyOiz(7yO(yk-MzoOMa?&M-va7yv-RMa7XnO)XXOMOKX7OX/&-&iM(XiM(O-(i7((&yzXi&zzyRvHRvvM7ObSa(7aRO/.aX/7aOX4OXXisi-W&X-Mi}(Ui-(Mi&zEyMyzyOM_EXMO8O7vvX7O7aR!bXRM/zaS/-aMXi//XXOMXO&b-X&M-Oyb&ziM(&ypz-yMzO_6MX(vMOvo7XvR7ObbRXXiX%/{aX/MO(XJO-XMOy-S&M&z&O(GiXzbiOzvyXzMb-M_KXMMeO7fvX7MvOy/bXRMbOav/XaM/OOnMbOMXO&x-(&M-Oi1(XM/(OyDzXy7zO>{MXBMMOv37Xva7Ob1RXb7aM/!aX/Mb/R-/Mav/RO/XMa7XRO/X7&ai&zXyXzMyOyXz&yMzv7vvO7MvOR5MRv&7Rv/RMbvRabiXX&-XO&h-XiROyir(XiM(&yEzXyMMbXbMX2MMOvX7Xv77ObvRXbOba/IaX/MOEX4O-XM&GOy&X-M&O(aiX(7iOMb(zzMyOM8w(MMeO7Wb(9avORvbXR7bOaL/XaM7-OFXXOMXi&<-(&MMbzX(XiM(OyRzXy7zO /MX.O2av67XvMR(bKR-bMRO-7aX/MaOXtOXXMOO-9bz-M&O(Ui-(MiOz9yXa(yOMWlXMRLO7pvX7MazR4bXRMb&aH/XaM/OOuXXOMXy&6-X&M-&iM(XiM(O-(i7((&yzXi&zzyRvv7MvM7Ob1vMRvvO7-a-/&aOX.OXRy/vOX/aaa&O(&iX(MiOMb(zzMyOMSTzMMPO7wvR&RvORebXRObOav/Xa7/OOXO/OMXO&+-M&M-&i:(M(z(Oy3zXt/zOlvMXvRyyv.7XvM7ib>RXbMaiR/aX/7aOX/OXXMOO-5b&-M&O(di((Miiz,vRBOyOM9 X7bZO7vvX77vORXR/RMbOaJ/iaM/&O6XXyvXO&3-X&M-Oi,(XiMayy<zXyMz&5oMXKMMOXi7XvM7ObbRXbMRO/xXy/MaOX3O-XMOO-H&X-M&O(,iz(MiOzdy-MbyOM8FXi7zO:Uz7I(M)#(M&vX7vav/OaM/OOdRR/&aR//OMXvOaXi(-iO(OyGzX(Oy-zwi7,M77vk7XvMRi7/RXbMRO/vaX/MaOX(u(XMOO-P&M-M&&(ei-(MyoiyyXzMyOMXhXM7cO7X7/7MvORTbyRMb&aoX(ba/OOEXXOaXO&Y-XiROyi_(-iM(&yGzXyMzO-7MXIMMOvb7XvR7OX(/MbMRO/Fai/Ma&X3O(XM&,Oy&X-M&O(RiX(7iOzlv&zMyOMD XMMDO7hvXiavORDbXR7bOa)/XaMzROIXXOMXi&x-X&M-Oza(XiM(OyvzXyMzOYoMXdMMOvb7XvM7ObvRObMRO/6va7&/da//MR7byaa&--&&O(;iXOO-v&b(7&yyOMz:XMM6ORbMz7MvORBb(RMbOa?/ROb/OOHXXO&XO&v-X&M-OiXi/iM(Oy3z7yMz&s57(zaMOvB7XvR7Ob9RXXMOM/?aX/MaOX#O-XMOOMi&X-M&O(biX(MiOzAMyzMyOM!m-MM O7#vX7MvOR!bzRMbOa,/-O6/OO:XX/vay/(O/XXOwX-&(i7zXyszXyMibz-yb(a;Gz7N/M(7&bXRXbMRORXb&RMbvXZ&}XMOO-)i(Oa&O(eiX(7iOz9yXzi8(M9UXMMv(7{v-7MvORUbMbzbOa%/XOb/OOvXX&Ray&}-X&M-yiI(XiMzi(/zXy7zO#vMX>MMOvKi&vM7ObfR(bMRi/I&ROOaOXKOX-vOO-v&X-R&O(X(/(MiOz_y&zMy&Mr?Xav,O7UvX7MvORdbXRMzyaH/XaM/&OeXXOMXOli-X&M-Oib(XiM(Oy1=yyMzO^_M-eMMOv*7XvM7ObQRzbMRO/Ua-/OaOXjOXaOX-OJ/7-7iX( iX(M-bi-(b&azAi7z/y(^&RvvX7MvOezM7vO7Xv77MvORvbiaX/RaaX{a7XR&>-7(XyX(OyuzX2Riyj4MXuMMyvW7XvMRbbRRXbMRO/RaX/7aOX_OXXOXa-*&X-Mi((Ei-(Myii/yXzMyOMv*XMMKORbMz7Mv&R>bzRMbOa>/Xvv/OOdXXORXO&b-Xyiy_iH(XiMz-y:z-yMzi#YMMMzMOv37Xbv7ObvRXbM&-/_aX/MaOX5OXXMOOR/&X-M&O(viX(MiOzN/bzMyOMAI(MMWO7hvX//vOR!bXR7bOaP/XaM/OO>XXORXO&,-X&7(vi0(XiM&}--&((&i/3vMygMMOvhyaz&vf7-vX7i6&7Ob77&byX2OOXMOO-Di(Oa&O( iX(7iOz<yXzi/iMhgXMMvd7Iv-7Mv&RHbMbzbOa,/XaO/OOvXXOOOa&_-X&M(biE(-iMzi(/zXyMzOCvMX{MMO/Ba_vM7ObuRXbMRi/9aXz(aOXdOXXROO-A&X-Mzz(GiX(Mi&z^yXzMyOMe5XMMxi7KvX7Mv&RMbXRMbOvz77bORO/ba//Oaa&v-7&M-Oi#OMX&Oi(-&ayMM/L3MX}M7iM/7XvM7ObbRXbMRO/(ai/MaOX2O7XMO&-J&X-Mij&yiX(MiOz-yXz7yO7bzzMM{O7*v(7MvOR}XXOXbOa4/XaM/OOvXXOMMR&)-X&M-ii%(XiM(OMazXyMzOQvMXdMMOv 7XvM7Ob/RXbMRO/vO//MaOX}baR&Xdai/&OXX-Oi-z&OX&&i-z&&(yMv2OMM5O7lzR5&MRd/7Mvv7avi/-aO/OO2XX/OO-X*a7&M(7ir(XiMzi(/zXyMzO,vMXCMMOv(7ivM7ObLRybMR&/haX/MOTayOXXMOO-a&X-7&Ozb-z(MiOz>yzzMyOMGv(ya!O7vvX77vORmbXRMM-a%/XaM/iOEX(OMzbvM-X&M-Oi7(Xi7(OybzXyOyaN>MXrM7-vr7-vMR%7yRXbMRO/RaX/7aOX2i&XMOO-=&X-M&O(+iXaaiOzmyXz7yOMs<XMMXR7dvX7MviRGbXRMbOXa/XaM/OOvXXOMXO&>-X&M-Oi/(XiM(Oyvz&yMzO=2yazRy-MXy7zih-MOg7b7aX/=aX/Mbba-/bRaXoa7X/O(&&(XiX(MiOiX(&iM(vM1v0MM}O7Fb(FavORxbXR7bOaH/XaiX(OQXXOM-(&e--&M-Oil(M(z(Oy3zX0bzOLvMXvRyyvH7XvM7ybeRXbMaiR/aX/7aOXvOXXMOO-Wb&-M&O({i((Miiz>vRTOyOM3IX7vjO7vvX7RvORXR/RMbOaY/&aM/&O_XXyvXO&2-X&M-Oix(XiMayy.zXyMz&nAMX{MMOXi7XvM7ObbRXbMRO/gXy/MaOXTO-XMOO-G&X-M&O(GiM(MiOzWy-MNyOM2HXyvzyy/z-yaMXG-MMR7/vaE/XaM7ybvRz/Yav&v-M&M-OiW&M(v&O--z-SrzOh>MX(i%vziyzMO1-MyvbbMai/!aX/MOia/OXXMOO-b&X-M&O((b((MiOzmyMzMy&Mrc-MMv*+yvX7MvORXbXR7bOaXa/aM/OON-XOMX&&^((Xa-OiK(XiR(Oy2zXvM7MHlMXQMMOvu7-vMRbbRRXbMROX^aX/7aOXjOXXOXa-.&X-MiO(Di-(Myii/yXzMyOM/EXMM,ORbMz7Mv&Rwb(RMbOaT-X&X/OOvXXO7XO&v-X&Ma-in(XiM(iyfz(yMRb7XMXsMMOvy7Xv77ObXRXbOba/0aX/MOaXGO-XMOOz7&X-M&O(5iX(MiOzAXzzMyOMfJ-MMwO7HvX&(vOR<bXRRbOaA/XaM&zOlXXOMX&&N-X&M-Oi.(XiM(yyFzXyMz&)MMX{MMOz(Z7M(yy7Xt&7zvR/va&/MaOX0/0av/yOX/ROvXMO--z(7ysz1yXzMzjy7zXi&ZO7ivX7MvOab7zRMbOac/(aM/OOlXRVRXO&Y-X&O-Oiv(Xi7(OyXy/yMzO_{MMfMM&v17M7z7Ob}RX/XRO/vaXXRbyX2OXXMOy-*&X-Mii&/iX(7iOzbyXzMyOMu-&MMSO7wv(7MviRpXRyIbOaW/XOb/OOvXXO7XO&X&/&M-OiV(iiM(&yIzMzzzOHLMXv/MOvv7XvMO-bHRXbMRO/ aX/MaO7/OXXMOO-v&X-M&O(0bb(MiOzSy(zMyOM4IXb/hO7nvX77vORgbXRMbOa /Xaa/OO;XXO7-R&d-X&MayXOO7X7&i-Xi(-7y/(/i-(ayXz-7-vO7ObERX7Ob-Rhv7/7OXX5OXXM/bO-Xbaa-{O7-/&(iOziyXzMyO7bzzMMCO7_v-7MvOR3bRiRbOas/XaO/OOvXXO7XO&X&/&M-Oip(MiM(&y*zMzzzO#?MXvXMOvv7XbRSybkRXbMRi/LaX/MOia/OXX7OO-v&X-M&O(,/&(MiOzLy(zMyiMGbR&CKO7NvXRbvORvbXRabOaXa/aM/OO9XiOMX&&)-M-z-Oil(Xy/(OyvzXyMR-C*MX+MMOvm7XvM7Oz/RXbMRO/vaX/MaOX1AbXMOO-H&(-M&O(2iX{/iOz{yXz7yOMu}XMMeO7DvX7avOR^bXR7/aa,/XaMR/b-aM/RR&XzOv/&&EXv&MX7Oi-O&7y7MpfNMX8Mh0M7=Xz&7&bMRXbMRO7(b7R(vyaXb&az/R-:iv-M&O(dy(&aiOz}yXz7yOM_sXMiXi7EvX7MbDRfb-RMb&aY/M/z/OO*XXOOXO&v-X&O&aio(XiMzzy=z-yMMiz/MX,MMOvb7XvM7O/bvzbMR&/Ca-/MaOXfOXRvOO-G&X-R&O(biXMiMgz*yXzM}(M!3-MMCy7)vMvzvOR>bXabbOav/XaM(-O=XXOMXO&N-X&M-O//(XiM(OyvzXyMzO6UOb=MMOv67(vM7Ob9RXO/RO/maX/7aOX_OXXMOO-,&X-a&O(WiX(7y7zNyXzM-iivzzi&XbOXz/y&MR+/7/*O7vav/OaM/OONRR/&aR//OMXvOaXi(-iO(OyEzX(Oy-zji7#M77vm7XvMRi7/RXbMRO/vaX/MaOX(f(XMOO-Q&M-M&&(,i-(My0iyyXzMyOMX+XM7<O7X7/7MvOR_byRMb&aWX(ba/OOkXXOaXO&Q-XiROyij(-iM(&y^zXyMzO-7MXgMMOvb7XvR7OX(/MbMRO/Lai/Ma&X:O(XM&>Oy&X-M&O(RiX(7iOzSv&zMyOMs9XMMIO7nvXiavOR_bXR7bOa=/XaMzRO;XXOMXi&0-X&M-Oza(XiM(OyvzXyMzOlFMX)MMOv/7XvM7Obva/bMRO/Eva7&/eR(/7a(byOX/&OzXROMX-&a-XzvyOzMyOME(Ry&zRy/MMUvMarib-RObOah/XbOa-/PR7OM-7&I-X&M(i-/(XiM(OyvzXyMzO}(O(NMMOvd7MvM7&bHR-bMa8RyaX/MaOXXOXX7OO-X-/-M&O(Viy(Mi&z{;(iayOMGtXMawO7tvXRRMyR=b-RMb&a,/XaM/Ov7XXOMXO&b-X&R-O5(yMiM(Oy6ziyMz&eQM(0M7FMy7XvM7ObRRXb7RO/F&&/MaOX:OXXMOO-0&XRa&O(KiX(7iOzdyXzM/RM>;XMM8i7;vX7MvO/abXRMbOav/XaM/OO+XXOMXO&/-X&M-OivzDiM(Oy0&&(aiy(/y(zvyOMXy-zR1MM-R-bORO/YaXRO/-a2b7X7&X-<&X-MXb&--bOa(1&7(/i(yOM&HXMMnORbMz7MvORBb-RMbOa_/ROb/OO_XX&/XO&v-X&M-OiXi/iM(OymzyyMz&=87(zaMOvQ7XvR7Ob RX/Rvy/Ia-/Ma&X4OXXMOOR7&X-M&O(biX(RiO7(/OzMyOMss&MM!&7hvz7Mb<vybXRMbOa7/Xa7/OOXO/OMXO&>-i&M-&i#(Xvv(OyNzXyMzO+lMXuM&yvN7XvM7&b^RXbMRO(iaX/MaOXbOXXMOO-0(y-M&O()i-(MiOzHyXzMyOM9riMMxO7>v(7MvORrbXRMbOR5z/a7XFO1XXOMO//va&XO-&iR(XiM(ObR7X&RvMM-RXzOyiM-y7vR/(a7/&OvX-O7z&zza&-XOXXMOOMRyX/Rz7iOfXOiX&&O(z&&vORM(7yRziyyM(&b/ORvb7RMbOa!RXva7&bOa!O7(z&G-X&M7(tEX(M-yMv<&R-7iMz/i7bMaXMby7MavvMOvMXMv-R/&XR(b-ROi&X7O&->&X-MU-(vi7(MiOz2(XiR(-iizMM7vX7ZvX7M7T*y7zvO7iv7Rbvy/ii&XXOMXO&?&v&M-ii8(XiM(OyJ7XvvzOwbMXoRMOvv7XvMRlbsR(bMRO/uaX/MOi-7OXXROO-(&X-M&O( iz(Miyz5y-zMyOM=FXR-kO7bvX7RvOR/bXRi//a;/(aM-7OkX-OMXO&Z-M-z-OiG(X>-(OyvzXyiaik!Mz?M7zv:7-vM7&brRMRzRO/eaXX/aOXvOXXOXa-d&X-MyL(xi-(Myii/yXzOyOM7dXMMhO7p(77MbvR_bXRMbOacX(OM/OO(XXOaXO&x-X&Mz(iN(7iMzvynzRyMzO4aMX)OMOvb7Xv77Ob+aRbMa,/*a-/MaOXkiX-bOO-X&X-O&O(viX(My=zfyMzMy&MC.XMMv;.yvX7MvOO7bXR7bOObRzaMXTOCX&OMXO&j-Xb&-Oi-(XiM(Oy#zXwRMbmNMR9M7/v+7XvM7O/vRXb&RO/-aX/iaOX.&yXM&m-=&(-M&&(ViXM{iOzXyXzRyOM1>XRMb/7+vM7MbxRYb-RMbOOM/XaO/OObXXOMXO&X&/&M-OilM&iM(&yKM((azOFXMXvvMOvu7XvM7&b*R7bMRO/)aX/MOi-&OXXiOO--&X-M&Ozby/(My/z,yizMyOMmIX7z>O7MvX7avORZbXRM/zaP/aaM/iOpX(OM-i&v-Xis-OiM(XiM(OyFMOyMMv#ZM70M7Xvs7XXa7ObXRXbRRO/vaX/M-(XFOMXMOi-:&X-MyORziX(OiOzXyXz7yOMZ-vMMvF7Dv(7MvOR9/(vabOaX/XaR/OOQXX&R((&,-7&M(ji;(XiM(Ob/zXyOzOlbMX<7MOvKbyvM7ObdR-bMRO/YaX/MaOX!OzXMOO-m&-(a&O(}iXOi--ib-7iM(iiyzOyvz7y7MMvvMOvb7/v-7ObX/-aO/OOUXX/OO-XWa7&7(Xi5(XiM&b(-ib-ayt(7y/z(MOvi7XvM7O/bvzbMRO/ a-/MaOXpORMROO-o&X-O&O(viX(7iOzXz/zMyOM9EMMMt&7UvMvzvOR5bXaXbOav/XORRyO;XXOMXi&c-X&M(i-/(Xi7(OyvzXyMzO>T&&^MMOvI7(vM7ibFORz.RO/;aXXbaOXvOXXaOO-X-/-M&O(4ii(Mi&zEyMyzyOM*BX7/WO7vvX7MX-RkbXRMbOa /XaM/Ov/XXOMXO&v-X&M-Oi9RbiM(Oytz(yMzO!FMXR/MOvo7Xv77Ob2RXbMRO/taX/OaOXGOXX7&X-k&X-MXb&--bOa(Q&7(/i(y&M-;XMMWOy/M(vvMOvXb-RObOam/XbOa-/IR7O7-B&p-X&MOXXv&z-U(Ot/zXyMzOvbyz MMOv}7(vM7Ob0RR/bRO/6aXX7aOXvOXXMOO-X-/-M&O(Jy-(Mi&z:e(iayOMT{XMRQO7;vXaM/MRpbXRMbOaI/MaMXbHbXXOMXO&M-X&7-Oiv(XiOiay:zXyMMXo0M-kM7WMy7XvM7O/vRXb7ROXbbz/MaOX#OzXMOO-{i(Oa&O(viX(RiOz,yX7MvMMud-MMu&7cvM7MvOy7bXRMbOab/XaR/Oi(MOOMXO&L(/&M-&ir(-iMzJ(yzXyMzOIyMXn7MOvXv/vM7ObpaXbMR&/naX(vaOXPOXXMOO-E&X-Mby(niX(Mi&z;yXzMyOai1XMMAO7bvX7MvOR+ayRMbOaE/-aM/OO!XXOMXO&r-M&M-Oi^(-iy(OyFzX-&iR(/y(MvyOMX7-vO7Ob1RX7Ob-R>v7/7OXXQOXXM/bO-Xbaa-YO7-/&(i&z-yXzMyOi/z(tvzOUXvXRavOREbXaR7ya)/XaMXGOfXXOM-bvb-X&M-OiX(Xi7(OyvzXyOya2VMXBM7#vu7-vMRT7yRXbMROXvaX/7aO-b/zXMOO-;&M-M&O(>nXMXiOz1yXzMyOMv^XMiXi7*vX7Mb-R b-RMb&a9/M/z/OOGXX&vXO&v-X&O&ail(XiMz&y z-yMMiz/MXSMMOvb7XvM7O/bvzbMR&/AaM/MaOXTiX(XOO-v&X-7&O(viX(MX-z9yXzMyiM%W(MM/bbXvX7MvOa_bXR7bOa//XaOaaOtXXOM-O&Y--&M-O97(XiM(OyNzXyMzOn1&z,MMOvW7-vM7Ob%RX((RO/uaX/RaOXQOXXM(z-N&X-M&&(hiX(MiOz9yXzMyiMEsXMMY&7MvX7MvOv/M7vO7ybX7-vaRzOvX7OMXO&*aM/&ai--OaiMz/y+zXyMMiz/MX!MMOvb7XvM7Ob(RibMRO/_a7/Ma&XtOXXM&>Oy&X-M&O(-iX(7iOMb(zzMyOMh{(MM,O7I/XaXvOR)bXRMbOav/XaMzROrXXOMXi&w-X&M-Oza(XiM(OyvzXyMzOtkMXkMMOv/7XvM7ObvRibMRO/;va7&/_a/bzaR/-O?XMOa&&(XiX(MiOiX(&iM(vMvdOMMhO7KzRx&MR4/7Mvv7avi/XOX/OOxXX&Ray&3-X&M-&i%(XiMzbyRzXyMzO_RMX}7MOv,7XvOvab}RXbMa(/ta-/MOia/OXXMOO-b&X-M&Ozb-z(Mi&zfy-zMyOM hXiv0O7VvX7RvORbbXOiO#a /XaMX-OJX-OMXy&_-M-z-Oi=(Xyv(OyvzXyMR-WKMXwMMOvk7XvM7Oz/RXbMRO/vaX/MaOXC1bXMOO-e&(-M&O(YiXf/iOzmyXz7yOMN0XMMtO7dvX7OvOREbXRRbOaV/XaM/OOU7&9MXi&8-X&M-OiJ(XOMRayvzMyMzO00yv(7ASzM7-v&7Ob}RXMivM7yb/RRa&XMOXXMOO(b(/-M&&(eiz(MiOz>vXMzyOMvkXM7GO7XvXaMbOR6b(RMbOa?/-aM-OOaXXORXO&b-X&R-Oitz7iM(&yUz(yMziT8RXb/MOvv7Xv77ObvRXbMav/=a-/MaiX<OXXMOOia&X-M&O(viX(MiOz6yXzMyOM/mXMM+O7vvO7MvORHMRv&7Rv/RMbvRabiX-OOXO&Q-XXO&--AO7i7z&yYzXyMi/(-yMzRyvziyMz&Ui7gv(7zvO7-b(RO/-X)&,XMOO-Hi(Oa&O( iX(aiOzQyXzi}(MEhXMMv(7)v-7MvORWbMbzbOa>/XOb/OOvXX&Ray&L-X&M-iim(XiMzi(/zXy7zOL/MX8MMOv>i&vM7Ob{R(bMRi/o&ROOaOXCOX-vOO-v&X-7&O(X(/(MiOzLy&zMy&ML?XavoO7DvX7MvOR!bXRMzyam/XaM/&O?XXOMXOsi-X&M-Oib(XiM(Oy DyyMzOcrM-eMMOvH7XvM7ObsR(bMRO/,a-XbaOXVOXRy/vOXX7OM-bOv-F&&-vzvy7zMyOMB(Mi&(i}-za7MbXR!bXRM/ib//XaM/OObXXOMXO&(7(&M-Oiu(MiM(&yAz-yMMBzyMX<MMOvX7Xv77ObXb/bMRO/QaR/Ma&XB&(aaOO-{&X-R&O(CiXMMZMzKyXzMyOMW%-MM,OOivX7MvORbbXRMbOa^OyaM/OO5X-OMXO&?-X&M-Oi:(ziM(Oylz-1wzO6gMX(iovziyzMO3-Myvbb7a?/caX/M/=a7/XR&O&(v&X-M&OO(X&&R-v&/(tiv-yia(Mi&Mry-zzlOMavbbXa(bOag/XORRyOLXXOMXy&)-X&M(bbb(XiM(OyXzXy7zO+vMXdO6avL7XvMRBbsR-bMaBRyaX/MaOXOOXX7OO(bXz-M&O(}i((MiOzCs(iayOMv4XMa.O7cvX7Mz-RobXRMbia)/(aM(bjMXXOMXO&R-X&7-Oiv(XiOiayozXyMM(NxM-VM7_My7XvM7ObaRXb7RO/Z&&/MaOX>OXXMOO-E&XRa&O(ZiX(7iOztyXzM/RM3{XMMNi7PvX7MvO/abXRMbOav/XaM/OOWXXOMXO&/-X&M-OivzviM(Oyki>zba;(Xi7(ayaz&tXMREv7/vzb7aX/;aX/Mbba-/bRaXpa7X/O(&&(XiX(MiOiX(&iM(vMhv#MMdO7hb(EavOR:bXR7bOae/XaiX(O8XXOM-(&c--&M-Oir(M(z(Oy1zX>bzO,vMXvRyyvL7XvM7yb.RXbMaiR/aX/7aOXvOXXMOO-*b&-M&O(6i((Miiz9vRWOyOMC{X7vPO7vvX7RvORXR/RMbOag/&aM/&O=XXyvXO&r-X&M-Oir(XiMayy<zXyMz&=2MXnMMOXi7XvM7ObbRXbMRO/2Xy/MaOXnO-XMOO-g&X-M&O( iz(MiOzEy-M7yOMTxXyazvTXzOpvM.hXM7v(7ObbR/bMRv/baMXvX&&M-X&M-OX(&7-(Oy(X&&(ziRKvMM=MMOv#*M7v)OM-RX/-RO/JaXXRbyX#OXXMO&-f&X-MibRbiX(MiOzXyXz7yOMv3XMOMa7#vX7Mb3R0b-RM/dby/XaM/OOaXXO7XOibOz&M-Oix(ziM(Oy^M((azODvMXP7MOv97XvMy-bjRXbMRi/3a(/Mib&XOXXMOO-R&X-7&O(biX(O(azdyXzM4(M;w-MMAOa7vX7MvORDbXRMbOa:MzaM/OO6X-OMXO&U-Xv(-OiP(XiR(OyAzXyMvz>UMXnMM&vs7XvM7ObBRXbMRy/maX/Ma&X7OXXMOOaX/7aaXaO&-X&v-M&-y-zOyOM:cXyOM-D1z777bXRPbXRM7bb-Rbvaa b7a//(XO&O-X&M-Oyb&ziM(OyIz-yMzO;cMRvbMOv:7Xbb7ObvRXbMRO/X///MaOXAOiXMO&-Vi(Oa&O(*iX(RiOz_yXMR(yMs,-MM#&7:vX7MvOy7bXRMbOab/XaR/Oi(&MOMXO&Y-&&M-&i_(ziMz^(yzXyMzOp7MXu7MOvGa&vM7Ob)RXbMRO/_aXMaaOXJOXX7OO-j&X-MvR(eiX(MiizLyXzMyOva,XMM0O7vvX7MvOR5bXRMbOa//XaM/OOvXMOMXO&oOM-vOOX-(-y((OyJzX(^ia(yiyz-yvMXy-M-Zv7X1O7zv=/vaO/MaOX5bRa&/Ra/XMOvXaOiiXzXiOzIyXMR(yMehXMMZi7dvX7MbbRRbXRMbOaR/Xa7/OOQXXOOOa&A-X&M((iC(-iMzi(/zXyMzOfvMX,MMObbFzvM7&bWR(bMRO/}aX7vaOX*OXXROO-b&XzizA(!iX(My-zty-zMyyM2pMCzEO7lvXRvvORvbXRM--a=/XaM/OO*XXOMXOb/-X&M-Oiv(XiM(Oy1abyMzOADM(AMMOvg7Xa/7ObGRXb7RO/gaX/MaOX{OXXaOO-w&X-7im(siX(M(Di7(X&&y&My.XMMKOkbz7mMMMo7Mz{7R,v-RzbvR/biR-/XX&&M-X&M-OX(&7-(Oy(X&&(ziRu.7vKMMOvwR(Ma7ObpRXbRRO/GaX/iyiX)OXXM&G-S&--M&&(%iMiziOzeyXzOyOMvZXMOMa7jvX7MbzRdb-RM/ib//XaM/OOvXXOMXOibOz&M-&iE((iM(OySzX-vzOB)MX RMOvb7X/i/nb?RXbMa(/Ca-/MayX_OMOzOO-h&X(b&O(viX(Mv-zUyXzMyOML1XMM)Oi/vX7MvORvbXRMbOaAzbaM/OO+X(OMXO&_-Xz/-OiY(Xi7(OyJzXyMzOhAMX>OMOvI7Xv7RXbIRXbMvbR-bb7a/nR7//a(O&-z&X-M&OO/-/&(-R&--ziOy&M74XMMUOizz7yR(y yMzv/7vbX/-aO/OOCXX/OO-X5a7&M(yi;(XiMzi(/zXyMzO!/MX5MMOv(&(vM7ObgRMbMR&/Pa-/MO>ayOXXMOO-X&X-7&O(X(/(MiOzHG-zMy&Mpv(yaPO7pvX7avORKbXOMXMap/XaM/OOkX(OM-b&R-X&M-Oyv(Xi7(OyZzXyOyaBHMX0M7&v,7-vMRi7/RXbMRO/XaX/MaO-b/zXMO&-*&z-M&O(:BXMXiOzvyXz7yOMb6XMM(-7 vX7MviRBb(RM-byM/XaM/OOyXXO7XO&v-X&O&aiL(XiMzaywz-yMMuzyMXWMMOb.7Xv77Ob#O&bMRO/?aX/MaOX OX7aOO-A&X-7&O(fiX(MbRz?yXzMyiMT?XMMgObavX7MvORvbXRMbOa_/XaM/OOXXXOMXO&v-7&M-OipOz-Ri-(kiMy7MXk3MX3MybM-6bzavBM7v/7(R&/zaX/MaORXb7Ra/iO7XXOO&&(XiX(MiOiX(&iM(vMlvMMM*O7Vb(PavORUbXR7bOa2/XaiziO=XXOM-8&h--&M-&iZ(M(z(Oy5zXyOzOFvMX O^avc7XvMRibeR-bMaiR/aX/MaOXvOXXMOOzhyD-M&O(UiX(MiyzJyRaRyOMG.X7v>O7vvX77vORXR/RMbOak/&aM/&O=XMXzXO&N-XiR-Oiv(XyR&yylzXyMMA_TMX2M7iM/7Xv77ObvRXbMRO-.&F/Ma&X=O-XMOy->&Xav&O(xiX(RiOzbyX7iXXM!WXMMvO7Wv-7MviRNbMbzbOar/XOM/OOvXXOOOa&K-X&M(&i1(-iM(Ov7zXyMzO5cMXwMMOvgizvM7Ob,R-bMRO/*aXz(aOX6OXXROO-:&X-Mzz(TiX(Mi&zGyXzMyOMJ9XMMgy7.vX7Mv&RXbXRMbObXR&bMRvOv-vOMXO&WazXXOaXiO7Xiiv-i&z(Oi-(yybV77Xv^7XvM)b7-vbMabu77b/R(aOX&OXXMOO(bXz-M&O(mi((MiOz_yRaRyOMSeXMO0O7vvX77vORXR/RMbOat/MaM/&O}XMXzXO&1-Xi/-Oiv(XyR&yyQzXyMz&}uMX+M7iM/7Xv77ObbRXbMRO/m2&/MaOX<O(XMOi-=yRiO&O(#iXzbiOzvyXzayOMXM/MMBO7Wvi7Mv&RhbX&vbOa+/XaM/OOSXXOM7y&I-X&M-&iF(XiM(ObizXyMzOxbMX3MMOvNbyvM7ObDR-bMRO/QaX/MaOXdOzXMOO-!&--O&O(ZiX&O(-i#-7z7;XMeuXMMzbY-Mbya7o977/v(b&a(/XaM/Ob7azbia-/Oa7&M(Ri9(XiMzi(/zXyMzO5/MX_MMOv(&(vM7ObBRMbMR&/8a-/MOkayOXXMOO-X&X-7&O(X(/(MiOz)r5zMy&Mnv(ya8O7KvX77vOR;bXaR7yax/-aM/yOLXXOMXOb7-X&M-Oib(XiR(Ov(aOyMzOQ^MixMM&v27(vMR%7yRXbMRO/RaX/7aOXXX/XMOO-,&y-M&&(UiX7viOzjyXzMyOMD6XMM-y78vX7Mv&RJbXRMbOii/XaM/OObXXOMXO&{iy&M-OiQ(-iM(Oy#zXyMzO_cMzBMMOvH7-vy7ObgRXMyvvRXb(7&bRa(O-XOOO-u&XOO--&,X7(7yXz.yXzM(by-zbiaMny7M/s(vORObXRMbOObRzaM/OOJX-OMXO&#-Rib-OiS(Xyb(OyvzXyMzOpXf/%MMOv^7ivM7&bga(7aRO/naX/RaOXHOX-R/y-n&--M&&(*iX(MiOO7yXzMyOMbEXMRQOa(RM7MvORtb&RMb&aZ/zaMX=/yXXOMXO&7-X&7-OipM&iM(OyFzXyMzO NMX-aMOv.7Xv77Ob!RXbMiR/uaX/MaiXZOXXMOOia&X-M&O(viX(MiOz!yXzMyOM/_XMMQO7vb-7MvOR3Mad&RTb/7zbRR-/_aMbRO-XXa7/aOaXXO7i7zXy:zXyMibz-yb(aNkz74/M(7&bXRXbMRORXb&RMbvX*&bXMOO-2i(Oa&O(giX(7iOzfyXzi/iMskXMMvP7_v-7Mv&RLbMbzbOa{/XaO/OOvXXOOOa&<-X&M(Mih(-iMzi(/zXyMzOm/MXZMMObbnzvM7&b_R-bMRO/saX7vaOXmOXXROO-b&XzibX(SiX(My(zSy-zMyiMeEMGzHO7,vXRbvORvbXRORaax/XaMXzOlX-OMXOy7-X&M-Oi3(XiM(Oy9OzyMzOK{M-?MMOvr7X-(7Ob9RXbRRO/%aX/M-zX+OXXMO&-.&X-M&O(giX(MiyzZyXzMy&MXTXMMWO>XM&CMMvRvbORMbOa^7Rb&RRb/aM/vaa/i--iv-Oi=(XXO&v-O&R(ziM(Xi7zRMOvO7XvM7O/bvzbMRO/Jaz/MaOX1OR-bOO-Q&X(b&O(viX(MiOzXz/zMyOM,_iMMP&7Gb(5avORSbXR7bOa>/XORRyOWX-OMXy&Y-X&M-O/7(XiM(OybzXyRzOb(vM?MMOvc7&vM7&b;R(bMa1RyaX/MaOX7OXX7OO-Ty&-M&O(_iX(MiOz;yXOayOM0uXM79O7hvX7M-RR*bXRMbiaF/XaM/O-aXXOMXO&v-X&M-Oi%(XiM(OybzXyMzO2vM7?MMOvryMz&yi7-uab7a(/kaX/MbyR-/Ma&/OO(/-OX-vO-iX(yiOz^yXMR(yM)?XMMm&7svX7MbbRRbXRMbOa-/Xa7/OO=XXOOOa&8-X&M(vim(-iMzi(/zXyMzO2vMXfMMO/ZaKvM7OboRXbMRi/naXz(aOXdOXXROO-u&X-Mzz(.iX(Mi&zCyXzMyOMW;XMMvt7VvX7Mv&R/bXRMbOvi77by/&OMXXOMXO/(O7X(ay-XO&-z&RyvzMyMzO^SyMMvyOz-7-vy7ObERX(Ovi7vbaRvbRRzOX-7OO-?&X(RXy(JiX(Myxz.yXzMYbMR*XMM>O7yvX77vOREbXRORaaC/XaMXaOZX-OM-iX/-X&M-OiX(XiM(OvZ7 yMzO:ZMXuMM&vx7Rbb7ObsRX/zRO/vaX/MaOXXX/XMOO-,i/-M&&(By(&aiOzKyXzayOMF5X7Rzy7Uv-7MbhRDbXRMXOOO/Xa7/OOvXXO7XO&8R&&M-Oi4((iM(iy?7RMOzOp4MXv(MOvv7XvR7ObXb/bMRO/5Ob/Ma&X2OXzvOO-9&X-M&O(:iX(M/yzDyXzMy&Mh!XMMYOOivX7MvORbbXRMbOaHOyaM/OOYX-OMXO&!-X&M-Oi6(ziM(OyKz-_MzOCuMX(yyvMXyzz7:MMO1(M7ly7abR77bMa-b7X7&X-S&X-MXb&--bOa(*&7(/i(y&MX?XMM4O5XM&_MMvRC/vRMbOa4X(ba/OO5XXO7XO&d-X&i((ix(XiMzzy+z-yMzOrpMMMzMOvD7Xb/7ObvRX/Rvy/HaX/MayXDOXXM&iO/&X-7&O(viX(MiOz{X&zMyOM02(MM<i7F/Ri}vORnbXavbOav/XaR/OOXO/OMXO&l-&&M-&i%(M(z(OyPzXKbzO^vMXDMa-vQ7XvM7ObeRXbMROM/aX/MaOXvOXXMOO-2vb-M&O(Pi((MiOzFyXv/yOMpxXM7;O72vX7MvOR9bXRabOa,/Xa7XoOVXXOMOwX7OX/&-&yp(XiM(O-z&7(OiM(yi-(OyvzXVvMzG{7-v.M&vy/vaO/MaOXebRa&/Ra/XMOvXaOiiXz-iOz4yXMR(yMf,XMM;i7fvX7MbbibbXRMbOaX/Xa7/OOvXXOOOa&2-X&M(;ix(-iMz_(yzXyMzOgaMXs7MObb9zvM7ObfR-bMRO/UO(RaaOXvOXXROO-<&X-M/-(oiX(Miiz?y(zMbbvXZXMMAO7RvX77vOR/bXRORaan/XaMX(OpX-OMXOy7-X&M-OiA(XiM(Oy*OzyMzO{6M-_MMOv>7X-(7Ob?RXbRRO/raX/M-zXJOXXMO&-p&X-M&O(SiX(MiyzDyXzMy&7vDXMMKOyzz76OMiv-7bv(7-vi7aba7y/bR&/MOuX/--&O-Oi3(X-Oi-(o&7y7MXJlMX MybM-ebzav!M7v/7(RO/iaX/MaO-b/zXMOO-%&--M&O(=iRRRiOz#yXzOyOMvoXM7pO7X7/7MvOR1bMRMb&a,/M/z/OO<XX&XXO&v-XiROyik(XiM(iyJzXyMMiz/MX.7MOvv7XvM7ObWy&bMRO/Ya(/MaiX5iR7#OO-F&X(b&O(viX(aiOzXz/zMyOM9liMMu&7hvMvzvOR4bXa/bOav/XaM(-ONXXOMXO&L-X&M-O//(XiM(OyvzXyMzON.Ob=MMOv07(vM7ObVRXO/RO/TaX/7aOX5OXXMOO-e&X-O&O(piX(7yIz8yXzMz6y7zXi&h&7-vX7MvO=/M-Na7Xv-/-OP/OOeXXbiOv/iazXOO-Xy&bi7z/yDzXyMii(-yXzXi&z/y7vMRibgRXbMaiR/aX/MaOXbOXXMOO-(&i-M&O(nyX(Mi&z3yXzMC9yyAXMM9ORrvX77vOab7zRMbOaS/(aM/OOE(XiXXO& -X&M-OiX(Xiiz(y)zXyMMO{VM-5MMOvf7M7z7ObuRX/MRO/vaXXRbyXhOXXMO&-Q&X-Mii&/iX(7iOzbyXzMyOR0bjMMY&7rv-7MbQR_bX<vbOac/XaR/OObXXii7X&;-X&M(RiS(-iM(yy^zMzzzOW?MXv(MOvv7XvOvab3RXbMaa/Ca-/MaO(7OXXMOO-+&X-M&O(d/z(MiOzYy-zMyOM2)XO(tO7#vX7RvORLbXRMOza_/XaM/&OAXXOMXO&e-X&M(QiS(XiM(&yXzXyMzOzXy&zMyvvv7OvM7ObW0R7&vR7/bMRvbaRiO---OO-:&XayXvOiX7&RX&iX-7&Rz-yX(7yaS&7-vX7MvOW/7(bv7ObX/XOR/OO8XX&Ray&w-X&M(xi=(XiMzbyRzXyMzOvoMXZ7MOv,7XvOvabuRXbMaO/ja-/MOia/OXXMOO-X&X-M&OMwJ*(MiOz0yXzMyyMj^RORoO7>vXR!vORvbXR7bOaXa/aM/OO_XOOMX&&r-M-z-OiU(XyM(OyvzXpRiy9!MXAMM&vL7XvMRi7/RXb7RO/XaX/MaO(jifXMO&-f&--M&y(.iXOviOz;yXzRyOMbZXRiRw70vX7MbaRSb-RMbia</M/z/OOfXX&zXO&v-X&MM-i,(XiM(Oy9zXyMzO-/MX=MMOvv7XvM7Ob5ibbMRO/Sa(/MaOX<OXi/OO-!&X-7&O(:iX(MiOz yXzayOMA{XM7vX7ZvX7MMbv-7bQaRLv7R/b(/&OXXXOMXOXXO&XMOviv(OiM(Oyki9(z&&(XiRzvyMz-7Xb-7ObYRX/Rvy/,aX/MayX{OXXM&b-R&X-M&O(aiX(7iOz0yXzOzaMDuXMMvz7Vv-7Mbiv/bXRMbOab/XaM/O&bazOMX&&n-z&M-OiZ(XXv(Oy{zXyRzOsbMXbi&Xvr7XvMR-b#R-bMR&/NaMazaOX0OX-vOO-v&X-O-a(AiX(My(z_y-zMyOR7>XMM,O7AvX7MvOR1zzRMbOa5/-aM/OO}XXf(XO&n-X&R-Oi+(XiMAzy#zXyMz&mZMX>MMOvQ7XvM7yb_RXbMR&/MaX/MaOR(/7a(byOX/&OzXR(viM(MiOzK(Myv(Oi-V-7/3O7?vX>vMyvbM7v(7Bv-R(bz7ibRXX&-XO&^-XiROyiE(XiM(yyEzXyMMbERMX?MMOva7Xv77ObFRXbOba/FaX/MOzX4O-XM&iO/&X-M&O(biX(MiOMb(zzMy&MgSzMMlO7)vXyvvORIbXRRbOab/X&iMXOGXXOM--&D--&M-&i8(M(z(OymzX6vzOGvMXAO=avJ7XvMR(b+R-bMRO-7aX/MaOX OXXMOO- bz-M&O(;i-(MiOz<yXa(yOMEcXMR2O7,vX7MazR#bXRMb&a./XaM/OOoXXOM-u&o-X&M-&i-(XiM(O(X&--RiM(-M-GyMOvA7X-OwiMvva7vvR7za-/&aOX_OXMi/aaiXMOa&&(XiX(MiOiX(&iM(vM%vMMM_O7xb(havORebXRRbOa_/XaiziOQXXOM-_&8--&M-&iW(M(z(OyhzXyOzO:vMXrOhav{7XvMRiboR-bMaiR/aX/MaOXbOXXMOOzZyT-M&O(TiX(Miyz!yRaRyOMCeX7vBO7vvX77vORXR/RMbOak/&aM/&OCXMXzXO&s-XiR-Oiv(XyR&yy{zXyMMgnQMXLM7iM/7Xv77ObbRXbMRO-^&:/Ma&X}O-XMOy-_&Xav&O(8iX(RiOzbyX7iXXMuPXMMvO7*v-7Mv&RebMbzbOaG/XOM/OOvXXOOOa&5-X&M(&id(-iM(Ov7zXyMzO.!MX;MMOv?izvM7ObZR-bMRO/saXz(aOX;OXXROO-H&X-Mzz(wiX(Mi&ztyXzMyOMn3XMMAy71vX7Mv&RMbXRMbOv(R7b(7y/XR&/zaR&v-i&M-Oi8&D-zO&-Xiz(Oii(7yb(yM&vX7XvM7O7Xv&7Mvv/)O:/MaOX8&(aaOO-T&X-R&O(NiX(iy(z>yXzMP(M0f-MMEO7^vMvzvOR1bXabbOav/XORRyOwXXOMXy&D-X&M(i-/(Xi7(OybzXyMzOfr&&FMMOv=7(vM7ib!ORaORO/IaXXvaOXvOXX7OO-X-/-M&O(Bi&(Mi&zDyXRvyOMp,XMMQO7_vX7M(yRmbXRMb&aF/XaM/OyiXXOMXO&b-X&M-OiGyyiM(Oy)z-yMzOo5MX6MMOv>7(vM7Ob2R-b&RO/uaX7ObvRb/7RyO&-a&X-M&O&/X7&OXy&y(biazYivzbyOAO7zvX7MvOab7zRMbOaS/-aM/OO2XR&bXO&k-X&&-Oiv(XiM(OyXy/yMzO:EM7pMM&vHR(Ma7Ob:RXb7RO/WaX-M&MXLOXXMOO-{&(-M&O7iiX(MiOzbyXzMyOMp7yMMYO7=v-7MvORjbXRMbOaD/zaM/OO<X-OOXO&o-XXO&--?O7i7z(yrzXyMi-z/iz(ayMzy3zM&}iM-R-/PRO/<aX7i/vRibzaO/-ayXb-Mi7(EiX(Myii/yXzMyOMbIXMMlO7(vi7MvORVbyRMb&a</XaMXl/yXXOMXO&a-X&7-Oyb&ziM(OyGz-yMzO8B7(zaMOvv7XvR7Ob:RXbMo-/NaX/MaiXkO(XMyb7M&X-M&O(7iX(7iOz/yXzOzaM_rXMMv-70v-7MbnvybXRMbOaR/Xa7/OOE(&OMXO&W-X&M-Oi{(X/a(OyNzXy7zOxxMXnMORv=7XvM7ibURXbMROOaaX/MaOXvOXXMOO-;&X-M&O(/iX(MiOzv=vzMyOMT((i7zyy-XROOzafXM7Ga7avX77a7XXO!XXOMabX-Ob/a&KX7&/-((&yXzXyMzOzXy&zMyvvdRbvM7ObKa(7aRO/.aX/7aOX;OXXi#i-2&X-Miu(,i-(Mi&z^yMyzyOMKPXMOSO7vvX7O7aRJbXRM/Mac/-aMXi//XXOMXO&/-X&M-Oyb&ziM(&yoz-yMzO3_MX(vMOv+7XvR7ObbRXXiyX/DaX/MO(XTO-XMOi-A&M&z&O(oiXzbiOzvyXzOzaM5eXMMvz7*v-7MvOO7bXRMbOa}/XaM/OOE7zOMXO&k--&M-Oi!(Xb((OyCzXyRzOnnMXTMbzvt7XvM7&b<RXbMRO/taX/MayXpOXXMO&-M&X-M&OO(-7&(XyiX-&iz(RMv1MMMIO7mMMvvMOl-b-RybOa</XvyRv/XRab&aRX(-Xi--Oi,(XyR&yy=zXyMzy_^MXjM7bvR7XvM7ObaRXb7RO/9aX/O/aX+OXXM&z-+&--Mii&/iX(MiOzbyXzMyO7bzzMM?&7Kvz7MvOR:bXgvbOa>/XaR/OObXXii7X&9-X&M(-iT(-iM(&y%zMzzzOw1MXvvMOvv7XvOvabFRXbMa(/.a-/MaO(7OXXMOO-u&X-M&O(8/z(MiOzey-zMyOM9rXO(nO7EvX7RvOR1bXRMOza=/XaM/&ONXXOMXO&h-X&M-yip(XiM(&yMzXyMzO((i&zXpNz-j(zyyybvRObMRO/jvRR&bRR//Mav/aai&--O&O(fiX&O(-i6-7zMDRMdUXMMvi;/vX7MvORvbXRMbOa(z(aM/OO.XMOMX&&_--&M(Q-y(XiM(OyXzXy7zOrXh/)MMOv?REvM7&b#a(7aRO/UaX/aaOX%OX-R/y-f&--M&&(_iX(MiOO7yXzMyOMb*XMRCOa(-O7MvORNbiRMb&aF/(aMX{/yXXOMXO&R-X&7-OiXi/iM(OyBzyyMz&^:MX/vMOv17XvM7ObjRXbMyy/!aX/Ma&X5OXXMOOMi&X-M&O(biX(MiOzuMyzMyOM*t-MMUO72vX7MvORW");local n=0;r.hzvnQdBI(function()r.DyfXlMna()n=n+1 end)local function e(a,e)if e then return n end;n=a+n;end local a,n,f=d(0,d,e,h,r.YMgslecI);local function z()local a,n=r.YMgslecI(h,e(1,3),e(5,6)+2);e(2);return(n*256)+a;end;local s=true;local s=0 local function c()local b=n();local e=n();local y=1;local b=(a(e,1,20)*(2^32))+b;local n=a(e,21,31);local e=((-1)^a(e,32));if(n==0)then if(b==s)then return e*0;else n=1;y=0;end;elseif(n==2047)then return(b==0)and(e*(1/0))or(e*(0/0));end;return r.PlhJFqCl(e,n-1023)*(y+(b/(2^52)));end;local _=n;local function k(n)local a;if(not n)then n=_();if(n==0)then return'';end;end;a=r.BsxhuXjr(h,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+s),#a do e=e..r.BsxhuXjr(a,n,n)end return e;end;local _=#r.kLYGBPul(o('\49.\48'))~=1 local e=n;local function be(...)return{...},r.XecsY_cV('#',...)end local function ne()local s={};local o={};local e={};local h={s,o,nil,e};local e=n()local l={}for b=1,e do local a=f();local n;if(a==0)then n=(f()~=#{});elseif(a==2)then local e=c();if _ and r.yCCjqnEb(r.kLYGBPul(e),'.(\48+)$')then e=r.HQtqjRUF(e);end n=e;elseif(a==1)then n=k();end;l[b]=n;end;h[3]=f();for r=1,n()do local e=f();if(a(e,1,1)==0)then local d=a(e,2,3);local f=a(e,4,6);local e={z(),z(),nil,nil};if(d==0)then e[y]=z();e[t]=z();elseif(d==#{1})then e[y]=n();elseif(d==u[2])then e[y]=n()-(2^16)elseif(d==u[3])then e[y]=n()-(2^16)e[t]=z();end;if(a(f,1,1)==1)then e[b]=l[e[b]]end if(a(f,2,2)==1)then e[y]=l[e[y]]end if(a(f,3,3)==1)then e[t]=l[e[t]]end s[r]=e;end end;for e=1,n()do o[e-(#{1})]=ne();end;return h;end;local function ee(a,e,n)local b=e;local b=n;return o(r.yCCjqnEb(r.yCCjqnEb(({r.hzvnQdBI(a)})[2],e),n))end local function s(_,h,f)local function ne(...)local z,o,c,ee,ne,n,j,p,k,g,u,a;local e=0;while-1<e do if 2>=e then if e<=0 then z=d(6,2,1,34,_);o=d(6,48,2,12,_);else if e>0 then repeat if 1~=e then n=-41;j=-1;break;end;c=d(6,93,3,70,_);ne=be ee=0;until true;else n=-41;j=-1;end end else if 4>=e then if e>0 then for n=24,68 do if 3<e then g=r.XecsY_cV('#',...)-1;u={};break;end;p={};k={...};break;end;else p={};k={...};end else if 6~=e then a=d(7);else e=-2;end end end e=e+1;end;for e=0,g do if(e>=c)then p[e-c]=k[e+1];else a[e]=k[e+1];end;end;local e=g-c+1 local e;local d;local function c(...)while true do end end while true do if n<-40 then n=n+42 end e=z[n];d=e[m];if d>=82 then if d<=122 then if d<=101 then if 91>=d then if 87<=d then if 89<=d then if d>=90 then if d>=86 then repeat if d>90 then if a[e[b]]then n=n+1;else n=e[y];end;break;end;local h,f,u,r,o,t,s,d;for d=0,2 do if 1<=d then if 1~=d then a(e[b],e[y]);else d=0;while d>-1 do if 3<d then if d>5 then if 5<=d then for e=18,87 do if d<7 then a[s]=t;break;end;d=-2;break;end;else a[s]=t;end else if d>=1 then repeat if 5>d then t=o[f[r]];break;end;s=f[u];until true;else t=o[f[r]];end end else if 1<d then if-2<=d then repeat if d~=3 then r=y;break;end;o=a;until true;else r=y;end else if d==0 then f=e;else u=b;end end end d=d+1 end n=n+1;e=z[n];end else h=e[b]a[h](l(a,h+1,e[y]))n=n+1;e=z[n];end end until true;else if a[e[b]]then n=n+1;else n=e[y];end;end else local e=e[b]a[e]=a[e](a[e+1])end else if 87~=d then local d;for t=0,2 do if t>0 then if-1<t then for d=35,86 do if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else local y=e[y];local n=a[y]for e=y+1,e[t]do n=n..a[e];end;a[e[b]]=n;end end else if 84>d then if d>81 then for t=13,70 do if 83~=d then local t;for d=0,2 do if d<1 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if-3<=d then repeat if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;a[e[b]]=(e[y]~=0);break;end;else a[e[b]]=(e[y]~=0);end else if d<=84 then local t;for d=0,2 do if d>0 then if-2<=d then for l=34,69 do if 2~=d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end else if d>=83 then repeat if 85~=d then local e=e[b]a[e](a[e+1])break;end;local r,l,f;for d=0,6 do if d<=2 then if d<=0 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else if d>1 then r=e[y];l=a[r]for e=r+1,e[t]do l=l..a[e];end;a[e[b]]=l;n=n+1;e=z[n];else a(e[b],e[y]);n=n+1;e=z[n];end end else if d<5 then if d~=2 then for l=17,67 do if 3~=d then a[e[b]]=h[e[y]];n=n+1;e=z[n];break;end;f=e[b]a[f](a[f+1])n=n+1;e=z[n];break;end;else a[e[b]]=h[e[y]];n=n+1;e=z[n];end else if d==6 then h[e[y]]=a[e[b]];else a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];end end end end until true;else local e=e[b]a[e](a[e+1])end end end end else if d>96 then if 99<=d then if 100>d then n=e[y];else if 101~=d then local t;for d=0,2 do if d<=0 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if-1<d then for l=18,53 do if d>1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end else a[e[b]]=a[e[y]]/e[t];end end else if d>=93 then for c=22,68 do if d~=97 then local d;for t=0,2 do if t>=1 then if-3<=t then repeat if t~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;local o=o[e[y]];local l;local d={};l=r.LMujbCFn({},{__index=function(n,e)local e=d[e];return e[1][e[2]];end,__newindex=function(a,e,n)local e=d[e]e[1][e[2]]=n;end;});for b=1,e[t]do n=n+1;local e=z[n];if e[m]==35 then d[b-1]={a,e[y]};else d[b-1]={h,e[y]};end;u[#u+1]=d;end;a[e[b]]=s(o,l,f);break;end;else local t;for d=0,2 do if d>=1 then if-3<=d then repeat if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end end else if d>=94 then if 94<d then if 91<=d then for t=24,72 do if 95<d then local d;for t=0,2 do if t>=1 then if t~=-2 then repeat if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;local t;for d=0,2 do if d>0 then if d>=-3 then repeat if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;else local t;for d=0,2 do if d>=1 then if d~=-2 then repeat if 2~=d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else local t;for d=0,2 do if d>0 then if-1~=d then for l=44,68 do if d~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else if d>=90 then for f=27,55 do if d~=92 then if(a[e[b]]==e[t])then n=n+1;else n=e[y];end;break;end;local d;for t=0,2 do if t<=0 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if-1<t then for d=15,65 do if t<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;else local t;for d=0,2 do if d<=0 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if-1<d then for l=15,65 do if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end end end end else if d>111 then if 116>=d then if d>=114 then if d>=115 then if 113<=d then for t=35,63 do if 116>d then a[e[b]]=f[e[y]];break;end;local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>=0 then for d=12,68 do if t>1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end break;end;else local t;for d=0,2 do if 1>d then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d>=0 then for l=12,68 do if d>1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end end else local d;for t=0,2 do if t>=1 then if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else if 111<=d then repeat if d~=113 then local n=e[b]local y={a[n](a[n+1])};local b=0;for e=n,e[t]do b=b+1;a[e]=y[b];end break;end;local t;for d=0,2 do if 0>=d then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if-3<=d then for l=35,94 do if 2>d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end until true;else local n=e[b]local y={a[n](a[n+1])};local b=0;for e=n,e[t]do b=b+1;a[e]=y[b];end end end else if d>119 then if 121<=d then if d>118 then for f=11,96 do if 122~=d then a[e[b]]=a[e[y]]/e[t];break;end;local t;for d=0,2 do if 0<d then if d~=0 then repeat if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;else a[e[b]]=a[e[y]]/e[t];end else local d;for t=0,2 do if 0>=t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end end else if 117<d then if 116<=d then repeat if 119>d then local d;for t=0,2 do if t>0 then if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;local d;for t=0,2 do if 0>=t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end until true;else local d;for t=0,2 do if t>0 then if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if-2~=t then for d=34,60 do if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end end end end end end else if d>=107 then if 108<d then if d<=109 then local d;for t=0,2 do if 0<t then if t>=-2 then repeat if t~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else if 110==d then local l,f,h,o,s,r,d;a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];a[e[b]]=a[e[y]]/a[e[t]];n=n+1;e=z[n];a[e[b]]=a[e[y]]*e[t];n=n+1;e=z[n];a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];l=e[b]a[l]=a[l](a[l+1])n=n+1;e=z[n];d=0;while d>-1 do if 3<=d then if 4>=d then if d>=1 then repeat if d>3 then r=f[h];break;end;s=f[o];until true;else r=f[h];end else if d~=4 then repeat if 6~=d then a(r,s);break;end;d=-2;until true;else d=-2;end end else if 0>=d then f=e;else if 1~=d then o=y;else h=b;end end end d=d+1 end n=n+1;e=z[n];a(e[b],e[y]);else local c,d,s,o,u,h,d,d,t,_,r,k,f;for d=0,2 do if d<1 then c=e[b]a[c](l(a,c+1,e[y]))n=n+1;e=z[n];else if 2==d then d=0;while d>-1 do if d>=3 then if 4>=d then if d>-1 then repeat if 4~=d then k=t[r];break;end;f=t[_];until true;else k=t[r];end else if d>=3 then repeat if 6>d then a(f,k);break;end;d=-2;until true;else d=-2;end end else if 0>=d then t=e;else if d~=-2 then for e=36,55 do if d<2 then _=b;break;end;r=y;break;end;else r=y;end end end d=d+1 end else d=0;while d>-1 do if 3>=d then if 2>d then if-4~=d then repeat if d~=1 then t=e;break;end;s=b;until true;else s=b;end else if d<3 then o=y;else u=a;end end else if 6<=d then if d~=5 then for e=36,82 do if 7>d then a[f]=h;break;end;d=-2;break;end;else a[f]=h;end else if d>=3 then for e=45,69 do if 5~=d then h=u[t[o]];break;end;f=t[s];break;end;else h=u[t[o]];end end end d=d+1 end n=n+1;e=z[n];end end end end end else if d>104 then for l=16,83 do if 107<d then local d;for l=0,2 do if l>=1 then if l<2 then a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];else d=e[b]a[d]=a[d]()end else a[e[b]]=f[e[y]];n=n+1;e=z[n];end end break;end;local e=e[b]a[e]=a[e]()break;end;else local d;for l=0,2 do if l>=1 then if l<2 then a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];else d=e[b]a[d]=a[d]()end else a[e[b]]=f[e[y]];n=n+1;e=z[n];end end end end else if d>=104 then if d<105 then local o,t,h,s,r,f,u,d;for d=0,2 do if 0<d then if 1~=d then a(e[b],e[y]);else d=0;while d>-1 do if d>=4 then if 6<=d then if d~=5 then for e=10,55 do if d<7 then a[u]=f;break;end;d=-2;break;end;else a[u]=f;end else if d~=3 then repeat if 5~=d then f=r[t[s]];break;end;u=t[h];until true;else f=r[t[s]];end end else if 2<=d then if d~=-2 then for e=43,73 do if d~=2 then r=a;break;end;s=y;break;end;else r=a;end else if-4<d then repeat if 1>d then t=e;break;end;h=b;until true;else h=b;end end end d=d+1 end n=n+1;e=z[n];end else o=e[b]a[o](l(a,o+1,e[y]))n=n+1;e=z[n];end end else if d>=101 then for t=30,89 do if 106~=d then local r,f,h,o,t,s,u,d;for d=0,2 do if d<=0 then r=e[b]a[r](l(a,r+1,e[y]))n=n+1;e=z[n];else if 0<=d then for l=33,92 do if d~=1 then a(e[b],e[y]);break;end;d=0;while d>-1 do if d<=3 then if 2>d then if d~=1 then f=e;else h=b;end else if d~=-1 then for e=29,70 do if d~=2 then t=a;break;end;o=y;break;end;else t=a;end end else if d<=5 then if 5>d then s=t[f[o]];else u=f[h];end else if d>6 then d=-2;else a[u]=s;end end end d=d+1 end n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end break;end;local h,d,k,s,u,r,d,d,t,c,_,o,f;for d=0,2 do if d>=1 then if 1<d then d=0;while d>-1 do if d>2 then if d<5 then if 3==d then o=t[_];else f=t[c];end else if d~=2 then for e=18,66 do if 5<d then d=-2;break;end;a(f,o);break;end;else a(f,o);end end else if d>0 then if 2==d then _=y;else c=b;end else t=e;end end d=d+1 end else d=0;while d>-1 do if 4<=d then if 5>=d then if d<5 then r=u[t[s]];else f=t[k];end else if 2<d then for e=30,55 do if d~=7 then a[f]=r;break;end;d=-2;break;end;else a[f]=r;end end else if d>1 then if d>2 then u=a;else s=y;end else if-3~=d then for n=39,75 do if d>0 then k=b;break;end;t=e;break;end;else t=e;end end end d=d+1 end n=n+1;e=z[n];end else h=e[b]a[h](l(a,h+1,e[y]))n=n+1;e=z[n];end end break;end;else local r,f,u,o,t,s,h,d;for d=0,2 do if d<=0 then r=e[b]a[r](l(a,r+1,e[y]))n=n+1;e=z[n];else if 0<=d then for l=33,92 do if d~=1 then a(e[b],e[y]);break;end;d=0;while d>-1 do if d<=3 then if 2>d then if d~=1 then f=e;else u=b;end else if d~=-1 then for e=29,70 do if d~=2 then t=a;break;end;o=y;break;end;else t=a;end end else if d<=5 then if 5>d then s=t[f[o]];else h=f[u];end else if d>6 then d=-2;else a[h]=s;end end end d=d+1 end n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end end end else if 98~=d then for t=29,94 do if 102~=d then local d;for t=0,2 do if 0<t then if t>=-2 then for d=22,94 do if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;local t;for d=0,2 do if d>0 then if d~=0 then for l=31,77 do if 2~=d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;else local d;for t=0,2 do if 0<t then if t>=-2 then for d=22,94 do if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end end end end end else if 143>d then if 133<=d then if 137<d then if 140>d then if d>135 then for t=46,70 do if d<139 then local t;for d=0,2 do if d<=0 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d~=-3 then for l=13,88 do if 2>d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;local e=e[b]a[e]=a[e]()break;end;else local e=e[b]a[e]=a[e]()end else if 141<=d then if d>140 then for t=12,75 do if d<142 then local h,f,r,o,s,t,d;for d=0,2 do if 1>d then h=e[b]a[h](l(a,h+1,e[y]))n=n+1;e=z[n];else if d~=1 then d=0;while d>-1 do if d>=3 then if d<5 then if d~=0 then repeat if d~=4 then s=f[o];break;end;t=f[r];until true;else t=f[r];end else if d>1 then repeat if d<6 then a(t,s);break;end;d=-2;until true;else a(t,s);end end else if 1>d then f=e;else if 0~=d then repeat if d~=2 then r=b;break;end;o=y;until true;else o=y;end end end d=d+1 end else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end break;end;else local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end end else a[e[b]]=a[e[y]][e[t]];end end else if d<135 then if 129~=d then repeat if d>133 then do return end;break;end;a[e[b]]=h[e[y]];until true;else do return end;end else if 135>=d then local t;for d=0,2 do if 1>d then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d>=-1 then for l=11,54 do if 1~=d then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end else if 137>d then a[e[b]]=s(o[e[y]],nil,f);else local o,d,s,r,u,c,d,d,t,_,k,h,f;for d=0,2 do if d<=0 then o=e[b]a[o](l(a,o+1,e[y]))n=n+1;e=z[n];else if 1<d then d=0;while d>-1 do if 2>=d then if d<1 then t=e;else if d==2 then k=y;else _=b;end end else if 5<=d then if d~=1 then for e=12,52 do if 5<d then d=-2;break;end;a(f,h);break;end;else a(f,h);end else if 3~=d then f=t[_];else h=t[k];end end end d=d+1 end else d=0;while d>-1 do if d<4 then if d<=1 then if d>-3 then repeat if d~=1 then t=e;break;end;s=b;until true;else s=b;end else if 0<=d then for e=47,75 do if d<3 then r=y;break;end;u=a;break;end;else r=y;end end else if d<=5 then if d>2 then repeat if d<5 then c=u[t[r]];break;end;f=t[s];until true;else c=u[t[r]];end else if 3~=d then for e=23,90 do if 6<d then d=-2;break;end;a[f]=c;break;end;else d=-2;end end end d=d+1 end n=n+1;e=z[n];end end end end end end end else if d>=128 then if 129>=d then if 124<=d then for f=24,79 do if d~=129 then local t;for d=0,2 do if 1<=d then if d~=0 then for l=44,72 do if d~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;a[e[b]]=a[e[y]]*e[t];break;end;else a[e[b]]=a[e[y]]*e[t];end else if 131>d then a[e[b]]=a[e[y]]-a[e[t]];else if d>=129 then for t=24,78 do if d<132 then local t;for d=0,2 do if d<1 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d~=-1 then repeat if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;local d;for l=0,6 do if 3>l then if l>=1 then if 2>l then d=e[b]a[d](a[d+1])n=n+1;e=z[n];else a[e[b]]=f[e[y]];n=n+1;e=z[n];end else a(e[b],e[y]);n=n+1;e=z[n];end else if 4>=l then if 2<=l then repeat if l~=4 then a(e[b],e[y]);n=n+1;e=z[n];break;end;d=e[b]a[d](a[d+1])n=n+1;e=z[n];until true;else d=e[b]a[d](a[d+1])n=n+1;e=z[n];end else if 1<=l then for d=35,57 do if 5~=l then if a[e[b]]then n=n+1;else n=e[y];end;break;end;a[e[b]]=f[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=f[e[y]];n=n+1;e=z[n];end end end end break;end;else local t;for d=0,2 do if d<1 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d~=-1 then repeat if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end end end else if 125>d then if d~=122 then for t=24,76 do if d~=123 then local t;for d=0,2 do if 0<d then if d~=-2 then for l=21,90 do if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;local t;for d=0,2 do if 0<d then if-3<d then repeat if 1~=d then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;else local t;for d=0,2 do if 0<d then if d~=-2 then for l=21,90 do if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else if 125<d then if d~=125 then for t=38,64 do if d<127 then local d;for t=0,2 do if 0<t then if 0~=t then repeat if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;n=e[y];break;end;else local d;for t=0,2 do if 0<t then if 0~=t then repeat if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else local r,o,l;for d=0,6 do if 2<d then if 5<=d then if 6~=d then r=e[b]o={a[r](a[r+1])};l=0;for e=r,e[t]do l=l+1;a[e]=o[l];end n=n+1;e=z[n];else if a[e[b]]then n=n+1;else n=e[y];end;end else if d~=-1 then for l=48,64 do if d>3 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a[e[b]]=f[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=f[e[y]];n=n+1;e=z[n];end end else if 0<d then if 0<=d then for l=14,61 do if 1~=d then h[e[y]]=a[e[b]];n=n+1;e=z[n];break;end;a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];break;end;else h[e[y]]=a[e[b]];n=n+1;e=z[n];end else a[e[b]]=h[e[y]];n=n+1;e=z[n];end end end end end end end else if 152>=d then if 148<=d then if d<=149 then if d==149 then local u,t,r,h,s,o,f,d;for d=0,2 do if d>0 then if-1~=d then repeat if 2~=d then d=0;while d>-1 do if 3<d then if 6<=d then if d~=3 then for e=42,61 do if d<7 then a[f]=o;break;end;d=-2;break;end;else d=-2;end else if d>=3 then for e=12,55 do if d<5 then o=s[t[h]];break;end;f=t[r];break;end;else f=t[r];end end else if 2<=d then if d==2 then h=y;else s=a;end else if d>=-4 then repeat if 0~=d then r=b;break;end;t=e;until true;else t=e;end end end d=d+1 end n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else d=0;while d>-1 do if 3<d then if 6<=d then if d~=3 then for e=42,61 do if d<7 then a[f]=o;break;end;d=-2;break;end;else d=-2;end else if d>=3 then for e=12,55 do if d<5 then o=s[t[h]];break;end;f=t[r];break;end;else f=t[r];end end else if 2<=d then if d==2 then h=y;else s=a;end else if d>=-4 then repeat if 0~=d then r=b;break;end;t=e;until true;else t=e;end end end d=d+1 end n=n+1;e=z[n];end else u=e[b]a[u](l(a,u+1,e[y]))n=n+1;e=z[n];end end else if(a[e[b]]~=e[t])then n=n+1;else n=e[y];end;end else if d<=150 then f[e[y]]=a[e[b]];else if d~=147 then repeat if 151<d then local d;for t=0,2 do if t>0 then if-1<=t then for d=35,71 do if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;local t;for d=0,2 do if 0<d then if 0~=d then repeat if 2>d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end until true;else local d;for t=0,2 do if t>0 then if-1<=t then for d=35,71 do if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end end end else if d>=145 then if d>145 then if 142~=d then repeat if d~=147 then local h,t,o,s,r,u,f,d;for d=0,2 do if 1>d then h=e[b]a[h](l(a,h+1,e[y]))n=n+1;e=z[n];else if d>1 then a(e[b],e[y]);else d=0;while d>-1 do if d>=4 then if d>5 then if d==7 then d=-2;else a[f]=u;end else if 1<=d then for e=13,82 do if 5~=d then u=r[t[s]];break;end;f=t[o];break;end;else f=t[o];end end else if 2>d then if d==0 then t=e;else o=b;end else if d>=-1 then repeat if d<3 then s=y;break;end;r=a;until true;else r=a;end end end d=d+1 end n=n+1;e=z[n];end end end break;end;local t;for d=0,2 do if 0<d then if d>=-3 then for l=20,80 do if d~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end until true;else local d;for t=0,2 do if 0<t then if t>=-3 then for d=20,80 do if t~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else for d=0,1 do if d>-1 then for l=43,88 do if 1~=d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end else if 140<d then for l=29,95 do if d>143 then a[e[b]]=a[e[y]];break;end;local d;a[e[b]]=f[e[y]];n=n+1;e=z[n];a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];a[e[b]]=a[e[y]]*e[t];n=n+1;e=z[n];a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];d=e[b]a[d]=a[d](a[d+1])n=n+1;e=z[n];a[e[b]]=a[e[y]]/e[t];n=n+1;e=z[n];do return a[e[b]]end break;end;else local d;a[e[b]]=f[e[y]];n=n+1;e=z[n];a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];a[e[b]]=a[e[y]]*e[t];n=n+1;e=z[n];a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];d=e[b]a[d]=a[d](a[d+1])n=n+1;e=z[n];a[e[b]]=a[e[y]]/e[t];n=n+1;e=z[n];do return a[e[b]]end end end end else if d<158 then if d>154 then if d<=155 then do return end;else if d~=156 then a[e[b]]=a[e[y]]-a[e[t]];else local n=e[b]a[n](l(a,n+1,e[y]))end end else if 150<=d then for t=35,91 do if d<154 then local d;for t=0,2 do if 0<t then if t~=1 then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;a[e[b]]=h[e[y]];break;end;else local d;for t=0,2 do if 0<t then if t~=1 then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end end else if 160<d then if 161>=d then a[e[b]]=a[e[y]]*e[t];else if d~=159 then repeat if 163~=d then local d;for t=0,2 do if t<1 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>=0 then repeat if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;a[e[b]]=s(o[e[y]],nil,f);until true;else local d;for t=0,2 do if t<1 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>=0 then repeat if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end end else if 158>=d then local o,t,h,f,u,s,r,d;for d=0,2 do if d<1 then o=e[b]a[o](l(a,o+1,e[y]))n=n+1;e=z[n];else if d>-2 then for l=33,94 do if d<2 then d=0;while d>-1 do if 3>=d then if 1>=d then if d>-1 then for n=21,61 do if 1~=d then t=e;break;end;h=b;break;end;else t=e;end else if d~=1 then repeat if 2<d then u=a;break;end;f=y;until true;else f=y;end end else if 6<=d then if d>6 then d=-2;else a[r]=s;end else if 1~=d then for e=26,97 do if d~=4 then r=t[h];break;end;s=u[t[f]];break;end;else r=t[h];end end end d=d+1 end n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end end end else if d~=156 then for l=29,54 do if d<160 then local l,h,u,s,o,r,t,d;l=e[b]a[l](a[l+1])n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];d=0;while d>-1 do if d>3 then if d<6 then if 5==d then t=h[u];else r=o[h[s]];end else if 4<d then for e=19,63 do if 7~=d then a[t]=r;break;end;d=-2;break;end;else a[t]=r;end end else if 2<=d then if 3>d then s=y;else o=a;end else if 0<d then u=b;else h=e;end end end d=d+1 end n=n+1;e=z[n];l=e[b]a[l](a[l+1])n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];l=e[b]a[l](a[l+1])break;end;a[e[b]]=f[e[y]];break;end;else local l,t,s,o,u,h,r,d;l=e[b]a[l](a[l+1])n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];d=0;while d>-1 do if d>3 then if d<6 then if 5==d then r=t[s];else h=u[t[o]];end else if 4<d then for e=19,63 do if 7~=d then a[r]=h;break;end;d=-2;break;end;else a[r]=h;end end else if 2<=d then if 3>d then o=y;else u=a;end else if 0<d then s=b;else t=e;end end end d=d+1 end n=n+1;e=z[n];l=e[b]a[l](a[l+1])n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];l=e[b]a[l](a[l+1])end end end end end end end else if 40<d then if 60<d then if 70<d then if 75<d then if 79<=d then if d<80 then if not a[e[b]]then n=n+1;else n=e[y];end;else if d>78 then for f=29,98 do if 80<d then if(a[e[b]]~=e[t])then n=n+1;else n=e[y];end;break;end;local d;for t=0,2 do if 0>=t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end break;end;else local d;for t=0,2 do if 0>=t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end end end else if 76<d then if 77~=d then local l,d;l=e[y];d=a[l]for e=l+1,e[t]do d=d..a[e];end;a[e[b]]=d;n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];l=e[y];d=a[l]for e=l+1,e[t]do d=d..a[e];end;a[e[b]]=d;n=n+1;e=z[n];a(e[b],e[y]);else h[e[y]]=a[e[b]];end else do return a[e[b]]end end end else if d>72 then if 73<d then if 74==d then local d;for t=0,2 do if 1<=t then if t==1 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else local d;for t=0,2 do if 0<t then if 1~=t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else local d;for t=0,2 do if 1<=t then if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else if d>=67 then repeat if d~=71 then if(a[e[b]]==e[t])then n=n+1;else n=e[y];end;break;end;a[e[b]]=a[e[y]]+e[t];until true;else if(a[e[b]]==e[t])then n=n+1;else n=e[y];end;end end end else if 65>=d then if d<63 then if d~=57 then repeat if 62>d then local n=e[b]a[n](l(a,n+1,e[y]))break;end;do return a[e[b]]end until true;else do return a[e[b]]end end else if d<=63 then local d;for t=0,2 do if t>0 then if 0<t then for d=29,56 do if t~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else if d~=60 then repeat if 64~=d then local b=e[b]local y={a[b](a[b+1])};local n=0;for e=b,e[t]do n=n+1;a[e]=y[n];end break;end;local t;for d=0,2 do if d>=1 then if d>=-2 then for l=40,95 do if 1~=d then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end until true;else local b=e[b]local y={a[b](a[b+1])};local n=0;for e=b,e[t]do n=n+1;a[e]=y[n];end end end end else if 68<=d then if 69<=d then if 65<d then repeat if d>69 then local f,l,r;for d=0,6 do if 2<d then if 4<d then if 6==d then h[e[y]]=a[e[b]];else a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];end else if d~=0 then repeat if 4~=d then r=e[b]a[r](a[r+1])n=n+1;e=z[n];break;end;a[e[b]]=h[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=h[e[y]];n=n+1;e=z[n];end end else if 1<=d then if d>=-1 then repeat if 1<d then f=e[y];l=a[f]for e=f+1,e[t]do l=l..a[e];end;a[e[b]]=l;n=n+1;e=z[n];break;end;a(e[b],e[y]);n=n+1;e=z[n];until true;else a(e[b],e[y]);n=n+1;e=z[n];end else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;local d;for t=0,2 do if t>=1 then if t~=-3 then for d=31,70 do if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end until true;else local r,l,f;for d=0,6 do if 2<d then if 4<d then if 6==d then h[e[y]]=a[e[b]];else a[e[b]]=a[e[y]]+e[t];n=n+1;e=z[n];end else if d~=0 then repeat if 4~=d then f=e[b]a[f](a[f+1])n=n+1;e=z[n];break;end;a[e[b]]=h[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=h[e[y]];n=n+1;e=z[n];end end else if 1<=d then if d>=-1 then repeat if 1<d then r=e[y];l=a[r]for e=r+1,e[t]do l=l..a[e];end;a[e[b]]=l;n=n+1;e=z[n];break;end;a(e[b],e[y]);n=n+1;e=z[n];until true;else a(e[b],e[y]);n=n+1;e=z[n];end else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end else local d;for l=0,1 do if-4<l then for t=17,74 do if l<1 then d=e[b]a[d]=a[d]()n=n+1;e=z[n];break;end;if a[e[b]]then n=n+1;else n=e[y];end;break;end;else if a[e[b]]then n=n+1;else n=e[y];end;end end end else if 63~=d then for t=44,95 do if 66<d then local d;for t=0,2 do if t>=1 then if 0<=t then repeat if 1<t then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;if not a[e[b]]then n=n+1;else n=e[y];end;break;end;else if not a[e[b]]then n=n+1;else n=e[y];end;end end end end else if 50<d then if d>55 then if d>57 then if 58>=d then local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>0 then for d=37,68 do if 1~=t then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end else if 60~=d then local d;for t=0,2 do if t>0 then if 2==t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else a[e[b]]=a[e[y]]+e[t];end end else if 54<d then for t=31,89 do if 56<d then local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end break;end;local d;for t=0,2 do if t<=0 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t==2 then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;else local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 2~=t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end end end else if 52<d then if d<=53 then local d;for t=0,2 do if 0<t then if t>=-3 then for d=47,71 do if 1<t then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else if 51<=d then repeat if d>54 then local y=e[y];local n=a[y]for e=y+1,e[t]do n=n..a[e];end;a[e[b]]=n;break;end;local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t==1 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end until true;else local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t==1 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end end end end end else if 48~=d then for t=45,54 do if d<52 then local e=e[b]a[e](a[e+1])break;end;local d;for t=0,2 do if t>=1 then if t==1 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;else local e=e[b]a[e](a[e+1])end end end else if d<=45 then if d>=43 then if d<44 then a[e[b]]=(e[y]~=0);n=n+1;else if 44==d then local h,r,l;for d=0,6 do if d>=3 then if d>4 then if d>3 then for t=34,80 do if 6>d then l=e[b]a[l](a[l+1])n=n+1;e=z[n];break;end;a[e[b]]=f[e[y]];break;end;else l=e[b]a[l](a[l+1])n=n+1;e=z[n];end else if d>=-1 then for l=29,66 do if 4~=d then a[e[b]]=f[e[y]];n=n+1;e=z[n];break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=f[e[y]];n=n+1;e=z[n];end end else if d<=0 then a(e[b],e[y]);n=n+1;e=z[n];else if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else h=e[y];r=a[h]for e=h+1,e[t]do r=r..a[e];end;a[e[b]]=r;n=n+1;e=z[n];end end end end else local o=o[e[y]];local l;local d={};l=r.LMujbCFn({},{__index=function(n,e)local e=d[e];return e[1][e[2]];end,__newindex=function(a,e,n)local e=d[e]e[1][e[2]]=n;end;});for b=1,e[t]do n=n+1;local e=z[n];if e[m]==35 then d[b-1]={a,e[y]};else d[b-1]={h,e[y]};end;u[#u+1]=d;end;a[e[b]]=s(o,l,f);end end else if d==42 then local t;for d=0,2 do if 0>=d then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if-1<=d then for l=45,79 do if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end end end else a[e[b]]=(e[y]~=0);n=n+1;end end else if d<48 then if 44<=d then repeat if 46~=d then local u,d,k,c,_,s,d,d,t,r,o,h,f;for d=0,2 do if d>=1 then if d>-1 then for l=10,88 do if d<2 then d=0;while d>-1 do if 4>d then if d<=1 then if d>-1 then repeat if d<1 then t=e;break;end;k=b;until true;else t=e;end else if 3~=d then c=y;else _=a;end end else if d>=6 then if d~=5 then for e=39,63 do if 7>d then a[f]=s;break;end;d=-2;break;end;else a[f]=s;end else if d==5 then f=t[k];else s=_[t[c]];end end end d=d+1 end n=n+1;e=z[n];break;end;d=0;while d>-1 do if 2>=d then if 1<=d then if-3<=d then repeat if d>1 then o=y;break;end;r=b;until true;else r=b;end else t=e;end else if 5>d then if 2~=d then for e=47,84 do if 4>d then h=t[o];break;end;f=t[r];break;end;else f=t[r];end else if d>4 then for e=12,73 do if d>5 then d=-2;break;end;a(f,h);break;end;else d=-2;end end end d=d+1 end break;end;else d=0;while d>-1 do if 2>=d then if 1<=d then if-3<=d then repeat if d>1 then o=y;break;end;r=b;until true;else r=b;end else t=e;end else if 5>d then if 2~=d then for e=47,84 do if 4>d then h=t[o];break;end;f=t[r];break;end;else f=t[r];end else if d>4 then for e=12,73 do if d>5 then d=-2;break;end;a(f,h);break;end;else d=-2;end end end d=d+1 end end else u=e[b]a[u](l(a,u+1,e[y]))n=n+1;e=z[n];end end break;end;local t;for d=0,2 do if 1<=d then if d>=-2 then repeat if 2>d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end until true;else local d;for t=0,2 do if 1<=t then if t>=-2 then repeat if 2>t then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else if d<=48 then local o,d,s,_,h,k,d,d,t,r,c,u,f;for d=0,2 do if 1>d then o=e[b]a[o](l(a,o+1,e[y]))n=n+1;e=z[n];else if 2~=d then d=0;while d>-1 do if 3<d then if d<6 then if d~=1 then repeat if d~=5 then k=h[t[_]];break;end;f=t[s];until true;else f=t[s];end else if 6~=d then d=-2;else a[f]=k;end end else if 1>=d then if-2<d then repeat if 0~=d then s=b;break;end;t=e;until true;else t=e;end else if-2~=d then for e=25,86 do if 3~=d then _=y;break;end;h=a;break;end;else h=a;end end end d=d+1 end n=n+1;e=z[n];else d=0;while d>-1 do if 2>=d then if 0>=d then t=e;else if d==2 then c=y;else r=b;end end else if 5<=d then if 5==d then a(f,u);else d=-2;end else if d>=1 then for e=18,80 do if d~=4 then u=t[c];break;end;f=t[r];break;end;else f=t[r];end end end d=d+1 end end end end else if d>=45 then repeat if d<50 then local c,d,o,k,u,_,d,d,t,s,h,r,f;for d=0,2 do if d>=1 then if-1<=d then repeat if 2~=d then d=0;while d>-1 do if 3>=d then if d>1 then if-1<d then repeat if d~=3 then k=y;break;end;u=a;until true;else u=a;end else if d~=-1 then for n=27,65 do if 1~=d then t=e;break;end;o=b;break;end;else o=b;end end else if 5<d then if d>4 then repeat if d>6 then d=-2;break;end;a[f]=_;until true;else d=-2;end else if 1~=d then repeat if d~=5 then _=u[t[k]];break;end;f=t[o];until true;else f=t[o];end end end d=d+1 end n=n+1;e=z[n];break;end;d=0;while d>-1 do if d<=2 then if 1<=d then if d>=-3 then for e=42,80 do if 1~=d then h=y;break;end;s=b;break;end;else h=y;end else t=e;end else if d<5 then if d>3 then f=t[s];else r=t[h];end else if d>3 then for e=15,90 do if d~=6 then a(f,r);break;end;d=-2;break;end;else a(f,r);end end end d=d+1 end until true;else d=0;while d>-1 do if d<=2 then if 1<=d then if d>=-3 then for e=42,80 do if 1~=d then h=y;break;end;s=b;break;end;else h=y;end else t=e;end else if d<5 then if d>3 then f=t[s];else r=t[h];end else if d>3 then for e=15,90 do if d~=6 then a(f,r);break;end;d=-2;break;end;else a(f,r);end end end d=d+1 end end else c=e[b]a[c](l(a,c+1,e[y]))n=n+1;e=z[n];end end break;end;a(e[b],e[y]);until true;else a(e[b],e[y]);end end end end end end else if d<20 then if 9<d then if d>14 then if d<17 then if d<16 then local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>=-3 then for d=15,61 do if t~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end else local d;for t=0,2 do if 0<t then if t~=-3 then repeat if t~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else if 18<=d then if d~=19 then local t;for d=0,2 do if d<=0 then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d>0 then repeat if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end else local t;for d=0,2 do if d>=1 then if-1<d then for l=14,81 do if 1<d then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else local d;a(e[b],e[y]);n=n+1;e=z[n];d=e[b]a[d](a[d+1])n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];d=e[b]a[d](a[d+1])n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];a(e[b],e[y]);end end else if d<12 then if 6<d then repeat if d~=10 then local t;for d=0,2 do if 1>d then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d>-3 then repeat if 2~=d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;if a[e[b]]then n=n+1;else n=e[y];end;until true;else if a[e[b]]then n=n+1;else n=e[y];end;end else if d<=12 then local d;for t=0,2 do if t>0 then if-2<t then repeat if 1<t then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end else if 12<=d then repeat if 13<d then a[e[b]]=a[e[y]]/a[e[t]];break;end;local d;for t=0,2 do if t>=1 then if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end until true;else local d;for t=0,2 do if t>=1 then if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end end end end else if d<5 then if 2>d then if-1<d then repeat if 0~=d then local l,r,d;a[e[b]]=a[e[y]];n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];l=e[b]a[l]=a[l](a[l+1])n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];r=e[y];d=a[r]for e=r+1,e[t]do d=d..a[e];end;a[e[b]]=d;break;end;local d;for t=0,2 do if t<1 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>=-2 then for d=11,78 do if 1<t then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a(e[b],e[y]);end end end until true;else local d,r,l;a[e[b]]=a[e[y]];n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];a[e[b]]=f[e[y]];n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];d=e[b]a[d]=a[d](a[d+1])n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];r=e[y];l=a[r]for e=r+1,e[t]do l=l..a[e];end;a[e[b]]=l;end else if 3<=d then if 3~=d then local d;for t=0,2 do if t<1 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end else local c,d,_,u,k,s,d,d,t,r,o,h,f;for d=0,2 do if d<1 then c=e[b]a[c](l(a,c+1,e[y]))n=n+1;e=z[n];else if d~=-3 then repeat if d~=1 then d=0;while d>-1 do if d>=3 then if d<=4 then if d>1 then repeat if 3~=d then f=t[r];break;end;h=t[o];until true;else f=t[r];end else if d~=6 then a(f,h);else d=-2;end end else if 1<=d then if 2==d then o=y;else r=b;end else t=e;end end d=d+1 end break;end;d=0;while d>-1 do if d<=3 then if 2<=d then if-1<=d then repeat if d~=3 then u=y;break;end;k=a;until true;else u=y;end else if-3~=d then for n=39,60 do if 0~=d then _=b;break;end;t=e;break;end;else t=e;end end else if 6<=d then if d>=2 then repeat if 6~=d then d=-2;break;end;a[f]=s;until true;else a[f]=s;end else if 4~=d then f=t[_];else s=k[t[u]];end end end d=d+1 end n=n+1;e=z[n];until true;else d=0;while d>-1 do if d>=3 then if d<=4 then if d>1 then repeat if 3~=d then f=t[r];break;end;h=t[o];until true;else f=t[r];end else if d~=6 then a(f,h);else d=-2;end end else if 1<=d then if 2==d then o=y;else r=b;end else t=e;end end d=d+1 end end end end end else for d=0,3 do if d>1 then if d>-2 then for l=20,90 do if 2<d then if(a[e[b]]~=e[t])then n=n+1;else n=e[y];end;break;end;a[e[b]]=f[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=f[e[y]];n=n+1;e=z[n];end else if-2~=d then for l=30,90 do if d~=0 then f[e[y]]=a[e[b]];n=n+1;e=z[n];break;end;a[e[b]]=(e[y]~=0);n=n+1;e=z[n];break;end;else a[e[b]]=(e[y]~=0);n=n+1;e=z[n];end end end end end else if 7>d then if 1~=d then repeat if d~=6 then local d;for t=0,2 do if 0>=t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t>=-3 then for d=30,71 do if t~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a(e[b],e[y]);end end end break;end;local d;for t=0,2 do if 0<t then if-1<=t then repeat if t~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end until true;else local t;for d=0,2 do if 0<d then if-1<=d then repeat if d~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else if 8<=d then if 8<d then local d;for t=0,2 do if 1>t then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t~=1 then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end else local d;for t=0,2 do if t>=1 then if t<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end else local e=e[b]a[e]=a[e](a[e+1])end end end end else if d>=30 then if d<35 then if d<32 then if 30~=d then a[e[b]]=(e[y]~=0);else local t;for d=0,2 do if 1>d then t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];else if d>0 then repeat if d~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end else if d<33 then f[e[y]]=a[e[b]];else if 32<d then repeat if 33<d then local t;for d=0,2 do if d>0 then if-3<d then repeat if d<2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;local d;for r=0,6 do if r>2 then if r>=5 then if 6~=r then a[e[b]]=a[e[y]]-a[e[t]];n=n+1;e=z[n];else d=e[b]a[d]=a[d](a[d+1])end else if r>3 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else d=e[b]a[d]=a[d]()n=n+1;e=z[n];end end else if r>=1 then if 0<=r then repeat if r~=1 then a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];break;end;a[e[b]]=f[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=f[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end until true;else local d;for r=0,6 do if r>2 then if r>=5 then if 6~=r then a[e[b]]=a[e[y]]-a[e[t]];n=n+1;e=z[n];else d=e[b]a[d]=a[d](a[d+1])end else if r>3 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else d=e[b]a[d]=a[d]()n=n+1;e=z[n];end end else if r>=1 then if 0<=r then repeat if r~=1 then a[e[b]]=a[e[y]][e[t]];n=n+1;e=z[n];break;end;a[e[b]]=f[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=f[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end end end end else if 38<=d then if 38>=d then local t;for d=0,2 do if d>=1 then if d~=-3 then for l=48,91 do if 1<d then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end else if d>=36 then repeat if 39~=d then local t,f,o,s,r,h,d;for d=0,2 do if 0<d then if d>-3 then for l=20,92 do if d>1 then d=0;while d>-1 do if 3>d then if 0>=d then f=e;else if-3~=d then repeat if d>1 then s=y;break;end;o=b;until true;else o=b;end end else if d<5 then if d<4 then r=f[s];else h=f[o];end else if 4<d then repeat if 6>d then a(h,r);break;end;d=-2;until true;else a(h,r);end end end d=d+1 end break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end break;end;local t;for d=0,2 do if 0<d then if d~=-3 then repeat if d~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end until true;else local d;for t=0,2 do if 0<t then if t~=-3 then repeat if t~=1 then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];until true;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end end end else if d>=36 then if d>35 then repeat if 37~=d then a[e[b]]=a[e[y]]/a[e[t]];break;end;local d;for t=0,2 do if t<=0 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t==2 then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end until true;else local d;for t=0,2 do if t<=0 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if t==2 then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end else local l,t,r,f,z,d;local n=0;while n>-1 do if 4<=n then if 5>=n then if 5>n then z=f[l[r]];else d=l[t];end else if n>2 then repeat if n~=7 then a[d]=z;break;end;n=-2;until true;else a[d]=z;end end else if n>1 then if 2==n then r=y;else f=a;end else if-1<=n then repeat if n~=0 then t=b;break;end;l=e;until true;else t=b;end end end n=n+1 end end end end else if d>=25 then if 27<=d then if 28<=d then if 24<d then for f=25,65 do if 28<d then local d;for t=0,2 do if 0<t then if 1==t then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;a[e[b]]=a[e[y]][e[t]];break;end;else a[e[b]]=a[e[y]][e[t]];end else local t;for d=0,2 do if d>0 then if-3<d then for l=39,58 do if d~=2 then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else if 22<d then repeat if d~=25 then a(e[b],e[y]);break;end;local d;for t=0,2 do if t>0 then if t==1 then a[e[b]]=a[e[y]];n=n+1;e=z[n];else a(e[b],e[y]);end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end until true;else a(e[b],e[y]);end end else if 21<d then if 22<d then if 19~=d then for t=34,89 do if 24~=d then local d;for t=0,2 do if 0<t then if t>-3 then for d=19,56 do if 1<t then a(e[b],e[y]);break;end;a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];end end break;end;local d;for t=0,2 do if t<=0 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end break;end;else local d;for t=0,2 do if t<=0 then d=e[b]a[d](l(a,d+1,e[y]))n=n+1;e=z[n];else if 1<t then a(e[b],e[y]);else a[e[b]]=a[e[y]];n=n+1;e=z[n];end end end end else local t;for d=0,2 do if 0<d then if d>=0 then for l=16,81 do if 2>d then a[e[b]]=a[e[y]];n=n+1;e=z[n];break;end;a(e[b],e[y]);break;end;else a[e[b]]=a[e[y]];n=n+1;e=z[n];end else t=e[b]a[t](l(a,t+1,e[y]))n=n+1;e=z[n];end end end else if 21~=d then local l,d;a(e[b],e[y]);n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];a[e[b]]=a[e[y]];n=n+1;e=z[n];a(e[b],e[y]);n=n+1;e=z[n];l=e[y];d=a[l]for e=l+1,e[t]do d=d..a[e];end;a[e[b]]=d;n=n+1;e=z[n];a(e[b],e[y]);else h[e[y]]=a[e[b]];end end end end end end end n=1+n;end;end;return ne end;local b=0xff;local f={};local z=(1);local y='';(function(n)local a=n local d=0x00 local e=0x00 a={(function(l)if d>0x26 then return l end d=d+1 e=(e+0x781-l)%0x43 return(e%0x03==0x0 and(function(a)if not n[a]then e=e+0x01 n[a]=(0x4f);y='\37';b={function()b()end};y=y..'\100\43';end return true end)'vZTvD'and a[0x1](0xc2+l))or(e%0x03==0x2 and(function(a)if not n[a]then e=e+0x01 n[a]=(0x6);end return true end)'DkAGi'and a[0x2](l+0x83))or(e%0x03==0x1 and(function(a)if not n[a]then e=e+0x01 n[a]=(0x25);y={y..'\58 a',y};f[z]=ne();z=z+((not r.xpjBikUI)and 1 or 0);y[1]='\58'..y[1];b[2]=0xff;end return true end)'ivlRg'and a[0x3](l+0x299))or l end),(function(b)if d>0x22 then return b end d=d+1 e=(e+0xe68-b)%0x27 return(e%0x03==0x0 and(function(a)if not n[a]then e=e+0x01 n[a]=(0xc5);end return true end)'QKqql'and a[0x2](0x228+b))or(e%0x03==0x2 and(function(a)if not n[a]then e=e+0x01 n[a]=(0x39);end return true end)'OHxwF'and a[0x1](b+0xfd))or(e%0x03==0x1 and(function(a)if not n[a]then e=e+0x01 n[a]=(0x13);end return true end)'rKidT'and a[0x3](b+0x323))or b end),(function(t)if d>0x2b then return t end d=d+1 e=(e+0xfeb-t)%0x12 return(e%0x03==0x1 and(function(a)if not n[a]then e=e+0x01 n[a]=(0xed);f[z]=ae();z=z+b;end return true end)'nnkQa'and a[0x3](0x252+t))or(e%0x03==0x0 and(function(a)if not n[a]then e=e+0x01 n[a]=(0x4a);end return true end)'tCEnL'and a[0x2](t+0xdb))or(e%0x03==0x2 and(function(a)if not n[a]then e=e+0x01 n[a]=(0xa8);b[2]=(b[2]*(ee(function()f()end,l(y))-ee(b[1],l(y))))+1;f[z]={};b=b[2];z=z+b;end return true end)'_Gtj_'and a[0x1](t+0x18e))or t end)}a[0x1](0x1e9c)end){};local e=s(l(f));return e(...);end return j((function()local n={}local e=0x01;local a;if r.xpjBikUI then a=r.xpjBikUI(j)else a=''end if r.yCCjqnEb(a,r.tRVZFfqg)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(e,n,a,y,b,z)local z;if 4>e then if 2>e then if e>=-3 then repeat if 1>e then do return n(1),n(4,b,y,a,n),n(5,b,y,a)end;break;end;do return function(a,e,n)if n then local e=(a/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(a%(e+e)>=e)and 1 or 0;end;end;end;until true;else do return function(n,e,a)if a then local e=(n/2^(e-1))%2^((a-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;end else if 2==e then do return 16777216,65536,256 end;else do return n(1),n(4,b,y,a,n),n(5,b,y,a)end;end end else if 5<e then if 6>=e then do return b[a]end;else if 7~=e then do return a(e,nil,a);end else do return setmetatable({},{['__\99\97\108\108']=function(e,b,y,a,n)if n then return e[n]elseif a then return e else e[b]=y end end})end end end else if 3<e then for z=26,75 do if 4<e then local e=y;do return function()local n=n(a,e(e,e),e(e,e));e(1);return n;end;end;break;end;local e=y;local d,z,b=b(2);do return function()local n,y,a,l=n(a,e(e,e),e(e,e)+3);e(4);return(l*d)+(a*z)+(y*b)+n;end;end;break;end;else local e=y;local d,l,z=b(2);do return function()local y,b,n,a=n(a,e(e,e),e(e,e)+3);e(4);return(a*d)+(n*l)+(b*z)+y;end;end;end end end end),...)
+print(
+    [[                                                                                      
+            ddddddd                                                                  
+            d:::::d  UUUUUUU     UUUUUUU NNNNNNNN        NNNNNNNN        CCCCCCCCCCCCC
+            d:::::d  U:::::U     U:::::U N:::::::N       N::::::N     CCC::::::::::::C
+            d:::::d  U:::::U     U:::::U N::::::::N      N::::::N   CC:::::::::::::::C
+            d:::::d  U:::::U     U:::::U N:::::::::N     N::::::N  C:::::CCCCCCCC::::C
+    ddddddddd:::::d  U:::::U     U:::::U N::::::::::N    N::::::N C:::::C       CCCCCC
+  dd::::::::::::::d  U:::::D     D:::::U N:::::::::::N   N::::::N C:::::C              
+ d::::::::::::::::d  U:::::D     D:::::U N:::::::N::::N  N::::::N C:::::C              
+d:::::::ddddd:::::d  U:::::D     D:::::U N::::::N N::::N N::::::N C:::::C              
+d::::::d    d:::::d  U:::::D     D:::::U N::::::N  N::::N:::::::N C:::::C              
+d:::::d     d:::::d  U:::::D     D:::::U N::::::N   N:::::::::::N C:::::C              
+d:::::d     d:::::d  U:::::D     D:::::U N::::::N    N::::::::::N C:::::C              
+d:::::d     d:::::d  U::::::U   U::::::U N::::::N     N:::::::::N C:::::C       CCCCCC
+d::::::ddddd::::::dd U:::::::UUU:::::::U N::::::N      N::::::::N  C:::::CCCCCCCC::::C
+ d:::::::::::::::::d  UU:::::::::::::UU  N::::::N       N:::::::N   CC:::::::::::::::C
+  d:::::::::ddd::::d    UU:::::::::UU    N::::::N        N::::::N     CCC::::::::::::C
+   ddddddddd   ddddd      UUUUUUUUU      NNNNNNNN         NNNNNNN        CCCCCCCCCCCCC
+]]
+)
+
+wait(1)
+print("⌛ Grabbing executor name...")
+wait(1)
+
+local executorName = identifyexecutor and identifyexecutor() or "Unknown Executor"
+
+print("✅ Starting dUNC...")
+wait(2)
+
+local totalTests = 0
+local passedTests = 0
+local failedTests = 0
+
+-- record start time
+local startTime = os.clock() -- record the start time
+
+-- round second to 2 number places
+local function round(num)
+    return math.floor(num * 100 + 0.5) / 100
+end
+
+local function testFeature(name, func)
+    totalTests = totalTests + 1
+    local success, result = pcall(func)
+
+    if success then
+        if result then
+            print(name .. ": ✅ true")
+            passedTests = passedTests + 1
+        else
+            print(name .. ": ❌ false (result is nil)")
+            failedTests = failedTests + 1
+        end
+    else
+        print(name .. ": ❌ false (error: " .. tostring(result) .. ")")
+        failedTests = failedTests + 1
+    end
+
+    wait(0.2) -- Adding a small delay to control output speed
+end
+
+--- Other Functions Testing
+testFeature(
+    "debug.getconstant",
+    function()
+        return debug and debug.getconstant
+    end
+)
+testFeature(
+    "debug.getconstants",
+    function()
+        return debug and debug.getconstants
+    end
+)
+testFeature(
+    "debug.getinfo",
+    function()
+        return debug and debug.getinfo
+    end
+)
+testFeature(
+    "debug.getproto",
+    function()
+        return debug and debug.getproto
+    end
+)
+testFeature(
+    "debug.getprotos",
+    function()
+        return debug and debug.getprotos
+    end
+)
+testFeature(
+    "debug.getstack",
+    function()
+        return debug and debug.getstack
+    end
+)
+testFeature(
+    "debug.getupvalue",
+    function()
+        return debug and debug.getupvalue
+    end
+)
+testFeature(
+    "debug.getupvalues",
+    function()
+        return debug and debug.getupvalues
+    end
+)
+testFeature(
+    "debug.setconstant",
+    function()
+        return debug and debug.setconstant
+    end
+)
+testFeature(
+    "debug.setstack",
+    function()
+        return debug and debug.setstack
+    end
+)
+testFeature(
+    "debug.setupvalue",
+    function()
+        return debug and debug.setupvalue
+    end
+)
+
+-- Cache Functions
+testFeature(
+    "cache.invalidate",
+    function()
+        return cache and cache.invalidate and type(cache.invalidate) == "function"
+    end
+)
+
+testFeature(
+    "cache.iscached",
+    function()
+        return cache and cache.iscached and type(cache.iscached) == "function"
+    end
+)
+
+testFeature(
+    "cache.replace",
+    function()
+        return cache and cache.replace and type(cache.replace) == "function"
+    end
+)
+
+-- Cloning Functions
+testFeature(
+    "cloneref",
+    function()
+        return cloneref and type(cloneref) == "function"
+    end
+)
+
+testFeature(
+    "compareinstances",
+    function()
+        return compareinstances and type(compareinstances) == "function"
+    end
+)
+
+testFeature(
+    "clonefunction",
+    function()
+        return clonefunction and type(clonefunction) == "function"
+    end
+)
+
+-- Cryptography Functions
+testFeature(
+    "crypt.generatebytes",
+    function()
+        return crypt and crypt.generatebytes and type(crypt.generatebytes) == "function"
+    end
+)
+
+testFeature(
+    "crypt.generatekey",
+    function()
+        return crypt and crypt.generatekey and type(crypt.generatekey) == "function"
+    end
+)
+
+testFeature(
+    "getrenv",
+    function()
+        return getrenv and type(getrenv) == "function"
+    end
+)
+
+testFeature(
+    "crypt.decrypt",
+    function()
+        return crypt and crypt.decrypt and type(crypt.decrypt) == "function"
+    end
+)
+
+testFeature(
+    "crypt.encrypt",
+    function()
+        return crypt and crypt.encrypt and type(crypt.encrypt) == "function"
+    end
+)
+
+testFeature(
+    "crypt.hash",
+    function()
+        return crypt and crypt.hash and type(crypt.hash) == "function"
+    end
+)
+
+-- Base64 Functions
+testFeature(
+    "base64_encode",
+    function()
+        return base64_encode and type(base64_encode) == "function"
+    end
+)
+
+testFeature(
+    "base64_decode",
+    function()
+        return base64_decode and type(base64_decode) == "function"
+    end
+)
+
+-- Global Functions
+testFeature(
+    "getgc",
+    function()
+        return getgc and type(getgc) == "function"
+    end
+)
+
+testFeature(
+    "getgenv",
+    function()
+        return getgenv and type(getgenv) == "function"
+    end
+)
+
+testFeature(
+    "getloadedmodules",
+    function()
+        return getloadedmodules and type(getloadedmodules) == "function"
+    end
+)
+
+testFeature(
+    "getrunningscripts",
+    function()
+        return getrunningscripts and type(getrunningscripts) == "function"
+    end
+)
+
+testFeature(
+    "getscripts",
+    function()
+        return getscripts and type(getscripts) == "function"
+    end
+)
+
+testFeature(
+    "getsenv",
+    function()
+        return getsenv and type(getsenv) == "function"
+    end
+)
+
+-- Hook Functions
+testFeature(
+    "hookfunction",
+    function()
+        return hookfunction and type(hookfunction) == "function"
+    end
+)
+
+testFeature(
+    "hookmetamethod",
+    function()
+        return hookmetamethod and type(hookmetamethod) == "function"
+    end
+)
+
+-- Function Type Checks
+testFeature(
+    "iscclosure",
+    function()
+        return iscclosure and type(iscclosure) == "function"
+    end
+)
+
+testFeature(
+    "isexecutorclosure",
+    function()
+        return isexecutorclosure and type(isexecutorclosure) == "function"
+    end
+)
+
+testFeature(
+    "islclosure",
+    function()
+        return islclosure and type(islclosure) == "function"
+    end
+)
+
+testFeature(
+    "newcclosure",
+    function()
+        return newcclosure and type(newcclosure) == "function"
+    end
+)
+
+-- Read-Only Functions
+testFeature(
+    "setreadonly",
+    function()
+        return setreadonly and type(setreadonly) == "function"
+    end
+)
+
+testFeature(
+    "checkcaller",
+    function()
+        return checkcaller and type(checkcaller) == "function"
+    end
+)
+
+-- Compression Functions
+testFeature(
+    "lz4compress",
+    function()
+        return lz4compress and type(lz4compress) == "function"
+    end
+)
+
+testFeature(
+    "lz4decompress",
+    function()
+        return lz4decompress and type(lz4decompress) == "function"
+    end
+)
+
+-- Input/Output Functions
+testFeature(
+    "fireclickdetector",
+    function()
+        return fireclickdetector and type(fireclickdetector) == "function"
+    end
+)
+
+testFeature(
+    "getscriptclosure",
+    function()
+        return getscriptclosure and type(getscriptclosure) == "function"
+    end
+)
+
+testFeature(
+    "request",
+    function()
+        return request and type(request) == "function"
+    end
+)
+
+testFeature(
+    "getcallbackvalue",
+    function()
+        return getcallbackvalue and type(getcallbackvalue) == "function"
+    end
+)
+
+testFeature(
+    "getconnections",
+    function()
+        return getconnections and type(getconnections) == "function"
+    end
+)
+
+testFeature(
+    "listfiles",
+    function()
+        return listfiles and type(listfiles) == "function"
+    end
+)
+
+testFeature(
+    "writefile",
+    function()
+        return writefile and type(writefile) == "function"
+    end
+)
+
+testFeature(
+    "isfolder",
+    function()
+        return isfolder and type(isfolder) == "function"
+    end
+)
+
+testFeature(
+    "makefolder",
+    function()
+        return makefolder and type(makefolder) == "function"
+    end
+)
+
+testFeature(
+    "appendfile",
+    function()
+        return appendfile and type(appendfile) == "function"
+    end
+)
+
+testFeature(
+    "isfile",
+    function()
+        return isfile and type(isfile) == "function"
+    end
+)
+
+testFeature(
+    "delfolder",
+    function()
+        return delfolder and type(delfolder) == "function"
+    end
+)
+
+testFeature(
+    "delfile",
+    function()
+        return delfile and type(delfile) == "function"
+    end
+)
+
+testFeature(
+    "loadfile",
+    function()
+        return loadfile and type(loadfile) == "function"
+    end
+)
+
+-- Custom Asset Functions
+testFeature(
+    "getcustomasset",
+    function()
+        return getcustomasset and type(getcustomasset) == "function"
+    end
+)
+
+-- Hidden Property Functions
+testFeature(
+    "gethiddenproperty",
+    function()
+        return gethiddenproperty and type(gethiddenproperty) == "function"
+    end
+)
+
+testFeature(
+    "sethiddenproperty",
+    function()
+        return sethiddenproperty and type(sethiddenproperty) == "function"
+    end
+)
+
+-- Metatable Functions
+testFeature(
+    "getrawmetatable",
+    function()
+        return getrawmetatable and type(getrawmetatable) == "function"
+    end
+)
+
+testFeature(
+    "isreadonly",
+    function()
+        return isreadonly and type(isreadonly) == "function"
+    end
+)
+
+testFeature(
+    "getnamecallmethod",
+    function()
+        return getnamecallmethod and type(getnamecallmethod) == "function"
+    end
+)
+
+testFeature(
+    "setscriptable",
+    function()
+        return setscriptable and type(setscriptable) == "function"
+    end
+)
+
+testFeature(
+    "isscriptable",
+    function()
+        return isscriptable and type(isscriptable) == "function"
+    end
+)
+
+testFeature(
+    "getinstances",
+    function()
+        return getinstances and type(getinstances) == "function"
+    end
+)
+
+testFeature(
+    "getnilinstances",
+    function()
+        return getnilinstances and type(getnilinstances) == "function"
+    end
+)
+
+-- Input Functions
+testFeature(
+    "fireproximityprompt",
+    function()
+        return fireproximityprompt and type(fireproximityprompt) == "function"
+    end
+)
+
+-- Metatables
+testFeature(
+    "setrawmetatable",
+    function()
+        return setrawmetatable and type(setrawmetatable) == "function"
+    end
+)
+
+testFeature(
+    "getthreadidentity",
+    function()
+        return getthreadidentity and type(getthreadidentity) == "function"
+    end
+)
+
+testFeature(
+    "setthreadidentity",
+    function()
+        return setthreadidentity and type(setthreadidentity) == "function"
+    end
+)
+
+-- Render Functions
+testFeature(
+    "getrenderproperty",
+    function()
+        return getrenderproperty and type(getrenderproperty) == "function"
+    end
+)
+
+testFeature(
+    "setrenderproperty",
+    function()
+        return setrenderproperty and type(setrenderproperty) == "function"
+    end
+)
+
+-- Drawing Functions
+testFeature(
+    "Drawing.new",
+    function()
+        return Drawing and Drawing.new and type(Drawing.new) == "function"
+    end
+)
+
+testFeature(
+    "Drawing.Fonts",
+    function()
+        return Drawing and Drawing.Fonts and type(Drawing.Fonts) == "table"
+    end
+)
+
+testFeature(
+    "cleardrawcache",
+    function()
+        return cleardrawcache and type(cleardrawcache) == "function"
+    end
+)
+
+-- Scripting Support Functions
+testFeature(
+    "loadstring",
+    function()
+        return loadstring and type(loadstring) == "function"
+    end
+)
+
+testFeature(
+    "WebSocket.connect",
+    function()
+        return WebSocket and WebSocket.connect and type(WebSocket.connect) == "function"
+    end
+)
+
+testFeature(
+    "readfile",
+    function()
+        return readfile and type(readfile) == "function"
+    end
+)
+
+testFeature(
+    "getscriptbytecode",
+    function()
+        return getscriptbytecode and type(getscriptbytecode) == "function"
+    end
+)
+
+testFeature(
+    "getcallingscript",
+    function()
+        return getcallingscript and type(getcallingscript) == "function"
+    end
+)
+
+testFeature(
+    "isrenderobj",
+    function()
+        return isrenderobj and type(isrenderobj) == "function"
+    end
+)
+
+testFeature(
+    "firetouchinterest",
+    function()
+        return firetouchinterest and type(firetouchinterest) == "function"
+    end
+)
+
+testFeature(
+    "firesignal",
+    function()
+        return firesignal and type(firesignal) == "function"
+    end
+)
+
+testFeature(
+    "decompile",
+    function()
+        return decompile and type(decompile) == "function"
+    end
+)
+
+testFeature(
+    "restorefunction",
+    function()
+        return restorefunction and type(restorefunction) == "function"
+    end
+)
+
+testFeature(
+    "getscripthash",
+    function()
+        return getscripthash and type(getscripthash) == "function"
+    end
+)
+
+testFeature(
+    "identifyexecutor",
+    function()
+        return identifyexecutor and type(identifyexecutor) == "function"
+    end
+)
+
+testFeature(
+    "filtergc",
+    function()
+        return filtergc and type(filtergc) == "function"
+    end
+)
+
+testFeature(
+    "replicatesignal",
+    function()
+        return replicatesignal and type(replicatesignal) == "function"
+    end
+)
+
+testFeature(
+    "getfunctionhash",
+    function()
+        return getfunctionhash and type(getfunctionhash) == "function"
+    end
+)
+
+testFeature(
+    "gethui",
+    function()
+        return gethui and type(gethui) == "function"
+    end
+)
+
+--level
+local getidentity = getthreadidentity or syn and syn.get_thread_identity or get_thread_identity
+
+if getidentity then
+    local success, level = pcall(getidentity)
+    if success then
+		print("finding executor level: ⌛")
+        print("executor level: ✅ (".. level..")")
+
+        if level == 8 then
+            "access to a lot of scripts"
+        elseif level == 7 then
+            "a little less access than level 8"
+        elseif level == 6 then
+            "not that much access"
+        elseif level == 5 then
+            "little bit access"
+        elseif level == 4 then
+            "little less access"
+        elseif level == 3 then
+            "not enough access"
+        else
+            "very limited access"
+        end
+    else
+        print("getthreadidentity: ❌ is not supported ● "..executorName)
+    end
+else
+    print("getthreadidentity: ❌ false not supported ● "..executorName)
+end
+
+-- end time
+local endTime = os.clock() -- record the end time
+local elapsedTime = round(endTime - startTime) -- round the time
+
+-- print percantage
+local successRate = math.floor((passedTests / totalTests) * 100 + 0.5)
+
+local version = "1.3.0"
+
+print("✅ Passed the test with " .. successRate .. "% success rate (" .. passedTests .. " out of " .. totalTests .. ")")
+print("❌ Total tests failed: " .. failedTests)
+print("")
+print("this test was made by daren (kys, all the inco pastes/unc fakers)")
+print("Finished the test in " .. elapsedTime .. " seconds")
+print("dUNC, VERSION " .. version .. " • " .. executorName)
